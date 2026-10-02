@@ -1,0 +1,57 @@
+{
+  "version": "2026-10-02",
+  "updated": "2026-10-02",
+  "years": [
+    {
+      "year": 2026,
+      "title": "IA Agentiva + Controle de Fusão por IA + Infraestrutura Cislunar Inicial",
+      "confidence": "alta",
+      "items": [
+        "IA agentiva avança da assistência para execução autônoma de tarefas",
+        "IA amplia seu papel no controle e otimização de plasma",
+        "Lunar Pathfinder inaugura uma camada dedicada de comunicações lunares"
+      ]
+    },
+    {
+      "year": 2027,
+      "title": "Automação Cognitiva + AGI Mínima + Robótica Humanoide Industrial",
+      "confidence": "média-alta",
+      "items": [
+        "Automação alcança parcelas maiores do trabalho cognitivo",
+        "Sistemas de fronteira se aproximam de uma AGI mínima em tarefas digitais",
+        "Humanoides avançam de pilotos para primeiras implantações industriais"
+      ]
+    },
+    {
+      "year": 2028,
+      "title": "AGI Digital + Reestruturação do Trabalho + Retorno Humano à Lua",
+      "confidence": "média",
+      "items": [
+        "Capacidades gerais tornam-se economicamente relevantes no trabalho digital",
+        "Mercado de trabalho começa reestruturação mais visível em torno da IA",
+        "Programa lunar tripulado alcança um avanço decisivo no retorno humano à Lua"
+      ]
+    },
+    {
+      "year": 2029,
+      "title": "IA Pesquisadora + Quantum Corrigido por Erros + Biologia Quântica + Fusão em Escala de Engenharia",
+      "confidence": "média",
+      "items": [
+        "Agentes pesquisadores aceleram ciclos de descoberta científica",
+        "Computação quântica corrigida por erros cruza marcos de utilidade e escala",
+        "Biologia quântica avança na validação de mecanismos quânticos em sistemas vivos",
+        "Fusão avança de experimentos para desafios de engenharia de plantas-piloto"
+      ]
+    },
+    {
+      "year": 2030,
+      "title": "IA + Robótica no Mundo Físico + Presença Cislunar EUA–China + Plantas-Piloto de Fusão",
+      "confidence": "média",
+      "items": [
+        "IA e robótica aprofundam a convergência entre inteligência digital e ação física",
+        "Corrida lunar EUA–China avança para presença humana e infraestrutura cislunar",
+        "Corrida pelas primeiras plantas-piloto de fusão entra em fase concreta"
+      ]
+    }
+  ]
+}
