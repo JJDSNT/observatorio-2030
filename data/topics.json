@@ -1,0 +1,39 @@
+{
+  "topics": [
+    {
+      "id": "ai",
+      "name": "IA / AGI",
+      "watch": "autonomia, duração de tarefas, agentes pesquisadores e capacidades gerais"
+    },
+    {
+      "id": "work",
+      "name": "Trabalho",
+      "watch": "emprego, produtividade, funções, equipes e reorganização econômica"
+    },
+    {
+      "id": "robotics",
+      "name": "Robótica",
+      "watch": "humanoides, embodied AI, autonomia, custo e implantação industrial"
+    },
+    {
+      "id": "cislunar",
+      "name": "Espaço Cislunar",
+      "watch": "Lunar Pathfinder, Artemis, programa lunar chinês, comunicação e navegação lunar"
+    },
+    {
+      "id": "quantum",
+      "name": "Computação Quântica",
+      "watch": "qubits lógicos, correção de erros, operações úteis e vantagem prática"
+    },
+    {
+      "id": "fusion",
+      "name": "Fusão",
+      "watch": "controle por IA, ganho energético, duração de plasma, engenharia e plantas-piloto"
+    },
+    {
+      "id": "quantum-biology",
+      "name": "Biologia Quântica",
+      "watch": "evidências experimentais robustas de efeitos quânticos funcionalmente relevantes"
+    }
+  ]
+}
