@@ -1,4 +1,21 @@
 {
-  "updated": "2026-10-02",
-  "events": []
+  "updated": "2026-10-03",
+  "events": [
+    {
+      "date": "2026-10-03",
+      "topic": "fusion",
+      "status": "accelerates",
+      "title": "Helix HARUKA avança para a fase de demonstração integrada",
+      "summary": "A Helical Fusion está construindo o Helix HARUKA, dispositivo de demonstração integrada previsto em torno de 2030. A empresa já validou componentes do ímã supercondutor de alta temperatura e pretende integrar tecnologias críticas antes da planta Helix KANATA, planejada para geração líquida e operação contínua nos anos 2030.",
+      "impact": "Reforça e antecipa a transição prevista para 2029 de fusão experimental para engenharia de sistemas e aumenta a evidência em favor do marco de 2030 sobre plantas-piloto. Não representa ainda geração líquida de eletricidade.",
+      "timeline": [
+        "2029 — Fusão em Escala de Engenharia",
+        "2030 — Plantas-Piloto de Fusão"
+      ],
+      "source": {
+        "name": "Helical Fusion — Helix Program",
+        "url": "https://www.helicalfusion.com/helixprogram?lang=en"
+      }
+    }
+  ]
 }
