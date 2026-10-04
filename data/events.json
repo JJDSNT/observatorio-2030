@@ -1,6 +1,21 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "events": [
+    {
+      "date": "2026-10-04",
+      "topic": "ai",
+      "status": "confirms",
+      "title": "Dots reforça a transição para agentes persistentes e proativos",
+      "summary": "O lançamento do Dots pela OpenAI reforça a passagem de assistentes reativos para agentes capazes de perseguir objetivos de forma persistente e atuar através de diferentes aplicações com menor dependência de novos prompts a cada etapa.",
+      "impact": "Confirma o marco de 2026 — IA Agentiva ao fortalecer a evidência de autonomia operacional em produtos de grande escala. Não antecipa, por si só, AGI Mínima em 2027 nem AGI Digital em 2028: ainda é necessário observar avanços correspondentes em cognição, incluindo raciocínio, memória, aprendizagem contínua, metacognição, generalização e modelos de mundo.",
+      "timeline": [
+        "2026 — IA Agentiva"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/"
+      }
+    },
     {
       "date": "2026-10-03",
       "topic": "fusion",
