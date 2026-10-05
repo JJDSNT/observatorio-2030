@@ -34,6 +34,11 @@
       "id": "quantum-biology",
       "name": "Biologia Quântica",
       "watch": "evidências experimentais robustas de efeitos quânticos funcionalmente relevantes"
+    },
+    {
+      "id": "neuro-alt-compute",
+      "name": "Neurotecnologia & Substratos Alternativos",
+      "watch": "BCI e interfaces neurais bidirecionais; decodificação e estimulação neural; computação neuromórfica e spiking neural networks; biological/wetware computing e organoid intelligence; biological data centers; sistemas híbridos bio-silício; diversificação dos substratos da inteligência"
     }
   ]
 }
