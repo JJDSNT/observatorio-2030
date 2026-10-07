@@ -9,3 +9,5 @@ database_id = "771674ef-7448-40bc-8726-750902d3d468"
 
 [vars]
 ALLOWED_ORIGIN = "https://jjdsnt.github.io"
+VAPID_PUBLIC_KEY = "BN73OVBz_j1YW2fDc2kJlFhfZpaVnFSXc0DIs4nAkpWPytOsA1z-6xCGKkCvdP8mePNNjzKKWISUYXepfkl_SII"
+VAPID_SUBJECT = "https://jjdsnt.github.io/observatorio-2030/"
