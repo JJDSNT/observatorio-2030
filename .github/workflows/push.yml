@@ -1,0 +1,52 @@
+name: Notify new Observatório milestones
+
+on:
+  push:
+    branches: ["main"]
+    paths: ["data/events.json"]
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect newly added milestone IDs
+        id: detect
+        shell: bash
+        run: |
+          git show HEAD^:data/events.json > /tmp/old-events.json 2>/dev/null || echo '{"events":[]}' > /tmp/old-events.json
+          node <<'NODE'
+          const fs=require('fs');
+          const old=JSON.parse(fs.readFileSync('/tmp/old-events.json','utf8')).events||[];
+          const cur=JSON.parse(fs.readFileSync('data/events.json','utf8')).events||[];
+          const ids=new Set(old.map(x=>x.id).filter(Boolean));
+          const added=cur.filter(x=>x.id && !ids.has(x.id));
+          fs.writeFileSync('/tmp/new-events.json',JSON.stringify(added));
+          fs.appendFileSync(process.env.GITHUB_OUTPUT,'count='+added.length+'\n');
+          NODE
+
+      - name: Send Web Push for new milestones
+        if: steps.detect.outputs.count != '0'
+        env:
+          PUSH_ENDPOINT: ${{ secrets.PUSH_ENDPOINT }}
+          PUSH_API_TOKEN: ${{ secrets.PUSH_API_TOKEN }}
+        shell: bash
+        run: |
+          if [ -z "$PUSH_ENDPOINT" ] || [ -z "$PUSH_API_TOKEN" ]; then
+            echo "Push backend is not configured yet; skipping notifications."
+            exit 0
+          fi
+          node <<'NODE'
+          const fs=require('fs'),{execFileSync}=require('child_process');
+          const events=JSON.parse(fs.readFileSync('/tmp/new-events.json','utf8'));
+          for(const e of events){
+            const payload=JSON.stringify({id:e.id,title:e.title,url:'./#marcos'});
+            execFileSync('curl',['--fail-with-body','--silent','--show-error','-X','POST',process.env.PUSH_ENDPOINT.replace(/\/$/,'')+'/notify','-H','Authorization: Bearer '+process.env.PUSH_API_TOKEN,'-H','Content-Type: application/json','--data-binary',payload],{stdio:'inherit'});
+          }
+          NODE
