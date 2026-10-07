@@ -8,7 +8,7 @@ document.querySelector('#updated').textContent='Última revisão: '+new Date(t.u
 document.querySelector('#timeline-data').innerHTML=t.years.map(y=>`<article class="year"><div class="year-num">${y.year}</div><div><h3>${y.title}</h3><ul>${y.items.map(i=>`<li>${i}</li>`).join('')}</ul><span class="confidence">confiança ${y.confidence}</span></div></article>`).join('');
 const topicGroups=[
 {label:'INTELLIGENCE & COGNITION',title:'Inteligência & Cognição',ids:['ai','neuro-alt-compute']},
-{label:'EMBODIED & SOCIETY',title:'Corpo & Sociedade',ids:['robotics','work']},
+{label:'EMBODIED, MOBILITY & SOCIETY',title:'Corpo, Mobilidade & Sociedade',ids:['robotics','aam','work']},
 {label:'COMPUTATION & SCIENCE',title:'Computação & Ciência',ids:['quantum','quantum-biology']},
 {label:'ENERGY & FRONTIER',title:'Energia & Fronteira',ids:['fusion','cislunar']}
 ];
