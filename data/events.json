@@ -14,7 +14,8 @@
       "source": {
         "name": "OpenAI",
         "url": "https://openai.com/"
-      }
+      },
+      "id": "evt-2026-10-04-dots"
     },
     {
       "date": "2026-10-03",
@@ -30,7 +31,8 @@
       "source": {
         "name": "Helical Fusion — Helix Program",
         "url": "https://www.helicalfusion.com/helixprogram?lang=en"
-      }
+      },
+      "id": "evt-2026-10-03-helix-haruka"
     }
   ]
 }
