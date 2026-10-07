@@ -8,7 +8,7 @@
     "db:init": "wrangler d1 execute observatorio-2030-push --remote --file=schema.sql"
   },
   "dependencies": {
-    "@block65/webcrypto-web-push": "^5.0.0"
+    "@block65/webcrypto-web-push": "^2.0.0"
   },
   "devDependencies": {
     "wrangler": "^4.0.0"
