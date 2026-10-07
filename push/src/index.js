@@ -1,4 +1,4 @@
-import { buildPushPayload, sendPushNotification } from '@block65/webcrypto-web-push';
+import { buildPushPayload } from '@block65/webcrypto-web-push';
 
 const json=(data,status=200,headers={})=>new Response(JSON.stringify(data),{status,headers:{'content-type':'application/json',...headers}});
 const cors=env=>({'access-control-allow-origin':env.ALLOWED_ORIGIN||'https://jjdsnt.github.io','access-control-allow-methods':'POST,DELETE,OPTIONS','access-control-allow-headers':'content-type,authorization'});
@@ -32,8 +32,12 @@ export default {
    for(const s of rows){
     try{
      const subscription={endpoint:s.endpoint,keys:{p256dh:s.p256dh,auth:s.auth}};
-     const push=await buildPushPayload({data:payload,options:{ttl:86400},subscription,vapid:{subject:env.VAPID_SUBJECT,publicKey:env.VAPID_PUBLIC_KEY,privateKey:env.VAPID_PRIVATE_KEY}});
-     const res=await sendPushNotification(push);
+     const push=await buildPushPayload(
+      {data:payload,options:{ttl:86400}},
+      subscription,
+      {subject:env.VAPID_SUBJECT,publicKey:env.VAPID_PUBLIC_KEY,privateKey:env.VAPID_PRIVATE_KEY}
+     );
+     const res=await fetch(subscription.endpoint,push);
      if(res.status===404||res.status===410){await env.DB.prepare('DELETE FROM subscriptions WHERE endpoint=?').bind(s.endpoint).run();removed++}
      else if(res.ok) sent++; else failed++;
     }catch(_){failed++}
