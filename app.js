@@ -1,4 +1,7 @@
-const get=async p=>(await fetch(p)).json();
+const get=async p=>(await fetch(p,{cache:'no-store'})).json();
+if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}))}
+function updateConnectionStatus(){const el=document.querySelector('#connection-status');if(el)el.textContent=navigator.onLine?'online':'offline · conteúdo salvo'}
+window.addEventListener('online',updateConnectionStatus);window.addEventListener('offline',updateConnectionStatus);window.addEventListener('DOMContentLoaded',updateConnectionStatus);
 const views=[...document.querySelectorAll('.view')],links=[...document.querySelectorAll('nav a')];
 function showView(name){const valid=['marcos','topicos','timeline'].includes(name)?name:'marcos';views.forEach(v=>v.classList.toggle('active',v.id===valid));links.forEach(a=>a.classList.toggle('active',a.dataset.view===valid));if(location.hash!=='#'+valid)history.replaceState(null,'','#'+valid)}
 function route(){showView(location.hash.slice(1)||'marcos')}
