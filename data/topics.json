@@ -16,6 +16,11 @@
       "watch": "humanoides, embodied AI, autonomia, custo e implantação industrial"
     },
     {
+      "id": "aam",
+      "name": "Mobilidade Aérea Avançada (eVTOLs & Vertiports)",
+      "watch": "certificação de eVTOLs (ANAC, FAA, EASA); entrada em serviço e primeiras rotas comerciais; construção, licenciamento e operação de vertiports; integração com aeroportos e transporte público; entregas e tamanho de frotas; passageiros e cidades atendidas; frequência e confiabilidade operacional; preço por passageiro/km e competitividade frente a helicópteros e transporte terrestre; autonomia, baterias, recarga e ruído; segurança, acidentes, aceitação pública e regulação urbana; evolução de Eve/Embraer, Joby, Archer, Volocopter e outros operadores/fabricantes; sinais de transição de pilotos para adoção em escala"
+    },
+    {
       "id": "cislunar",
       "name": "Espaço Cislunar",
       "watch": "Lunar Pathfinder, Artemis, programa lunar chinês, comunicação e navegação lunar"
