@@ -1,0 +1,13 @@
+{
+  "name": "Observatório 2030",
+  "short_name": "Obs 2030",
+  "description": "Uma previsão viva de tecnologia, ciência, espaço e trabalho até 2030.",
+  "lang": "pt-BR",
+  "start_url": "./#marcos",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071017",
+  "theme_color": "#071017",
+  "categories": ["news", "education", "productivity"],
+  "icons": []
+}
