@@ -1,6 +1,23 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-08",
   "events": [
+    {
+      "id": "evt-2026-10-08-best",
+      "date": "2026-10-08",
+      "topic": "fusion",
+      "status": "confirms",
+      "title": "BEST avança na montagem de tokamak experimental na China",
+      "summary": "Relatos de outubro de 2026 indicam avanço da construção e integração do Burning Plasma Experimental Superconducting Tokamak (BEST), em Hefei, com objetivo de experimentos avançados de plasma e demonstrações futuras. Trata-se de infraestrutura experimental em implantação, não de geração líquida de eletricidade comprovada.",
+      "impact": "Reforça 2029 — Fusão em Escala de Engenharia e 2030 — Plantas-Piloto de Fusão. Não demonstra viabilidade comercial nem justifica antecipar eletricidade de fusão.",
+      "timeline": [
+        "2029 — Fusão em Escala de Engenharia",
+        "2030 — Plantas-Piloto de Fusão"
+      ],
+      "source": {
+        "name": "Chinese Academy of Sciences — BEST",
+        "url": "https://english.cas.cn/"
+      }
+    },
     {
       "date": "2026-10-04",
       "topic": "ai",
