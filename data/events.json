@@ -2,6 +2,24 @@
   "updated": "2026-10-10",
   "events": [
     {
+      "id": "evt-2026-10-10-cargo-evtol-china",
+      "date": "2026-10-10",
+      "topic": "aam",
+      "status": "confirms",
+      "title": "eVTOLs de carga na China: certificação avança antes da adoção em escala",
+      "summary": "O V2000CG não tripulado da AutoFlight recebeu certificação de tipo chinesa em 2024. Reportagem de 2026 destaca o transporte de cargas como possível mercado pioneiro dos eVTOLs na China. A certificação da aeronave e parcerias logísticas não demonstram, isoladamente, operações pagas recorrentes, frotas implantadas ou viabilidade econômica.",
+      "impact": "Reforça o marco de 2026 — AAM: certificação e infraestrutura inicial, sobretudo na vertente de carga. Acompanhar separadamente autorizações operacionais, rotas efetivas, carga transportada, tonelada-km, custos e utilização; não antecipar os marcos de 2027–2030 para passageiros sem dados de operação real.",
+      "timeline": [
+        "2026 — AAM: certificação e infraestrutura inicial",
+        "2027 — Primeiras operações comerciais (a comprovar)"
+      ],
+      "source": {
+        "name": "Poder360 — Veículos voadores da China devem priorizar transporte de carga",
+        "url": "https://www.poder360.com.br/poder-china/veiculos-voadores-da-china-devem-priorizar-o-transporte-de-carga/"
+      },
+      "maturity": "Certificação de tipo e desenvolvimento de mercado; operação comercial recorrente não comprovada"
+    },
+    {
       "id": "evt-2026-10-10-environmental-robotics",
       "date": "2026-10-10",
       "topic": "robotics",
