@@ -1,6 +1,23 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-10",
   "events": [
+    {
+      "id": "evt-2026-10-10-ai-math",
+      "date": "2026-10-10",
+      "topic": "ai",
+      "status": "accelerates",
+      "title": "IA produz centenas de manuscritos matemáticos para validação científica",
+      "summary": "Em 6 de outubro, a OpenAI divulgou 722 manuscritos organizados em 372 famílias de resultados matemáticos gerados com auxílio de um modelo interno. O acervo inclui formalizações Lean para parte dos trabalhos. A revisão e validação independentes seguem em andamento; volume de manuscritos não equivale a 722 descobertas confirmadas.",
+      "impact": "Antecipa parcialmente o marco 2029 — IA Pesquisadora, ao demonstrar geração de candidatos a resultados matemáticos em escala. Não comprova autonomia científica completa nem aprendizagem contínua, metacognição ou AGI Digital; 2028 permanece inalterado.",
+      "timeline": [
+        "2029 — IA Pesquisadora",
+        "2028 — AGI Digital (sem alteração)"
+      ],
+      "source": {
+        "name": "OpenAI Developer Community — Mathematics manuscripts",
+        "url": "https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886"
+      }
+    },
     {
       "id": "evt-2026-10-08-best",
       "date": "2026-10-08",
