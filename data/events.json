@@ -88,6 +88,33 @@
       "maturity": "Proposta pública de prova com formalização; reconhecimento independente pendente"
     },
     {
+      "id": "evt-2026-10-10-environmental-robotics",
+      "date": "2026-08-24",
+      "topic": "robotics",
+      "status": "under_review",
+      "title": "Alasca: drones da Rainmaker realizam semeadura de nuvens e estimam 71 milhões de litros",
+      "summary": "Em 23 de agosto de 2026, a Rainmaker realizou sete missões coordenadas de semeadura de nuvens com drones na península de Kenai, Alasca, utilizando 19 dispositivos com iodeto de prata. Em relatório divulgado em 24 de agosto, estimou média de 57,6 acre-feet (cerca de 71 milhões de litros) de precipitação adicional com base em assinaturas de radar e modelagem meteorológica. A precipitação não foi medida diretamente no solo; a análise é da própria empresa e não representa validação independente conclusiva.",
+      "impact": "Aplicação de robótica ambiental com drones, sensores e planejamento meteorológico. Demonstra operações coordenadas em condições atmosféricas difíceis, mas não prova autonomia cognitiva avançada nem eficácia reproduzível e economicamente viável. Requer avaliação independente da atribuição causal e dos custos; não antecipa o marco 2030 — IA + Robótica no Mundo Físico.",
+      "timeline": [
+        "2030 — IA + Robótica no Mundo Físico (sem alteração)"
+      ],
+      "source": {
+        "name": "Rainmaker — Validation Report: Drone-Based Cloud Seeding (24 ago 2026)",
+        "url": "https://www.rainmaker.com/blog/alaska-validation-report"
+      },
+      "maturity": "Demonstração de campo com estimativa quantitativa produzida pela empresa; confirmação independente pendente",
+      "recorded_at": "2026-10-10",
+      "published_at": "2026-08-24",
+      "event_date": "2026-08-23",
+      "updated_at": "2026-10-10",
+      "related_sources": [
+        {
+          "name": "Rainmaker — Results from Alaska Research Campaign",
+          "url": "https://www.rainmaker.com/blog/rainmaker-alaska-results"
+        }
+      ]
+    },
+    {
       "id": "evt-2026-10-10-cargo-evtol-china",
       "date": "2026-08-12",
       "topic": "aam",
@@ -130,33 +157,6 @@
       "event_date": "2026-04-15",
       "updated_at": "2026-10-10",
       "maturity": "Obra física documentada; experimento de plasma e eletricidade líquida ainda não demonstrados"
-    },
-    {
-      "id": "evt-2026-10-10-environmental-robotics",
-      "date": "2025-05-08",
-      "topic": "robotics",
-      "status": "under_review",
-      "title": "Semeadura de nuvens com drones em Xinjiang: aplicação robótica sob avaliação",
-      "summary": "Reportagens de maio de 2025 descrevem semeadura de nuvens com drones em Xinjiang, na China, com estimativa de cerca de 78 milhões de litros adicionais de precipitação. A estimativa não equivale a volume coletado ou comprovação independente de causalidade. O experimento é anterior a outubro de 2026; sua data exata não foi confirmada.",
-      "impact": "Acompanhar quatro níveis distintos: (1) missão pré-programada, (2) percepção e ajuste de rota, (3) decisão autônoma em malha fechada sobre onde/quando intervir e (4) frotas com eficácia causal, segurança e viabilidade econômica verificadas. Relevante como aplicação de IA e robótica no mundo físico, mas sem evidência suficiente para antecipar o marco de 2030.",
-      "timeline": [
-        "2030 — IA + Robótica no Mundo Físico (sem alteração)"
-      ],
-      "source": {
-        "name": "BNews — reportagem sobre experimento em Xinjiang (8 mai 2025)",
-        "url": "https://www.bnews.com.br/amp/noticias/mundo/com-auxilio-de-drones-china-faz-chover-mais-de-70-milhoes-de-litros-em-regiao-desertica.html"
-      },
-      "maturity": "Aplicação e pesquisa experimental; impacto meteorológico e autonomia cognitiva avançada não comprovados",
-      "recorded_at": "2026-10-10",
-      "published_at": "2025-05-08",
-      "event_date": null,
-      "updated_at": "2026-10-10",
-      "related_sources": [
-        {
-          "name": "Diário do Litoral — matéria compartilhada",
-          "url": "https://www.diariodolitoral.com.br/mundo/chuva-artificial-feita-com-drones-gera-70-milhoes-de-litros-de-agua/"
-        }
-      ]
     }
   ]
 }
