@@ -9,5 +9,19 @@ database_id = "771674ef-7448-40bc-8726-750902d3d468"
 
 [vars]
 ALLOWED_ORIGIN = "https://jjdsnt.github.io"
-VAPID_PUBLIC_KEY = "BN73OVBz_j1YW2fDc2kJlFhfZpaVnFSXc0DIs4nAkpWPytOsA1z-6xCGKkCvdP8mePNNjzKKWISUYXepfkl_SII"
+VAPID_PUBLIC_KEY = "BBPiUvj54vmDILvswP0rvTpwtbvcYd4tt0Sc_TDWfml_RX4tXwCYEn3RQskq-gKLp7YYyxmiMxOwobc0BdDUUYE"
 VAPID_SUBJECT = "https://jjdsnt.github.io/observatorio-2030/"
+
+[secrets]
+required = ["PUSH_API_TOKEN", "VAPID_PRIVATE_KEY"]
+
+[observability]
+enabled = true
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+
+[observability.traces]
+enabled = true
+head_sampling_rate = 0.01

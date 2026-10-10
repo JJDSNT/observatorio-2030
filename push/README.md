@@ -20,4 +20,14 @@ GitHub remains the source of truth. The Worker only stores browser subscriptions
 7. Add GitHub repository secrets `PUSH_ENDPOINT` and `PUSH_API_TOKEN`.
 8. Configure the PWA with the Worker URL and VAPID public key.
 
+## HTTP endpoints
+
+- `GET /health` — health check.
+- `GET /vapid-public-key` — returns the public VAPID key used by `PushManager.subscribe()`.
+- `POST /subscribe` — creates or updates a browser subscription from the allowed PWA origin.
+- `DELETE /subscribe` — removes a browser subscription.
+- `POST /notify` — sends a milestone notification; requires `Authorization: Bearer <PUSH_API_TOKEN>`.
+
+Production endpoint: <https://observatorio-2030-push.jaimejosediasnt.workers.dev>
+
 Push delivery is deliberately separate from editorial decisions: only a newly added event with a stable `id` should trigger a notification.
