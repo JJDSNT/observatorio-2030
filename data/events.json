@@ -30,7 +30,7 @@
       "status": "under_review",
       "title": "Manuscritos matemáticos gerados por IA: validação e correções pendentes",
       "summary": "Em 6 de outubro, a OpenAI divulgou inicialmente 722 manuscritos matemáticos em 372 famílias, com formalizações Lean em parte do acervo. Relatos posteriores apontam três retiradas por erros e revisões de outros trabalhos. A quantidade de manuscritos não demonstra quantidade equivalente de descobertas válidas ou originais; a extensão da validação independente permanece incerta.",
-      "impact": "Sinal promissor para 2029 — IA Pesquisadora, sem antecipação confirmada. A validade, originalidade, correspondência entre formalizações e problemas, e autocorreção precisam de avaliação independente. O caso Navier–Stokes, de setembro, é acompanhado em registro separado. A dimensão de metacognição e 2028 — AGI Digital não são comprovadas.",
+      "impact": "Sinal promissor para 2029 — IA Pesquisadora, sem antecipação confirmada. A validade, originalidade, correspondência entre formalizações e problemas e capacidade de autocorreção precisam de avaliação independente. A controvérsia em torno da proposta para Navier–Stokes divulgada em setembro ilustra a importância dessas verificações. A dimensão de metacognição e 2028 — AGI Digital não são comprovadas.",
       "timeline": [
         "2029 — IA Pesquisadora",
         "2028 — AGI Digital (sem alteração)"
@@ -76,8 +76,8 @@
       "topic": "ai",
       "status": "under_review",
       "title": "IA propõe prova para Navier–Stokes: validação científica e escopo em debate",
-      "summary": "Segundo a OpenAI, agentes de IA chegaram a uma proposta de prova para o problema de Navier–Stokes em 5 de setembro de 2026; o texto e uma formalização em Lean foram divulgados em 8 de setembro. A empresa apresenta o resultado como solução, mas a avaliação científica independente e o reconhecimento formal do problema permanecem questões distintas. O caso é acompanhado separadamente dos manuscritos divulgados em outubro.",
-      "impact": "Caso distinto da divulgação de centenas de manuscritos em outubro. Evidencia capacidade de formular provas matemáticas complexas, mas também a necessidade de verificação independente do enunciado, hipóteses e correspondência da formalização. Não antecipa automaticamente 2029 — IA Pesquisadora nem comprova AGI.",
+      "summary": "Segundo a OpenAI, agentes de IA chegaram a uma proposta de prova para o problema de Navier–Stokes em 5 de setembro de 2026; o texto e uma formalização em Lean foram divulgados em 8 de setembro. A empresa apresenta o resultado como solução, mas a avaliação científica independente e o reconhecimento formal do problema permanecem questões distintas.",
+      "impact": "A proposta evidencia capacidade de formular argumentos matemáticos complexos, mas exige verificação independente do enunciado, das hipóteses e da correspondência entre formalização e resultado reivindicado. Na data da divulgação, não é evidência suficiente para antecipar 2029 — IA Pesquisadora nem para comprovar AGI.",
       "timeline": [
         "2029 — IA Pesquisadora (validação pendente)"
       ],
