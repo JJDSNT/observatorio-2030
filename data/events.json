@@ -23,25 +23,25 @@
       "updated_at": "2026-10-10"
     },
     {
-      "id": "evt-2026-10-08-best",
       "date": "2026-10-08",
       "topic": "fusion",
-      "status": "confirms",
-      "title": "BEST avança na montagem de tokamak experimental na China",
-      "summary": "Relatos de outubro de 2026 indicam avanço da construção e integração do Burning Plasma Experimental Superconducting Tokamak (BEST), em Hefei, com objetivo de experimentos avançados de plasma e demonstrações futuras. Trata-se de infraestrutura experimental em implantação, não de geração líquida de eletricidade comprovada.",
-      "impact": "Reforça 2029 — Fusão em Escala de Engenharia e 2030 — Plantas-Piloto de Fusão. Não demonstra viabilidade comercial nem justifica antecipar eletricidade de fusão.",
+      "status": "accelerates",
+      "title": "Helix HARUKA: construção avança com nova rodada de financiamento",
+      "summary": "A Helical Fusion anunciou em 8 de outubro de 2026 o fechamento de uma rodada de financiamento para acelerar desenvolvimento e demonstrações, enquanto a construção do Helix HARUKA prossegue. O início da construção já havia sido anunciado em 27 de outubro de 2025, portanto não é um marco novo de outubro de 2026.",
+      "impact": "Reforça e antecipa a transição prevista para 2029 de fusão experimental para engenharia de sistemas e aumenta a evidência em favor do marco de 2030 sobre plantas-piloto. Não representa ainda geração líquida de eletricidade.",
       "timeline": [
         "2029 — Fusão em Escala de Engenharia",
         "2030 — Plantas-Piloto de Fusão"
       ],
       "source": {
-        "name": "Chinese Academy of Sciences — BEST",
-        "url": "https://english.cas.cn/"
+        "name": "Helical Fusion — comunicado de 8 out 2026",
+        "url": "https://prtimes.jp/main/html/rd/p/000000082.000089262.html"
       },
-      "recorded_at": "2026-10-08",
-      "published_at": null,
-      "event_date": null,
-      "updated_at": "2026-10-08"
+      "id": "evt-2026-10-03-helix-haruka",
+      "recorded_at": "2026-10-03",
+      "published_at": "2026-10-08",
+      "event_date": "2026-10-08",
+      "updated_at": "2026-10-10"
     },
     {
       "id": "evt-2026-10-10-ai-math",
@@ -67,7 +67,7 @@
       "updated_at": "2026-10-10"
     },
     {
-      "date": "2026-10-04",
+      "date": "2026-09-29",
       "topic": "ai",
       "status": "confirms",
       "title": "Dots reforça a transição para agentes persistentes e proativos",
@@ -77,35 +77,14 @@
         "2026 — IA Agentiva"
       ],
       "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/"
+        "name": "OpenAI — Apresentamos os dots (29 set 2026)",
+        "url": "https://openai.com/pt-BR/index/introducing-dots/"
       },
       "id": "evt-2026-10-04-dots",
       "recorded_at": "2026-10-04",
-      "published_at": null,
-      "event_date": null,
-      "updated_at": "2026-10-04"
-    },
-    {
-      "date": "2026-10-03",
-      "topic": "fusion",
-      "status": "accelerates",
-      "title": "Helix HARUKA avança para a fase de demonstração integrada",
-      "summary": "A Helical Fusion está construindo o Helix HARUKA, dispositivo de demonstração integrada previsto em torno de 2030. A empresa já validou componentes do ímã supercondutor de alta temperatura e pretende integrar tecnologias críticas antes da planta Helix KANATA, planejada para geração líquida e operação contínua nos anos 2030.",
-      "impact": "Reforça e antecipa a transição prevista para 2029 de fusão experimental para engenharia de sistemas e aumenta a evidência em favor do marco de 2030 sobre plantas-piloto. Não representa ainda geração líquida de eletricidade.",
-      "timeline": [
-        "2029 — Fusão em Escala de Engenharia",
-        "2030 — Plantas-Piloto de Fusão"
-      ],
-      "source": {
-        "name": "Helical Fusion — Helix Program",
-        "url": "https://www.helicalfusion.com/helixprogram?lang=en"
-      },
-      "id": "evt-2026-10-03-helix-haruka",
-      "recorded_at": "2026-10-03",
-      "published_at": null,
-      "event_date": null,
-      "updated_at": "2026-10-03"
+      "published_at": "2026-09-29",
+      "event_date": "2026-09-29",
+      "updated_at": "2026-10-10"
     },
     {
       "id": "evt-2026-09-08-navier-stokes-ai",
@@ -148,6 +127,27 @@
       "recorded_at": "2026-10-10",
       "published_at": "2026-08-12",
       "event_date": null,
+      "updated_at": "2026-10-10"
+    },
+    {
+      "id": "evt-2026-10-08-best",
+      "date": "2026-04-17",
+      "topic": "fusion",
+      "status": "confirms",
+      "title": "BEST: obras do tokamak chinês documentadas em abril de 2026",
+      "summary": "A Academia Chinesa de Ciências publicou em 17 de abril de 2026 imagens das obras do BEST registradas em 15 de abril. A instalação da base Dewar, antes citada como marco recente, ocorreu em 1º de outubro de 2025, e não em outubro de 2026. O BEST permanece em construção; não houve demonstração de eletricidade líquida.",
+      "impact": "Reforça 2029 — Fusão em Escala de Engenharia e 2030 — Plantas-Piloto de Fusão. Não demonstra viabilidade comercial nem justifica antecipar eletricidade de fusão.",
+      "timeline": [
+        "2029 — Fusão em Escala de Engenharia",
+        "2030 — Plantas-Piloto de Fusão"
+      ],
+      "source": {
+        "name": "Chinese Academy of Sciences — obras do BEST, 17 abr 2026",
+        "url": "https://english.cas.cn/newsroom/cas-in-media/202604/t20260417_1157472.shtml"
+      },
+      "recorded_at": "2026-10-08",
+      "published_at": "2026-04-17",
+      "event_date": "2026-04-15",
       "updated_at": "2026-10-10"
     }
   ]
