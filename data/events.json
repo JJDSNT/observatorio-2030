@@ -2,26 +2,8 @@
   "updated": "2026-10-10",
   "events": [
     {
-      "id": "evt-2026-10-10-cargo-evtol-china",
-      "date": "2026-10-10",
-      "topic": "aam",
-      "status": "confirms",
-      "title": "eVTOLs de carga na China: certificação avança antes da adoção em escala",
-      "summary": "O V2000CG não tripulado da AutoFlight recebeu certificação de tipo chinesa em 2024. Reportagem de 2026 destaca o transporte de cargas como possível mercado pioneiro dos eVTOLs na China. A certificação da aeronave e parcerias logísticas não demonstram, isoladamente, operações pagas recorrentes, frotas implantadas ou viabilidade econômica.",
-      "impact": "Reforça o marco de 2026 — AAM: certificação e infraestrutura inicial, sobretudo na vertente de carga. Acompanhar separadamente autorizações operacionais, rotas efetivas, carga transportada, tonelada-km, custos e utilização; não antecipar os marcos de 2027–2030 para passageiros sem dados de operação real.",
-      "timeline": [
-        "2026 — AAM: certificação e infraestrutura inicial",
-        "2027 — Primeiras operações comerciais (a comprovar)"
-      ],
-      "source": {
-        "name": "Poder360 — Veículos voadores da China devem priorizar transporte de carga",
-        "url": "https://www.poder360.com.br/poder-china/veiculos-voadores-da-china-devem-priorizar-o-transporte-de-carga/"
-      },
-      "maturity": "Certificação de tipo e desenvolvimento de mercado; operação comercial recorrente não comprovada"
-    },
-    {
       "id": "evt-2026-10-10-environmental-robotics",
-      "date": "2026-10-10",
+      "date": null,
       "topic": "robotics",
       "status": "under_review",
       "title": "Robótica ambiental: drones passam de execução programada a intervenções adaptativas",
@@ -34,26 +16,11 @@
         "name": "Diário do Litoral — Chuva artificial com drones",
         "url": "https://www.diariodolitoral.com.br/mundo/chuva-artificial-feita-com-drones-gera-70-milhoes-de-litros-de-agua/"
       },
-      "maturity": "Aplicação e pesquisa experimental; impacto meteorológico e autonomia cognitiva avançada não comprovados"
-    },
-    {
-      "id": "evt-2026-10-10-ai-math",
-      "date": "2026-10-10",
-      "topic": "ai",
-      "status": "under_review",
-      "title": "Manuscritos matemáticos gerados por IA: validação e correções pendentes",
-      "summary": "Em 6 de outubro, a OpenAI divulgou inicialmente 722 manuscritos matemáticos em 372 famílias, com formalizações Lean em parte do acervo. Relatos posteriores apontam três retiradas por erros e revisões de outros trabalhos. A quantidade de manuscritos não demonstra quantidade equivalente de descobertas válidas ou originais; a extensão da validação independente permanece incerta.",
-      "impact": "Sinal promissor para 2029 — IA Pesquisadora, mas sem antecipação confirmada: a confiabilidade das provas, a correspondência entre formalização e enunciado, a originalidade e a capacidade de autocorreção precisam de avaliação independente. Controvérsias anteriores envolvendo alegações sobre Navier–Stokes ilustram o risco de confundir uma prova formal com a solução do problema científico pretendido. A dimensão de metacognição e 2028 — AGI Digital não são comprovadas.",
-      "timeline": [
-        "2029 — IA Pesquisadora",
-        "2028 — AGI Digital (sem alteração)"
-      ],
-      "source": {
-        "name": "OpenAI Developer Community — Mathematics manuscripts",
-        "url": "https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886"
-      },
-      "maturity": "Resultados divulgados, revisão e validação independente pendentes",
-      "validation": "Não confirmado como avanço de pesquisa científica autônoma confiável"
+      "maturity": "Aplicação e pesquisa experimental; impacto meteorológico e autonomia cognitiva avançada não comprovados",
+      "recorded_at": "2026-10-10",
+      "published_at": null,
+      "event_date": null,
+      "updated_at": "2026-10-10"
     },
     {
       "id": "evt-2026-10-08-best",
@@ -70,7 +37,34 @@
       "source": {
         "name": "Chinese Academy of Sciences — BEST",
         "url": "https://english.cas.cn/"
-      }
+      },
+      "recorded_at": "2026-10-08",
+      "published_at": null,
+      "event_date": null,
+      "updated_at": "2026-10-08"
+    },
+    {
+      "id": "evt-2026-10-10-ai-math",
+      "date": "2026-10-06",
+      "topic": "ai",
+      "status": "under_review",
+      "title": "Manuscritos matemáticos gerados por IA: validação e correções pendentes",
+      "summary": "Em 6 de outubro, a OpenAI divulgou inicialmente 722 manuscritos matemáticos em 372 famílias, com formalizações Lean em parte do acervo. Relatos posteriores apontam três retiradas por erros e revisões de outros trabalhos. A quantidade de manuscritos não demonstra quantidade equivalente de descobertas válidas ou originais; a extensão da validação independente permanece incerta.",
+      "impact": "Sinal promissor para 2029 — IA Pesquisadora, sem antecipação confirmada. A validade, originalidade, correspondência entre formalizações e problemas, e autocorreção precisam de avaliação independente. O caso Navier–Stokes, de setembro, é acompanhado em registro separado. A dimensão de metacognição e 2028 — AGI Digital não são comprovadas.",
+      "timeline": [
+        "2029 — IA Pesquisadora",
+        "2028 — AGI Digital (sem alteração)"
+      ],
+      "source": {
+        "name": "OpenAI Developer Community — Mathematics manuscripts",
+        "url": "https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886"
+      },
+      "maturity": "Resultados divulgados, revisão e validação independente pendentes",
+      "validation": "Não confirmado como avanço de pesquisa científica autônoma confiável",
+      "recorded_at": "2026-10-10",
+      "published_at": "2026-10-06",
+      "event_date": "2026-10-06",
+      "updated_at": "2026-10-10"
     },
     {
       "date": "2026-10-04",
@@ -86,7 +80,11 @@
         "name": "OpenAI",
         "url": "https://openai.com/"
       },
-      "id": "evt-2026-10-04-dots"
+      "id": "evt-2026-10-04-dots",
+      "recorded_at": "2026-10-04",
+      "published_at": null,
+      "event_date": null,
+      "updated_at": "2026-10-04"
     },
     {
       "date": "2026-10-03",
@@ -103,7 +101,54 @@
         "name": "Helical Fusion — Helix Program",
         "url": "https://www.helicalfusion.com/helixprogram?lang=en"
       },
-      "id": "evt-2026-10-03-helix-haruka"
+      "id": "evt-2026-10-03-helix-haruka",
+      "recorded_at": "2026-10-03",
+      "published_at": null,
+      "event_date": null,
+      "updated_at": "2026-10-03"
+    },
+    {
+      "id": "evt-2026-09-08-navier-stokes-ai",
+      "date": "2026-09-08",
+      "event_date": "2026-09-08",
+      "published_at": "2026-09-08",
+      "recorded_at": "2026-10-10",
+      "updated_at": "2026-10-10",
+      "topic": "ai",
+      "status": "under_review",
+      "title": "IA propõe prova para Navier–Stokes: validação científica e escopo em debate",
+      "summary": "Em 8 de setembro de 2026, a OpenAI divulgou uma proposta de solução para o problema de existência e regularidade de Navier–Stokes, com texto matemático e formalização em Lean. A empresa afirma demonstrar singularidade em tempo finito, mas a validade, o enquadramento preciso do resultado no problema do milênio e sua aceitação pela comunidade matemática não devem ser tratados como conclusões independentes já estabelecidas.",
+      "impact": "Caso distinto da divulgação de centenas de manuscritos em outubro. Evidencia capacidade de formular provas matemáticas complexas, mas também a necessidade de verificação independente do enunciado, hipóteses e correspondência da formalização. Não antecipa automaticamente 2029 — IA Pesquisadora nem comprova AGI.",
+      "timeline": [
+        "2029 — IA Pesquisadora (validação pendente)"
+      ],
+      "source": {
+        "name": "OpenAI — Sobre o Problema do Prêmio Millennium de Navier–Stokes",
+        "url": "https://openai.com/pt-BR/index/navier-stokes-solution/"
+      },
+      "maturity": "Proposta pública de prova com formalização; reconhecimento independente pendente"
+    },
+    {
+      "id": "evt-2026-10-10-cargo-evtol-china",
+      "date": "2026-08-12",
+      "topic": "aam",
+      "status": "confirms",
+      "title": "eVTOLs de carga na China: certificação avança antes da adoção em escala",
+      "summary": "O V2000CG não tripulado da AutoFlight recebeu certificação de tipo chinesa em 2024. Reportagem de 2026 destaca o transporte de cargas como possível mercado pioneiro dos eVTOLs na China. A certificação da aeronave e parcerias logísticas não demonstram, isoladamente, operações pagas recorrentes, frotas implantadas ou viabilidade econômica.",
+      "impact": "Reforça o marco de 2026 — AAM: certificação e infraestrutura inicial, sobretudo na vertente de carga. Acompanhar separadamente autorizações operacionais, rotas efetivas, carga transportada, tonelada-km, custos e utilização; não antecipar os marcos de 2027–2030 para passageiros sem dados de operação real.",
+      "timeline": [
+        "2026 — AAM: certificação e infraestrutura inicial",
+        "2027 — Primeiras operações comerciais (a comprovar)"
+      ],
+      "source": {
+        "name": "Poder360 — Veículos voadores da China devem priorizar transporte de carga",
+        "url": "https://www.poder360.com.br/poder-china/veiculos-voadores-da-china-devem-priorizar-o-transporte-de-carga/"
+      },
+      "maturity": "Certificação de tipo e desenvolvimento de mercado; operação comercial recorrente não comprovada",
+      "recorded_at": "2026-10-10",
+      "published_at": "2026-08-12",
+      "event_date": null,
+      "updated_at": "2026-10-10"
     }
   ]
 }
