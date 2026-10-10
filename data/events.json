@@ -2,46 +2,26 @@
   "updated": "2026-10-10",
   "events": [
     {
-      "id": "evt-2026-10-10-environmental-robotics",
-      "date": null,
-      "topic": "robotics",
-      "status": "under_review",
-      "title": "Robótica ambiental: drones passam de execução programada a intervenções adaptativas",
-      "summary": "Pesquisas e demonstrações de campo combinam drones, sensores meteorológicos, rotas autônomas e técnicas de semeadura de nuvens. Notícias sobre dezenas de milhões de litros de chuva adicional apresentam estimativas de atribuição meteorológica, não medição direta de água produzida. A semeadura de nuvens é anterior à robótica moderna; usar drones não demonstra, isoladamente, IA incorporada avançada.",
-      "impact": "Acompanhar quatro níveis distintos: (1) missão pré-programada, (2) percepção e ajuste de rota, (3) decisão autônoma em malha fechada sobre onde/quando intervir e (4) frotas com eficácia causal, segurança e viabilidade econômica verificadas. Relevante como aplicação de IA e robótica no mundo físico, mas sem evidência suficiente para antecipar o marco de 2030.",
-      "timeline": [
-        "2030 — IA + Robótica no Mundo Físico (sem alteração)"
-      ],
-      "source": {
-        "name": "Diário do Litoral — Chuva artificial com drones",
-        "url": "https://www.diariodolitoral.com.br/mundo/chuva-artificial-feita-com-drones-gera-70-milhoes-de-litros-de-agua/"
-      },
-      "maturity": "Aplicação e pesquisa experimental; impacto meteorológico e autonomia cognitiva avançada não comprovados",
-      "recorded_at": "2026-10-10",
-      "published_at": null,
-      "event_date": null,
-      "updated_at": "2026-10-10"
-    },
-    {
       "date": "2026-10-08",
       "topic": "fusion",
-      "status": "accelerates",
-      "title": "Helix HARUKA: construção avança com nova rodada de financiamento",
-      "summary": "A Helical Fusion anunciou em 8 de outubro de 2026 o fechamento de uma rodada de financiamento para acelerar desenvolvimento e demonstrações, enquanto a construção do Helix HARUKA prossegue. O início da construção já havia sido anunciado em 27 de outubro de 2025, portanto não é um marco novo de outubro de 2026.",
-      "impact": "Reforça e antecipa a transição prevista para 2029 de fusão experimental para engenharia de sistemas e aumenta a evidência em favor do marco de 2030 sobre plantas-piloto. Não representa ainda geração líquida de eletricidade.",
+      "status": "under_review",
+      "title": "Helical Fusion amplia financiamento e parcerias para o Helix HARUKA",
+      "summary": "Em 8 de outubro de 2026, a Helical Fusion anunciou o fechamento de uma rodada de 3,23 bilhões de ienes e novas parcerias para desenvolver seu programa de fusão. A construção do Helix HARUKA havia começado em 2025. A atualização de outubro é financeira e industrial, não nova demonstração de geração elétrica ou desempenho do plasma.",
+      "impact": "Aumenta a capacidade de execução do programa, mas não demonstra marco técnico suficiente para antecipar 2029 — Fusão em Escala de Engenharia ou 2030 — Plantas-Piloto. A demonstração integrada e geração líquida seguem como objetivos futuros.",
       "timeline": [
         "2029 — Fusão em Escala de Engenharia",
         "2030 — Plantas-Piloto de Fusão"
       ],
       "source": {
-        "name": "Helical Fusion — comunicado de 8 out 2026",
+        "name": "Helical Fusion — rodada Série B (8 out 2026)",
         "url": "https://prtimes.jp/main/html/rd/p/000000082.000089262.html"
       },
       "id": "evt-2026-10-03-helix-haruka",
       "recorded_at": "2026-10-03",
       "published_at": "2026-10-08",
       "event_date": "2026-10-08",
-      "updated_at": "2026-10-10"
+      "updated_at": "2026-10-10",
+      "maturity": "Financiamento e parcerias industriais; sem novo resultado físico comprovado"
     },
     {
       "id": "evt-2026-10-10-ai-math",
@@ -56,7 +36,7 @@
         "2028 — AGI Digital (sem alteração)"
       ],
       "source": {
-        "name": "OpenAI Developer Community — Mathematics manuscripts",
+        "name": "OpenAI Developer Community — 6 out 2026",
         "url": "https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886"
       },
       "maturity": "Resultados divulgados, revisão e validação independente pendentes",
@@ -89,20 +69,20 @@
     {
       "id": "evt-2026-09-08-navier-stokes-ai",
       "date": "2026-09-08",
-      "event_date": "2026-09-08",
+      "event_date": "2026-09-05",
       "published_at": "2026-09-08",
       "recorded_at": "2026-10-10",
       "updated_at": "2026-10-10",
       "topic": "ai",
       "status": "under_review",
       "title": "IA propõe prova para Navier–Stokes: validação científica e escopo em debate",
-      "summary": "Em 8 de setembro de 2026, a OpenAI divulgou uma proposta de solução para o problema de existência e regularidade de Navier–Stokes, com texto matemático e formalização em Lean. A empresa afirma demonstrar singularidade em tempo finito, mas a validade, o enquadramento preciso do resultado no problema do milênio e sua aceitação pela comunidade matemática não devem ser tratados como conclusões independentes já estabelecidas.",
+      "summary": "Segundo a OpenAI, agentes de IA chegaram a uma proposta de prova para o problema de Navier–Stokes em 5 de setembro de 2026; o texto e uma formalização em Lean foram divulgados em 8 de setembro. A empresa apresenta o resultado como solução, mas a avaliação científica independente e o reconhecimento formal do problema permanecem questões distintas. O caso é acompanhado separadamente dos manuscritos divulgados em outubro.",
       "impact": "Caso distinto da divulgação de centenas de manuscritos em outubro. Evidencia capacidade de formular provas matemáticas complexas, mas também a necessidade de verificação independente do enunciado, hipóteses e correspondência da formalização. Não antecipa automaticamente 2029 — IA Pesquisadora nem comprova AGI.",
       "timeline": [
         "2029 — IA Pesquisadora (validação pendente)"
       ],
       "source": {
-        "name": "OpenAI — Sobre o Problema do Prêmio Millennium de Navier–Stokes",
+        "name": "OpenAI — Navier–Stokes (8 set 2026)",
         "url": "https://openai.com/pt-BR/index/navier-stokes-solution/"
       },
       "maturity": "Proposta pública de prova com formalização; reconhecimento independente pendente"
@@ -113,14 +93,14 @@
       "topic": "aam",
       "status": "confirms",
       "title": "eVTOLs de carga na China: certificação avança antes da adoção em escala",
-      "summary": "O V2000CG não tripulado da AutoFlight recebeu certificação de tipo chinesa em 2024. Reportagem de 2026 destaca o transporte de cargas como possível mercado pioneiro dos eVTOLs na China. A certificação da aeronave e parcerias logísticas não demonstram, isoladamente, operações pagas recorrentes, frotas implantadas ou viabilidade econômica.",
+      "summary": "A Caixin Global publicou em 11 de agosto de 2026, com republicação pelo Poder360 em 12 de agosto, análise da priorização de eVTOLs de carga na China. O V2000CG da AutoFlight já tinha certificação de tipo desde 2024. A reportagem cita acordo logístico de 22 de julho de 2026, mas a certificação e parcerias não comprovam rotas pagas recorrentes ou adoção em escala.",
       "impact": "Reforça o marco de 2026 — AAM: certificação e infraestrutura inicial, sobretudo na vertente de carga. Acompanhar separadamente autorizações operacionais, rotas efetivas, carga transportada, tonelada-km, custos e utilização; não antecipar os marcos de 2027–2030 para passageiros sem dados de operação real.",
       "timeline": [
         "2026 — AAM: certificação e infraestrutura inicial",
         "2027 — Primeiras operações comerciais (a comprovar)"
       ],
       "source": {
-        "name": "Poder360 — Veículos voadores da China devem priorizar transporte de carga",
+        "name": "Caixin Global via Poder360 — 12 ago 2026",
         "url": "https://www.poder360.com.br/poder-china/veiculos-voadores-da-china-devem-priorizar-o-transporte-de-carga/"
       },
       "maturity": "Certificação de tipo e desenvolvimento de mercado; operação comercial recorrente não comprovada",
@@ -136,7 +116,7 @@
       "status": "confirms",
       "title": "BEST: obras do tokamak chinês documentadas em abril de 2026",
       "summary": "A Academia Chinesa de Ciências publicou em 17 de abril de 2026 imagens das obras do BEST registradas em 15 de abril. A instalação da base Dewar, antes citada como marco recente, ocorreu em 1º de outubro de 2025, e não em outubro de 2026. O BEST permanece em construção; não houve demonstração de eletricidade líquida.",
-      "impact": "Reforça 2029 — Fusão em Escala de Engenharia e 2030 — Plantas-Piloto de Fusão. Não demonstra viabilidade comercial nem justifica antecipar eletricidade de fusão.",
+      "impact": "Confirma que a infraestrutura experimental BEST estava efetivamente em construção em abril de 2026. É evidência de implantação física, não de ganho energético, eletricidade líquida ou operação de planta-piloto; não antecipa automaticamente os marcos de 2029 e 2030.",
       "timeline": [
         "2029 — Fusão em Escala de Engenharia",
         "2030 — Plantas-Piloto de Fusão"
@@ -148,7 +128,35 @@
       "recorded_at": "2026-10-08",
       "published_at": "2026-04-17",
       "event_date": "2026-04-15",
-      "updated_at": "2026-10-10"
+      "updated_at": "2026-10-10",
+      "maturity": "Obra física documentada; experimento de plasma e eletricidade líquida ainda não demonstrados"
+    },
+    {
+      "id": "evt-2026-10-10-environmental-robotics",
+      "date": "2025-05-08",
+      "topic": "robotics",
+      "status": "under_review",
+      "title": "Semeadura de nuvens com drones em Xinjiang: aplicação robótica sob avaliação",
+      "summary": "Reportagens de maio de 2025 descrevem semeadura de nuvens com drones em Xinjiang, na China, com estimativa de cerca de 78 milhões de litros adicionais de precipitação. A estimativa não equivale a volume coletado ou comprovação independente de causalidade. O experimento é anterior a outubro de 2026; sua data exata não foi confirmada.",
+      "impact": "Acompanhar quatro níveis distintos: (1) missão pré-programada, (2) percepção e ajuste de rota, (3) decisão autônoma em malha fechada sobre onde/quando intervir e (4) frotas com eficácia causal, segurança e viabilidade econômica verificadas. Relevante como aplicação de IA e robótica no mundo físico, mas sem evidência suficiente para antecipar o marco de 2030.",
+      "timeline": [
+        "2030 — IA + Robótica no Mundo Físico (sem alteração)"
+      ],
+      "source": {
+        "name": "BNews — reportagem sobre experimento em Xinjiang (8 mai 2025)",
+        "url": "https://www.bnews.com.br/amp/noticias/mundo/com-auxilio-de-drones-china-faz-chover-mais-de-70-milhoes-de-litros-em-regiao-desertica.html"
+      },
+      "maturity": "Aplicação e pesquisa experimental; impacto meteorológico e autonomia cognitiva avançada não comprovados",
+      "recorded_at": "2026-10-10",
+      "published_at": "2025-05-08",
+      "event_date": null,
+      "updated_at": "2026-10-10",
+      "related_sources": [
+        {
+          "name": "Diário do Litoral — matéria compartilhada",
+          "url": "https://www.diariodolitoral.com.br/mundo/chuva-artificial-feita-com-drones-gera-70-milhoes-de-litros-de-agua/"
+        }
+      ]
     }
   ]
 }
