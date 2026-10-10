@@ -2,6 +2,23 @@
   "updated": "2026-10-10",
   "events": [
     {
+      "id": "evt-2026-10-10-environmental-robotics",
+      "date": "2026-10-10",
+      "topic": "robotics",
+      "status": "under_review",
+      "title": "Robótica ambiental: drones passam de execução programada a intervenções adaptativas",
+      "summary": "Pesquisas e demonstrações de campo combinam drones, sensores meteorológicos, rotas autônomas e técnicas de semeadura de nuvens. Notícias sobre dezenas de milhões de litros de chuva adicional apresentam estimativas de atribuição meteorológica, não medição direta de água produzida. A semeadura de nuvens é anterior à robótica moderna; usar drones não demonstra, isoladamente, IA incorporada avançada.",
+      "impact": "Acompanhar quatro níveis distintos: (1) missão pré-programada, (2) percepção e ajuste de rota, (3) decisão autônoma em malha fechada sobre onde/quando intervir e (4) frotas com eficácia causal, segurança e viabilidade econômica verificadas. Relevante como aplicação de IA e robótica no mundo físico, mas sem evidência suficiente para antecipar o marco de 2030.",
+      "timeline": [
+        "2030 — IA + Robótica no Mundo Físico (sem alteração)"
+      ],
+      "source": {
+        "name": "Diário do Litoral — Chuva artificial com drones",
+        "url": "https://www.diariodolitoral.com.br/mundo/chuva-artificial-feita-com-drones-gera-70-milhoes-de-litros-de-agua/"
+      },
+      "maturity": "Aplicação e pesquisa experimental; impacto meteorológico e autonomia cognitiva avançada não comprovados"
+    },
+    {
       "id": "evt-2026-10-10-ai-math",
       "date": "2026-10-10",
       "topic": "ai",
