@@ -1,6 +1,39 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-16",
   "events": [
+    {
+      "id": "evt-2026-10-16-organoid-braille",
+      "date": "2026-10-16",
+      "event_date": "2026-10-16",
+      "published_at": "2026-10-16",
+      "recorded_at": "2026-10-16",
+      "updated_at": "2026-10-16",
+      "topic": "neuro-alt-compute",
+      "status": "confirms",
+      "title": "Organoides neurais combinados permitem decodificar sinais táteis em Braille com 83% de acurácia",
+      "summary": "Estudo revisado por pares da Universidade de Bristol, publicado na Frontiers in Artificial Intelligence, converteu sinais de um sensor tátil em estímulos elétricos aplicados a organoides neurais humanos. Um classificador digital identificou letras Braille a partir das respostas: 61% de acurácia com um organoide e 83% com um conjunto de três, também mais robusto a ruído artificial. Os dados experimentais foram disponibilizados publicamente.",
+      "impact": "Confirma a viabilidade experimental de combinar múltiplos substratos neurais biológicos com sensores e decodificação digital, reforçando 2026 — experimentos multiunidade e a perspectiva de sistemas bio-silício em 2029 e diversificação de substratos em 2030. Não demonstra aprendizagem contínua, operação closed-loop, ganho de eficiência energética medido, computação rack-scale nem adoção comercial; nenhuma data da timeline é antecipada.",
+      "timeline": [
+        "2026 — Computação biológica multiunidade",
+        "2029 — Sistemas cognitivos híbridos bio-silício (sem antecipação)",
+        "2030 — Diversificação dos substratos da inteligência (sem antecipação)"
+      ],
+      "maturity": "Demonstração experimental revisada por pares, open-loop, com dados disponíveis; sem implantação comercial",
+      "source": {
+        "name": "Liu, Philamore e Ward-Cherrier — Frontiers in Artificial Intelligence (16 out 2026)",
+        "url": "https://doi.org/10.3389/frai.2026.1800219"
+      },
+      "related_sources": [
+        {
+          "name": "University of Bristol — comunicado de 16 out 2026",
+          "url": "https://www.bristol.ac.uk/news/2026/october/mini-brain-organoids-reading-braille-marks-step-towards-biohybrid-computin.html"
+        },
+        {
+          "name": "University of Bristol — dataset",
+          "url": "https://doi.org/10.5523/bris.19qmlywobvl3u22pzo67z3bc6l"
+        }
+      ]
+    },
     {
       "date": "2026-10-08",
       "topic": "fusion",
