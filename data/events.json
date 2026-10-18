@@ -35,6 +35,39 @@
       ]
     },
     {
+      "id": "evt-2026-08-06-cortical-cl1-singapore",
+      "date": "2026-08-06",
+      "event_date": "2026-08-06",
+      "published_at": "2026-08-17",
+      "recorded_at": "2026-10-18",
+      "updated_at": "2026-10-18",
+      "topic": "neuro-alt-compute",
+      "status": "confirms",
+      "title": "NUS, DayOne e Cortical Labs demonstram rack experimental com 20 computadores biológicos CL1",
+      "summary": "Em 6 de agosto de 2026, a NUS Medicine, a DayOne e a Cortical Labs apresentaram em Singapura um protótipo instalado em ambiente de pesquisa, composto por 20 unidades CL1 de computação biológica com neurônios humanos derivados de células-tronco, eletrônica de microeletrodos e demonstração de atividade neural em tempo real. O anúncio público foi feito em 17 de agosto.",
+      "impact": "Confirma o marco previsto para 2026 de infraestrutura experimental multiunidade e rack-scale para computação biológica, fortalecendo a hipótese de sistemas híbridos bio-silício em 2029 e diversificação dos substratos da inteligência em 2030. Não altera as datas da timeline. Não comprova operação de data center comercial, escala produtiva, vantagem computacional útil ou eficiência energética superior em benchmarks comparáveis.",
+      "timeline": [
+        "2026 — Infraestrutura de computação biológica multiunidade e rack-scale",
+        "2029 — Sistemas cognitivos híbridos bio-silício (perspectiva reforçada)",
+        "2030 — Diversificação dos substratos da inteligência (perspectiva reforçada)"
+      ],
+      "maturity": "Protótipo físico de rack com 20 unidades em ambiente real de pesquisa, demonstrado publicamente; sem operação comercial comprovada",
+      "source": {
+        "name": "NUS Medicine — Biological Data Center Prototype (17 ago 2026)",
+        "url": "https://medicine.nus.edu.sg/news/nus-medicine-dayone-and-cortical-labs-unveil-biological-data-center-prototype-in-singapore/"
+      },
+      "related_sources": [
+        {
+          "name": "NUS Medicine — anúncio inicial (11 mar 2026)",
+          "url": "https://medicine.nus.edu.sg/news/biological-data-centre-prototype-established-at-nus-medicine/"
+        },
+        {
+          "name": "DayOne — lançamento (17 ago 2026)",
+          "url": "https://en.prnasia.com/releases/apac/dayone-launches-singapore-s-first-biological-data-center-prototype-with-cortical-labs-and-nus-medicine-544189.shtml"
+        }
+      ]
+    },
+    {
       "date": "2026-10-08",
       "topic": "fusion",
       "status": "under_review",
