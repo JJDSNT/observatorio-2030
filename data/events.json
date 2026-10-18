@@ -1,6 +1,39 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-18",
   "events": [
+    {
+      "id": "evt-2026-10-16-nvidia-rtx-spark",
+      "date": "2026-10-16",
+      "event_date": "2026-10-16",
+      "published_at": "2026-10-16",
+      "recorded_at": "2026-10-18",
+      "updated_at": "2026-10-18",
+      "topic": "ai",
+      "status": "confirms",
+      "title": "NVIDIA RTX Spark chega ao mercado e amplia a infraestrutura para agentes de IA locais",
+      "summary": "A NVIDIA anunciou a disponibilidade comercial de uma nova geração de notebooks RTX Spark, baseada em Grace-Blackwell e voltada à execução local de modelos e agentes de IA, com até 128 GB de memória unificada em configurações selecionadas. O lançamento sinaliza maior oferta de hardware pessoal especializado, mas não demonstra por si só agentes mais autônomos, aprendizagem contínua ou generalização cognitiva. Com preços iniciais anunciados em torno de US$ 2.599, a plataforma estreia no segmento premium: comparável a notebooks profissionais de alto desempenho, mas ainda distante da acessibilidade do consumidor comum. Testes independentes também apontam restrições de bateria, temperatura, ruído e maturidade de software; adoção em massa ainda não foi comprovada.",
+      "impact": "Confirma a expansão comercial da infraestrutura de IA agentiva local em 2026 e reforça as condições para automação cognitiva pessoal em 2027, sem antecipar o marco de AGI digital de 2028. Disponibilidade comercial não equivale à popularização. O preço é relevante especificamente para avaliar adoção de PCs pessoais, não um critério transversal aplicável a todas as tecnologias do Observatório. Não confundir descentralização da computação digital entre nuvem e dispositivos com diversificação de substratos neuromórficos ou biológicos.",
+      "timeline": [
+        "2026 — IA agentiva: infraestrutura comercial para execução local",
+        "2027 — Automação cognitiva: condições técnicas reforçadas, adoção não comprovada",
+        "2028 — AGI digital: sem mudança"
+      ],
+      "maturity": "Produto comercial lançado; desempenho real e experiência de agentes locais ainda em avaliação independente; adoção de massa não demonstrada",
+      "source": {
+        "name": "NVIDIA — RTX Spark PCs Available Today (16 out 2026)",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs"
+      },
+      "related_sources": [
+        {
+          "name": "NVIDIA Developer — Code, Test and Deploy on One Machine",
+          "url": "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark"
+        },
+        {
+          "name": "VEJA — notebooks otimizados para IA",
+          "url": "https://veja.abril.com.br/economia/nvidia-inicia-vendas-de-nova-geracao-de-notebooks-otimizados-para-ia/"
+        }
+      ]
+    },
     {
       "id": "evt-2026-10-16-organoid-braille",
       "date": "2026-10-16",
