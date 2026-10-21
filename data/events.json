@@ -1,6 +1,35 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-21",
   "events": [
+    {
+      "id": "evt-2026-09-28-jhu-modular-cardiac-millirobots",
+      "date": "2026-09-28",
+      "event_date": "2026-09-28",
+      "published_at": "2026-09-28",
+      "recorded_at": "2026-10-21",
+      "updated_at": "2026-10-21",
+      "topic": "micro-nanorobotics",
+      "status": "confirms",
+      "title": "Millirrobôs magnéticos modulares demonstram navegação e entrega localizada em modelos cardíacos",
+      "summary": "Pesquisadores da Johns Hopkins apresentaram dois millirrobôs cooperativos acionados por campos magnéticos externos: um módulo de agulha para ancoragem e outro para transporte e liberação de líquido. Em modelo cardíaco de agarose com fluxo pulsátil, o sistema utilizou orientação visual assistida por IA para navegação em malha fechada; testes ex vivo em tecido cardíaco suíno demonstraram penetração e desacoplamento. A entrega experimental alcançou 22 µL em 180 minutos, com acoplamento e desacoplamento magnéticos demonstrados em condições controladas. São robôs de escala milimétrica, não nanomáquinas moleculares.",
+      "impact": "Confirma o marco experimental de 2026 de navegação controlada e entrega localizada em modelos anatômicos. Não antecipa a validação pré-clínica robusta projetada para 2028 nem eventuais estudos humanos até 2029–2030. A pesquisa não demonstrou tratamento de endocardite em animais vivos, eficácia clínica, segurança sistêmica ou aplicação em pacientes; a autonomia refere-se ao controle de navegação assistido por visão, não à decisão clínica independente. Registro inaugural do novo tópico, sem alteração das datas previstas.",
+      "timeline": [
+        "2026 — Micro & Nanorrobótica: navegação e entrega localizada experimentais (confirma)",
+        "2028 — Validação pré-clínica complexa (não demonstrada)",
+        "2030 — Possíveis estudos clínicos humanos até 2029–2030 (sem antecipação)"
+      ],
+      "maturity": "Estudo experimental in vitro (modelo anatômico sob fluxo pulsátil) e ex vivo (tecido cardíaco suíno); sem estudo in vivo ou clínico",
+      "source": {
+        "name": "Bhattacharjee et al. — Advanced Materials Technologies (28 set 2026)",
+        "url": "https://doi.org/10.1002/admt.71353"
+      },
+      "related_sources": [
+        {
+          "name": "Johns Hopkins University — divulgação de 12 out 2026",
+          "url": "https://hub.jhu.edu/2026/10/12/magnetic-millirobots-cardiac-treatment/"
+        }
+      ]
+    },
     {
       "id": "evt-2026-10-16-nvidia-rtx-spark",
       "date": "2026-10-16",
