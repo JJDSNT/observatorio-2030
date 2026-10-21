@@ -44,6 +44,11 @@
       "id": "neuro-alt-compute",
       "name": "Neurotecnologia & Substratos Alternativos",
       "watch": "BCI e interfaces neurais bidirecionais; decodificação e estimulação neural; computação neuromórfica e spiking neural networks; biological/wetware computing e organoid intelligence; biological data centers; sistemas híbridos bio-silício; diversificação dos substratos da inteligência"
+    },
+    {
+      "id": "micro-nanorobotics",
+      "name": "Micro & Nanorrobótica",
+      "watch": "microrrobótica e milirrobótica médica, industrial e ambiental; nanorrobótica e nanomáquinas moleculares, incluindo motores moleculares, DNA origami e sistemas responsivos; navegação magnética, acústica, óptica e química; sensoriamento, manipulação, entrega localizada de fármacos, enxames, robôs bio-híbridos e materiais programáveis; diferenciar escala milimétrica, micrométrica, nanométrica e molecular; avaliar controle, autonomia real, rastreamento, biocompatibilidade, biodegradação, reprodutibilidade, segurança, eficácia, custo e maturidade: bancada, modelos anatômicos, animais, ensaios clínicos, autorização regulatória e uso efetivo. Não equiparar nanopartículas passivas a nanorrobôs nem confundir teleoperação com cognição autônoma."
     }
   ]
 }
