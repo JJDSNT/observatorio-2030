@@ -3,52 +3,84 @@
     {
       "id": "ai",
       "name": "IA / AGI",
-      "watch": "cognição, raciocínio, memória, aprendizagem contínua, planejamento, metacognição, generalização, modelos de mundo, autonomia, agentes pesquisadores e capacidades gerais"
+      "watch": "cognição, raciocínio, memória, aprendizagem contínua, planejamento, metacognição, generalização, modelos de mundo, autonomia, agentes pesquisadores e capacidades gerais",
+      "group": "intelligence"
     },
     {
       "id": "work",
       "name": "Trabalho",
-      "watch": "emprego, produtividade, funções, equipes e reorganização econômica"
+      "watch": "emprego, produtividade, funções, equipes e reorganização econômica",
+      "group": "society"
     },
     {
       "id": "robotics",
       "name": "Robótica",
-      "watch": "humanoides e embodied AI; autonomia, custo e implantação industrial; robótica ambiental e drones em agricultura, reflorestamento, monitoramento e intervenção atmosférica; distinguir rotas pré-programadas, percepção e adaptação, decisão autônoma em malha fechada e frotas com resultados verificados; observar segurança, eficácia causal, escala, energia, custos e regulação"
+      "watch": "humanoides e embodied AI; autonomia, custo e implantação industrial; robótica ambiental e drones em agricultura, reflorestamento, monitoramento e intervenção atmosférica; distinguir rotas pré-programadas, percepção e adaptação, decisão autônoma em malha fechada e frotas com resultados verificados; observar segurança, eficácia causal, escala, energia, custos e regulação",
+      "group": "society"
     },
     {
       "id": "aam",
       "name": "Mobilidade Aérea Avançada (eVTOLs & Vertiports)",
-      "watch": "certificação de eVTOLs (ANAC, FAA, EASA); entrada em serviço e primeiras rotas comerciais; construção, licenciamento e operação de vertiports; integração com aeroportos e transporte público; entregas e tamanho de frotas; passageiros e cidades atendidas; frequência e confiabilidade operacional; preço por passageiro/km e competitividade frente a helicópteros e transporte terrestre; autonomia, baterias, recarga e ruído; segurança, acidentes, aceitação pública e regulação urbana; evolução de Eve/Embraer, Joby, Archer, Volocopter e outros operadores/fabricantes; sinais de transição de pilotos para adoção em escala; acompanhar separadamente eVTOLs de carga (kg de carga útil, tonelada-km, licenças de operador, rotas logísticas e custos) e eVTOLs de passageiros (assentos, passageiros-km, vertiports e integração urbana); diferenciar certificado de tipo, autorização operacional, voo demonstrativo, serviço pago recorrente e escala comercial"
+      "watch": "certificação de eVTOLs (ANAC, FAA, EASA); entrada em serviço e primeiras rotas comerciais; construção, licenciamento e operação de vertiports; integração com aeroportos e transporte público; entregas e tamanho de frotas; passageiros e cidades atendidas; frequência e confiabilidade operacional; preço por passageiro/km e competitividade frente a helicópteros e transporte terrestre; autonomia, baterias, recarga e ruído; segurança, acidentes, aceitação pública e regulação urbana; evolução de Eve/Embraer, Joby, Archer, Volocopter e outros operadores/fabricantes; sinais de transição de pilotos para adoção em escala; acompanhar separadamente eVTOLs de carga (kg de carga útil, tonelada-km, licenças de operador, rotas logísticas e custos) e eVTOLs de passageiros (assentos, passageiros-km, vertiports e integração urbana); diferenciar certificado de tipo, autorização operacional, voo demonstrativo, serviço pago recorrente e escala comercial",
+      "group": "society"
     },
     {
       "id": "cislunar",
       "name": "Espaço Cislunar",
-      "watch": "Lunar Pathfinder, Artemis, programa lunar chinês, comunicação e navegação lunar"
+      "watch": "Lunar Pathfinder, Artemis, programa lunar chinês, comunicação e navegação lunar",
+      "group": "frontier"
     },
     {
       "id": "quantum",
       "name": "Computação Quântica",
-      "watch": "qubits lógicos, correção de erros, operações úteis e vantagem prática"
+      "watch": "qubits lógicos, correção de erros, operações úteis e vantagem prática",
+      "group": "science"
     },
     {
       "id": "fusion",
       "name": "Fusão",
-      "watch": "controle por IA, ganho energético, duração de plasma, engenharia e plantas-piloto"
+      "watch": "controle por IA, ganho energético, duração de plasma, engenharia e plantas-piloto",
+      "group": "frontier"
     },
     {
       "id": "quantum-biology",
       "name": "Biologia Quântica",
-      "watch": "evidências experimentais robustas de efeitos quânticos funcionalmente relevantes"
+      "watch": "evidências experimentais robustas de efeitos quânticos funcionalmente relevantes",
+      "group": "science"
     },
     {
       "id": "neuro-alt-compute",
       "name": "Neurotecnologia & Substratos Alternativos",
-      "watch": "BCI e interfaces neurais bidirecionais; decodificação e estimulação neural; computação neuromórfica e spiking neural networks; biological/wetware computing e organoid intelligence; biological data centers; sistemas híbridos bio-silício; diversificação dos substratos da inteligência"
+      "watch": "BCI e interfaces neurais bidirecionais; decodificação e estimulação neural; computação neuromórfica e spiking neural networks; biological/wetware computing e organoid intelligence; biological data centers; sistemas híbridos bio-silício; diversificação dos substratos da inteligência",
+      "group": "intelligence"
     },
     {
       "id": "micro-nanorobotics",
       "name": "Micro & Nanorrobótica",
-      "watch": "microrrobótica e milirrobótica médica, industrial e ambiental; nanorrobótica e nanomáquinas moleculares, incluindo motores moleculares, DNA origami e sistemas responsivos; navegação magnética, acústica, óptica e química; sensoriamento, manipulação, entrega localizada de fármacos, enxames, robôs bio-híbridos e materiais programáveis; diferenciar escala milimétrica, micrométrica, nanométrica e molecular; avaliar controle, autonomia real, rastreamento, biocompatibilidade, biodegradação, reprodutibilidade, segurança, eficácia, custo e maturidade: bancada, modelos anatômicos, animais, ensaios clínicos, autorização regulatória e uso efetivo. Não equiparar nanopartículas passivas a nanorrobôs nem confundir teleoperação com cognição autônoma."
+      "watch": "microrrobótica e milirrobótica médica, industrial e ambiental; nanorrobótica e nanomáquinas moleculares, incluindo motores moleculares, DNA origami e sistemas responsivos; navegação magnética, acústica, óptica e química; sensoriamento, manipulação, entrega localizada de fármacos, enxames, robôs bio-híbridos e materiais programáveis; diferenciar escala milimétrica, micrométrica, nanométrica e molecular; avaliar controle, autonomia real, rastreamento, biocompatibilidade, biodegradação, reprodutibilidade, segurança, eficácia, custo e maturidade: bancada, modelos anatômicos, animais, ensaios clínicos, autorização regulatória e uso efetivo. Não equiparar nanopartículas passivas a nanorrobôs nem confundir teleoperação com cognição autônoma.",
+      "group": "society"
+    }
+  ],
+  "groups": [
+    {
+      "id": "intelligence",
+      "label": "INTELLIGENCE & COGNITION",
+      "title": "Inteligência & Cognição"
+    },
+    {
+      "id": "society",
+      "label": "EMBODIED, MOBILITY & SOCIETY",
+      "title": "Corpo, Mobilidade & Sociedade"
+    },
+    {
+      "id": "science",
+      "label": "COMPUTATION & SCIENCE",
+      "title": "Computação & Ciência"
+    },
+    {
+      "id": "frontier",
+      "label": "ENERGY & FRONTIER",
+      "title": "Energia & Fronteira"
     }
   ]
 }
