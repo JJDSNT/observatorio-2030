@@ -230,16 +230,17 @@ Promise.all([get('data/timeline.json'), get('data/topics.json'), get('data/event
   document.querySelector('#updated').textContent = `Última revisão: ${new Date([timeline.updated, events.updated].filter(Boolean).sort().at(-1) + 'T12:00:00').toLocaleDateString('pt-BR')}`;
   document.querySelector('#timeline-data').innerHTML = timeline.years.map(year => `<article class="year"><div class="year-num">${year.year}</div><div><h3>${year.title}</h3><ul>${year.items.map(item => `<li>${item}</li>`).join('')}</ul><span class="confidence">confiança ${year.confidence}</span></div></article>`).join('');
 
-  const topicGroups = [
-    { label: 'INTELLIGENCE & COGNITION', title: 'Inteligência & Cognição', ids: ['ai', 'neuro-alt-compute'] },
-    { label: 'EMBODIED, MOBILITY & SOCIETY', title: 'Corpo, Mobilidade & Sociedade', ids: ['robotics', 'micro-nanorobotics', 'aam', 'work'] },
-    { label: 'COMPUTATION & SCIENCE', title: 'Computação & Ciência', ids: ['quantum', 'quantum-biology'] },
-    { label: 'ENERGY & FRONTIER', title: 'Energia & Fronteira', ids: ['fusion', 'cislunar'] },
-  ];
-  const topicsById = Object.fromEntries(topics.topics.map(topic => [topic.id, topic]));
-  document.querySelector('#topics').innerHTML = topicGroups.map(group => `<section class="topic-group"><div class="topic-group-head"><span>${group.label}</span><h3>${group.title}</h3></div><div class="topic-pair">${group.ids.map(id => topicsById[id]).filter(Boolean).map(topic => `<article class="topic"><h3>${topic.name}</h3><p>${topic.watch}</p></article>`).join('')}</div></section>`).join('');
+  const topicGroups = topics.groups || [];
+  const topicsByGroup = new Map(topicGroups.map(group => [group.id, []]));
+  for (const topic of topics.topics) {
+    const groupId = topicsByGroup.has(topic.group) ? topic.group : 'other';
+    if (!topicsByGroup.has(groupId)) topicsByGroup.set(groupId, []);
+    topicsByGroup.get(groupId).push(topic);
+  }
+  const allGroups = [...topicGroups, ...(topicsByGroup.has('other') ? [{ id: 'other', label: 'OTHER TOPICS', title: 'Outros tópicos' }] : [])];
+  document.querySelector('#topics').innerHTML = allGroups.filter(group => topicsByGroup.get(group.id)?.length).map(group => `<section class="topic-group"><div class="topic-group-head"><span>${group.label}</span><h3>${group.title}</h3></div><div class="topic-pair">${topicsByGroup.get(group.id).map(topic => `<article class="topic"><h3>${topic.name}</h3><p>${topic.watch}</p></article>`).join('')}</div></section>`).join('');
 
-  const formatDate = date => date ? new Date(`${date}T12:00:00`).toLocaleDateString('pt-BR') : 'não confirmada';
+    const formatDate = date => date ? new Date(`${date}T12:00:00`).toLocaleDateString('pt-BR') : 'não confirmada';
   const labels = { confirms: 'Confirma', accelerates: 'Antecipa', delays: 'Atrasa', contradicts: 'Contradiz', under_review: 'Em validação' };
   const sortedEvents = [...events.events].sort((a, b) => (b.published_at || b.date || '').localeCompare(a.published_at || a.date || ''));
   document.querySelector('#events').innerHTML = sortedEvents.length ? sortedEvents.map(event => {
