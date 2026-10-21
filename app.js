@@ -232,7 +232,7 @@ Promise.all([get('data/timeline.json'), get('data/topics.json'), get('data/event
 
   const topicGroups = [
     { label: 'INTELLIGENCE & COGNITION', title: 'Inteligência & Cognição', ids: ['ai', 'neuro-alt-compute'] },
-    { label: 'EMBODIED, MOBILITY & SOCIETY', title: 'Corpo, Mobilidade & Sociedade', ids: ['robotics', 'aam', 'work'] },
+    { label: 'EMBODIED, MOBILITY & SOCIETY', title: 'Corpo, Mobilidade & Sociedade', ids: ['robotics', 'micro-nanorobotics', 'aam', 'work'] },
     { label: 'COMPUTATION & SCIENCE', title: 'Computação & Ciência', ids: ['quantum', 'quantum-biology'] },
     { label: 'ENERGY & FRONTIER', title: 'Energia & Fronteira', ids: ['fusion', 'cislunar'] },
   ];
