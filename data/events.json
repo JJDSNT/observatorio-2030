@@ -2,6 +2,40 @@
   "updated": "2026-10-21",
   "events": [
     {
+      "id": "evt-2026-09-28-starship-flight-14-orbit",
+      "date": "2026-09-28",
+      "event_date": "2026-09-28",
+      "published_at": "2026-09-28",
+      "recorded_at": "2026-10-21",
+      "updated_at": "2026-10-21",
+      "topic": "cislunar",
+      "status": "confirms",
+      "title": "Starship Flight 14 alcança órbita e implanta 26 satélites Starlink V3",
+      "summary": "Em 28 de setembro de 2026, a SpaceX realizou o primeiro voo orbital da Starship. Após uma trajetória inicialmente suborbital e uma avaliação de telemetria decorrente do desligamento antecipado de um motor Raptor, a nave executou uma queima adicional de inserção orbital e liberou 26 satélites Starlink V3 operacionais. Foi a primeira entrega de carga útil operacional da Starship à órbita terrestre. A missão planejada para aproximadamente dez horas terminou após cerca de três horas por precaução diante de problemas de propulsão. O Super Heavy realizou amerissagem controlada no Golfo do México; a nave reentrou e amerissou no Pacífico, sem recuperação de hardware para reutilização.",
+      "impact": "Confirma avanço relevante da capacidade orbital e de implantação de cargas da Starship em 2026, reforçando a base tecnológica potencial para logística cislunar e Starship HLS. Não comprova transferência de propelente entre veículos, recuperação e reutilização integral, cadência operacional confiável, pouso lunar nem prontidão para Artemis. Não altera datas da timeline 2027–2030. Registrar como avanço orbital concreto, distinguindo entrega operacional de carga de maturidade de transporte cislunar.",
+      "timeline": [
+        "2026 — Espaço cislunar: avanço orbital da Starship com carga operacional (evidência complementar)",
+        "2027 — Artemis III / integração HLS: sem antecipação",
+        "2028 — Objetivo de pouso lunar tripulado: sem antecipação",
+        "2030 — Infraestrutura cislunar: capacidade logística ainda não demonstrada"
+      ],
+      "maturity": "Primeiro voo orbital com implantação de 26 satélites operacionais; teste com problemas de propulsão, duração reduzida e sem recuperação/reutilização dos estágios",
+      "source": {
+        "name": "SpaceX — Starship Flight 14 (28 set 2026)",
+        "url": "https://www.spacex.com/launches/starship-flight-14"
+      },
+      "related_sources": [
+        {
+          "name": "Reuters — Starship makes orbital debut deploying Starlinks (28 set 2026)",
+          "url": "https://www.reuters.com/business/media-telecom/spacexs-starship-launches-14th-flight-first-headed-orbit-2026-09-28/"
+        },
+        {
+          "name": "Spaceflight Now — Starship returns after three-hour flight (28 set 2026)",
+          "url": "https://spaceflightnow.com/2026/09/28/starship-returns-to-earth-rocket-splashes-down-north-of-hawaii-after-three-hour-flight/"
+        }
+      ]
+    },
+    {
       "id": "evt-2026-09-28-jhu-modular-cardiac-millirobots",
       "date": "2026-09-28",
       "event_date": "2026-09-28",
