@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-07",
-  "updated": "2026-10-07",
+  "version": "2026-10-21",
+  "updated": "2026-10-21",
   "years": [
     {
       "year": 2026,
@@ -11,7 +11,8 @@
         "IA amplia seu papel no controle e otimização de plasma",
         "Lunar Pathfinder inaugura uma camada dedicada de comunicações lunares",
         "Computação biológica avança para experimentos de infraestrutura multiunidade e rack-scale",
-        "Mobilidade aérea avançada entra no radar de adoção: certificação de eVTOLs e implantação inicial de infraestrutura de vertiports"
+        "Mobilidade aérea avançada entra no radar de adoção: certificação de eVTOLs e implantação inicial de infraestrutura de vertiports",
+        "Microrrobótica demonstra navegação controlada e entrega localizada em modelos anatômicos e tecidos ex vivo; evidência experimental, não terapia clínica"
       ]
     },
     {
@@ -35,7 +36,8 @@
         "Mercado de trabalho começa reestruturação mais visível em torno da IA",
         "Programa lunar tripulado alcança um avanço decisivo no retorno humano à Lua",
         "Interfaces neurais bidirecionais e substratos adaptativos tornam-se um eixo relevante de observação",
-        "Mobilidade aérea avançada testa viabilidade econômica: expansão inicial de rotas, frotas e redes de vertiports"
+        "Mobilidade aérea avançada testa viabilidade econômica: expansão inicial de rotas, frotas e redes de vertiports",
+        "Micro/nanorrobótica busca validação pré-clínica reproduzível em ambientes fisiológicos complexos, com rastreamento, eficácia e segurança (projeção, confiança média)"
       ]
     },
     {
@@ -60,7 +62,8 @@
         "Corrida lunar EUA–China avança para presença humana e infraestrutura cislunar",
         "Corrida pelas primeiras plantas-piloto de fusão entra em fase concreta",
         "A infraestrutura cognitiva começa a diversificar substratos: digital, neuromórfico, biológico e híbrido",
-        "eVTOLs e vertiports atingem um teste decisivo de adoção: expansão como nova camada de mobilidade urbana ou consolidação como serviço premium/nicho"
+        "eVTOLs e vertiports atingem um teste decisivo de adoção: expansão como nova camada de mobilidade urbana ou consolidação como serviço premium/nicho",
+        "Micro/nanorrobótica pode alcançar primeiros estudos clínicos humanos de segurança e viabilidade em aplicações selecionadas até 2029–2030; hipótese de baixa a média confiança, sem pressupor aprovação ou uso rotineiro"
       ]
     }
   ]
