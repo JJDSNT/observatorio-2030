@@ -2,6 +2,35 @@
   "updated": "2026-10-22",
   "events": [
     {
+      "id": "evt-2026-10-16-car-nk-magnetic-navigation",
+      "date": "2026-10-16",
+      "event_date": "2026-10-16",
+      "published_at": "2026-10-16",
+      "recorded_at": "2026-10-22",
+      "updated_at": "2026-10-22",
+      "topic": "micro-nanorobotics",
+      "status": "confirms",
+      "title": "Microrrobôs bio-híbridos CAR-NK demonstram navegação magnética em primatas",
+      "summary": "Estudo revisado por pares na Science Advances demonstrou navegação direcionada in vivo de células imunes CAR-NK carregadas com nanopartículas magnéticas, em enxames da ordem de 10^6 células, em modelos murinos e primatas não humanos. Campos magnéticos programáveis alternaram configurações de transporte concentrado (vórtice) e dispersão (faixa). A navegação pelo canal espinhal e a distribuição foram acompanhadas por imagem angiográfica em primatas. A demonstração de eficácia antitumoral ocorreu em modelos murinos, não em primatas; o ensaio em primatas é prova de viabilidade anatômica da navegação.",
+      "impact": "Confirma em 2026 um salto experimental além de modelos in vitro/ex vivo: transporte direcionado e rastreável de microrrobôs celulares em organismo de primata, em escala de dose potencialmente terapêutica. Reforça a plausibilidade da validação pré-clínica complexa prevista para 2028, sem antecipá-la como concluída. Não demonstra navegação cognitiva autônoma (controle externo), segurança clínica, eficácia antitumoral em primatas ou tratamento humano; não antecipa estudos clínicos de 2029–2030.",
+      "timeline": [
+        "2026 — Micro & Nanorrobótica: navegação magnética bio-híbrida in vivo em primatas (confirma avanço experimental)",
+        "2028 — Validação pré-clínica reproduzível, eficácia e segurança (perspectiva reforçada; não concluída)",
+        "2029–2030 — Estudos clínicos humanos (sem antecipação)"
+      ],
+      "maturity": "Estudo revisado por pares; prova de viabilidade in vivo em primatas para navegação, e avaliação terapêutica pré-clínica em camundongos; sem ensaio clínico humano",
+      "source": {
+        "name": "Wu et al. — Science Advances 12(42), eaef9412 (16 out 2026)",
+        "url": "https://doi.org/10.1126/sciadv.aef9412"
+      },
+      "related_sources": [
+        {
+          "name": "PubMed — PMID 42886800",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42886800/"
+        }
+      ]
+    },
+    {
       "id": "evt-2026-10-21-hassabis-agi-forecast",
       "date": "2026-10-21",
       "event_date": "2026-10-21",
