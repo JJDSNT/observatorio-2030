@@ -2,6 +2,26 @@
   "updated": "2026-10-22",
   "events": [
     {
+      "id": "evt-2026-10-21-hassabis-agi-forecast",
+      "date": "2026-10-21",
+      "event_date": "2026-10-21",
+      "published_at": "2026-10-21",
+      "recorded_at": "2026-10-22",
+      "updated_at": "2026-10-22",
+      "topic": "agi",
+      "status": "context",
+      "title": "Demis Hassabis estima AGI em dois a três anos",
+      "summary": "Segundo reportagem publicada pelo Tecnoblog em 21 de outubro de 2026 sobre entrevista ao Wall Street Journal, Demis Hassabis, cofundador e presidente do Google DeepMind, passou a estimar a chegada de uma inteligência artificial geral em dois a três anos, reduzindo seu horizonte anterior de três a cinco anos. Sua definição envolve capacidades cognitivas gerais comparáveis às humanas, incluindo a capacidade de realizar descobertas originais; a declaração é uma previsão de especialista, não a apresentação de um sistema AGI funcional.",
+      "impact": "Contexto relevante para acompanhar expectativas e debate público sobre o horizonte da AGI (aproximadamente 2028–2029). Não constitui evidência experimental de AGI alcançada, não confirma ou antecipa marcos e não altera a timeline do Observatório.",
+      "timeline": [],
+      "maturity": "Declaração prospectiva de especialista; sem demonstração técnica nova",
+      "source": {
+        "name": "Tecnoblog — Chefe do Google DeepMind diz que AGI chegará em até 3 anos (21 out 2026)",
+        "url": "https://tecnoblog.net/noticias/chefe-do-google-deepmind-diz-que-agi-chegara-em-ate-3-anos/"
+      },
+      "related_sources": []
+    },
+    {
       "id": "evt-2026-09-28-starship-flight-14-orbit",
       "date": "2026-09-28",
       "event_date": "2026-09-28",
