@@ -14,8 +14,8 @@
     },
     {
       "id": "work",
-      "name": "Trabalho",
-      "watch": "emprego, produtividade, funções, equipes e reorganização econômica",
+      "name": "Trabalho — Impactos da IA e Robótica",
+      "watch": "impactos da inteligência artificial, automação e robótica no mercado de trabalho: substituição e criação de ocupações, produtividade, transformação de funções e competências, reorganização de equipes e empresas, remuneração, transição profissional e efeitos econômicos; distinguir projeções de evidências observadas de adoção e emprego",
       "group": "society"
     },
     {
@@ -28,13 +28,13 @@
       "id": "aam",
       "name": "Mobilidade Aérea Avançada (eVTOLs & Vertiports)",
       "watch": "certificação de eVTOLs (ANAC, FAA, EASA); entrada em serviço e primeiras rotas comerciais; construção, licenciamento e operação de vertiports; integração com aeroportos e transporte público; entregas e tamanho de frotas; passageiros e cidades atendidas; frequência e confiabilidade operacional; preço por passageiro/km e competitividade frente a helicópteros e transporte terrestre; autonomia, baterias, recarga e ruído; segurança, acidentes, aceitação pública e regulação urbana; evolução de Eve/Embraer, Joby, Archer, Volocopter e outros operadores/fabricantes; sinais de transição de pilotos para adoção em escala; acompanhar separadamente eVTOLs de carga (kg de carga útil, tonelada-km, licenças de operador, rotas logísticas e custos) e eVTOLs de passageiros (assentos, passageiros-km, vertiports e integração urbana); diferenciar certificado de tipo, autorização operacional, voo demonstrativo, serviço pago recorrente e escala comercial",
-      "group": "society"
+      "group": "mobility"
     },
     {
       "id": "cislunar",
       "name": "Espaço Cislunar",
       "watch": "Programa Artemis (NASA): Artemis III como demonstração de encontro/acoplagem em órbita terrestre prevista para 2027 e Artemis IV como objetivo de pouso lunar tripulado em 2028; SpaceX Starship/Super Heavy V3 e Starship HLS, cadência e confiabilidade de lançamentos, reutilização efetiva, transferência e armazenamento criogênico de propelente entre veículos, infraestrutura orbital de reabastecimento, demonstração lunar não tripulada, integração e acoplagem com Orion, pouso e ascensão lunar, segurança e capacidade logística/carga; Blue Origin Blue Moon e seus testes e alternativas; programa lunar chinês e infraestrutura cislunar, Lunar Pathfinder, comunicações, navegação e logística. Distinguir metas anunciadas de marcos demonstrados, voos de teste de capacidade operacional, e registrar atrasos e riscos de cronograma sem assumir cumprimento de datas.",
-      "group": "frontier"
+      "group": "space"
     },
     {
       "id": "quantum",
@@ -46,7 +46,7 @@
       "id": "fusion",
       "name": "Fusão",
       "watch": "controle por IA, ganho energético, duração de plasma, engenharia e plantas-piloto",
-      "group": "frontier"
+      "group": "energy"
     },
     {
       "id": "quantum-biology",
@@ -64,7 +64,7 @@
       "id": "micro-nanorobotics",
       "name": "Micro & Nanorrobótica",
       "watch": "microrrobótica e milirrobótica médica, industrial e ambiental; nanorrobótica e nanomáquinas moleculares, incluindo motores moleculares, DNA origami e sistemas responsivos; navegação magnética, acústica, óptica e química; sensoriamento, manipulação, entrega localizada de fármacos, enxames, robôs bio-híbridos e materiais programáveis; diferenciar escala milimétrica, micrométrica, nanométrica e molecular; avaliar controle, autonomia real, rastreamento, biocompatibilidade, biodegradação, reprodutibilidade, segurança, eficácia, custo e maturidade: bancada, modelos anatômicos, animais, ensaios clínicos, autorização regulatória e uso efetivo. Não equiparar nanopartículas passivas a nanorrobôs nem confundir teleoperação com cognição autônoma.",
-      "group": "society"
+      "group": "science"
     }
   ],
   "groups": [
@@ -75,18 +75,28 @@
     },
     {
       "id": "society",
-      "label": "EMBODIED, MOBILITY & SOCIETY",
-      "title": "Corpo, Mobilidade & Sociedade"
+      "label": "AUTOMATION & SOCIETY",
+      "title": "Automação & Sociedade"
     },
     {
       "id": "science",
-      "label": "COMPUTATION & SCIENCE",
-      "title": "Computação & Ciência"
+      "label": "EMERGING SCIENCES",
+      "title": "Ciências Emergentes"
     },
     {
-      "id": "frontier",
-      "label": "ENERGY & FRONTIER",
-      "title": "Energia & Fronteira"
+      "id": "energy",
+      "label": "ENERGY",
+      "title": "Energia"
+    },
+    {
+      "id": "space",
+      "label": "SPACE",
+      "title": "Espaço"
+    },
+    {
+      "id": "mobility",
+      "label": "MOBILITY",
+      "title": "Mobilidade"
     }
   ]
 }
