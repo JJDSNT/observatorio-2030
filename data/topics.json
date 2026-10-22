@@ -2,8 +2,14 @@
   "topics": [
     {
       "id": "ai",
-      "name": "IA / AGI",
-      "watch": "cognição, raciocínio, memória, aprendizagem contínua, planejamento, metacognição, generalização, modelos de mundo, autonomia, agentes pesquisadores e capacidades gerais",
+      "name": "IA — Aplicações & Descobertas",
+      "watch": "IA aplicada a pesquisa e descoberta científica verificável, incluindo matemática, materiais, química, medicina e biotecnologia; modelos fundacionais para proteínas, DNA, RNA e genomas, design generativo de moléculas e sistemas biológicos, laboratórios autônomos, experimentação e validação funcional; agentes e infraestrutura de IA aplicados a trabalho e pesquisa; distinguir previsão computacional, síntese física, experimento reproduzido, resultados independentes, implantação e uso real; não interpretar desempenho especializado como evidência automática de AGI",
+      "group": "intelligence"
+    },
+    {
+      "id": "agi",
+      "name": "AGI — Inteligência Geral",
+      "watch": "capacidades cognitivas gerais: raciocínio transferível, memória persistente, aprendizagem contínua, generalização entre domínios, modelos de mundo, metacognição, planejamento de longo prazo, autonomia robusta, adaptação a tarefas novas, agentes pesquisadores generalistas e avaliação independente de limites e confiabilidade; distinguir benchmarks especializados, automação de tarefas e capacidades realmente generalistas; acompanhar hipóteses de AGI mínima, AGI digital e embodied AGI sem assumir datas como fatos",
       "group": "intelligence"
     },
     {
