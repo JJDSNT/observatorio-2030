@@ -8,11 +8,11 @@ O Observatório 2030 acompanha apenas acontecimentos capazes de **confirmar, ant
 
 ### Radar
 
-O radar de monitoramento é definido exclusivamente em [`data/topics.json`](data/topics.json). A lista de tópicos e os respectivos critérios de acompanhamento são carregados pela página `#topicos` automaticamente, sem IDs fixos no JavaScript. O monitoramento deve consultar esse cadastro antes de cada rodada de pesquisa, incluindo tópicos novos, e comparar as descobertas com `data/timeline.json`. O arquivo `data/events.json` registra somente acontecimentos substanciais com fontes e avaliação de maturidade.
+O radar de monitoramento é definido exclusivamente em [`data/topics.json`](data/topics.json). A lista de tópicos e os respectivos critérios de acompanhamento são carregados pela página `#topicos` automaticamente, sem IDs fixos no JavaScript. O monitoramento interativo pode consultar esse cadastro antes da pesquisa, incluindo tópicos novos, e comparar as descobertas com `data/timeline.json`. A tarefa agendada do ChatGPT mantém uma cópia explícita dos tópicos e critérios no próprio prompt, pois a leitura pública do GitHub falhou no ambiente agendado; alterações exigem sincronização manual da tarefa. O arquivo `data/events.json` registra somente acontecimentos substanciais com fontes e avaliação de maturidade.
 
-Cada tópico possui `id`, `name`, `watch` e `group`. Os grupos visuais são declarados em `groups` no mesmo JSON; tópicos com grupo desconhecido aparecem em «Outros tópicos», sem desaparecer da interface. Adicionar um tópico exige apenas editar `data/topics.json`; não é necessário alterar `app.js`.
+Cada tópico possui `id`, `name`, `watch` e `group`. Os grupos visuais são declarados em `groups` no mesmo JSON; tópicos com grupo desconhecido aparecem em «Outros tópicos», sem desaparecer da interface. Adicionar um tópico ao site exige apenas editar `data/topics.json`; não é necessário alterar `app.js`. Para incluí-lo também no monitoramento agendado, atualizar o prompt da automação.
 
-A configuração de qualquer monitoramento externo/recorrente deve usar este arquivo como fonte de referência; o site estático, por si só, não executa buscas nem atualiza automaticamente prompts de tarefas agendadas.
+A configuração de qualquer monitoramento externo/recorrente deve usar este arquivo como referência para sincronização; o site estático, por si só, não executa buscas nem atualiza automaticamente prompts de tarefas agendadas.
 
 ## Estrutura de dados
 
