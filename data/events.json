@@ -1,6 +1,35 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-24",
   "events": [
+    {
+      "id": "evt-2026-10-23-nasa-artemis-lander-architecture",
+      "date": "2026-10-23",
+      "event_date": "2026-10-23",
+      "published_at": "2026-10-23",
+      "recorded_at": "2026-10-24",
+      "updated_at": "2026-10-24",
+      "topic": "cislunar",
+      "status": "confirms",
+      "title": "NASA redefine arquitetura dos pousos lunares Artemis com Starship e Blue Moon",
+      "summary": "A NASA formalizou novos conceitos de operações para os módulos lunares tripulados da SpaceX e Blue Origin. Na alternativa Starship HLS, a nave abastecida por transferência criogênica em órbita terrestre encontrará a Orion em órbita terrestre e impulsionará o conjunto até órbita lunar baixa; a NASA estuda modificações na Orion para essa configuração. A Blue Origin propôs o Blue Moon Mark 2 Alpha com três estágios de transferência descartáveis, dispensando reabastecimento orbital para sua missão tripulada inicial. Os fornecedores deverão realizar demonstrações não tripuladas e obter certificação antes do transporte de astronautas. A NASA selecionará o primeiro pouso de 2028 conforme a prontidão demonstrada, sem fornecedor previamente designado. A Artemis III de 2027 permanece planejada como teste de encontros e acoplagens em órbita terrestre com artigos de teste de ambos os fornecedores.",
+      "impact": "Confirma uma revisão arquitetural substantiva para reduzir dependências e riscos do pouso tripulado previsto para 2028; modifica as hipóteses de reabastecimento e logística, mas não demonstra ainda transferência criogênica operacional, integração Orion-HLS em voo, pouso lunar não tripulado ou cumprimento do cronograma. Preserva a meta de 2028, cuja viabilidade continua condicionada a ensaios, certificação e prontidão.",
+      "timeline": [
+        "2027 — Artemis III: testes planejados de acoplagem Orion/Blue Moon e Orion/Starship em órbita terrestre (plano detalhado, não realizado)",
+        "2028 — Artemis IV/primeiro pouso tripulado: novas arquiteturas concorrentes, fornecedor a definir pela prontidão (meta mantida)",
+        "2030 — Logística e infraestrutura cislunar: repercussões arquiteturais, sem demonstração de capacidade operacional"
+      ],
+      "maturity": "Decisão oficial de arquitetura e planos operacionais; testes e certificações críticas pendentes",
+      "source": {
+        "name": "NASA — NASA, Partners Accelerate Lander Development for 2028 Moon Missions (23 out 2026)",
+        "url": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/"
+      },
+      "related_sources": [
+        {
+          "name": "NASA — Artemis III Mission to Test Future Moon Lander Operations (23 out 2026)",
+          "url": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/"
+        }
+      ]
+    },
     {
       "id": "evt-2026-10-16-car-nk-magnetic-navigation",
       "date": "2026-10-16",
