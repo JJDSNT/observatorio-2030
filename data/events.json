@@ -1,6 +1,51 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-27",
   "events": [
+    {
+      "id": "evt-2026-10-26-openai-ai-scientific-proofs",
+      "date": "2026-10-26",
+      "event_date": "2026-10-26",
+      "published_at": "2026-10-26",
+      "recorded_at": "2026-10-27",
+      "updated_at": "2026-10-27",
+      "topic": "ai",
+      "status": "under_review",
+      "title": "IA apresenta provas inéditas em matemática e computação e resultados de física teórica sob validação",
+      "summary": "A OpenAI divulgou três resultados de um modelo interno: (1) prova proposta da conjectura de suavização local em todas as dimensões, com implicações para Kakeya e restrição de Stein; (2) refutação proposta da Hipótese do Tempo Exponencial (ETH), com possível impacto em limites de complexidade; (3) provas propostas de existência matemática de certas teorias quânticas de campos interagentes em quatro dimensões, incluindo QCD, Yang–Mills puro e uma extensão do Modelo Padrão. Os argumentos em linguagem natural e formalizações Lean de suavização local e ETH foram disponibilizados publicamente, mas a equivalência dos enunciados formalizados às afirmações amplas e a originalidade precisam de revisão independente. O material técnico de física foi reservado para elaboração por um grupo externo liderado por David Gross; o resultado de Yang–Mills reivindica existência, não a lacuna de massa do Problema do Milênio. Grupos acadêmicos independentes examinarão os trabalhos, sem endosso antecipado. A divulgação integra uma trajetória mais ampla: melhorias em clonagem molecular testadas em laboratório em 2025, otimização experimental automatizada de síntese proteica em fevereiro de 2026 e análise de dados biológicos por agentes distribuídos em outubro de 2026. Essas iniciativas têm níveis de validação distintos e não devem ser tratadas como descobertas igualmente confirmadas.",
+      "impact": "Marco potencial na passagem de IA como ferramenta de apoio para produtora de conjecturas, provas e hipóteses científicas originais, inclusive com formalização verificável e articulação com pesquisadores independentes. A recorrência de trabalhos em matemática, computação, física e biologia interessa ao acompanhamento de raciocínio científico transferível e autonomia investigativa como capacidades relevantes para AGI, mas não demonstra AGI, generalização autônoma irrestrita nem validação de todas as alegações. Acompanhar auditoria dos enunciados Lean, revisão independente, publicação dos argumentos de física e reprodução por outros grupos. Não antecipar marcos de AGI nem declarar ETH/Kakeya/QCD definitivamente resolvidos.",
+      "timeline": [
+        "2026 — IA aplicada à descoberta: divulgação de resultados originais propostos em múltiplos domínios, dois com formalização Lean pública; validação independente em andamento",
+        "2027–2028 — Investigação científica mais autônoma e transferível: hipótese de evolução reforçada, sem comprovação de capacidade generalista",
+        "2028–2030 — AGI e descoberta científica: observar transferência entre disciplinas, seleção autônoma de problemas e ciclos de validação; sem antecipação de datas"
+      ],
+      "maturity": "Resultados de pesquisa anunciados; provas matemáticas e de complexidade publicadas com formalização Lean, sujeitas a auditoria independente; argumentos completos de física ainda não públicos; evidências laboratoriais anteriores são trabalhos distintos",
+      "source": {
+        "name": "OpenAI — Working with academic communities to build scientific understanding (26 out 2026)",
+        "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+      },
+      "related_sources": [
+        {
+          "name": "OpenAI — Sharing AI progress in mathematics (6 out 2026)",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+        },
+        {
+          "name": "OpenAI — GPT-5 lowers the cost of cell-free protein synthesis (5 fev 2026)",
+          "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/"
+        },
+        {
+          "name": "OpenAI — Using thousands of AI agents to uncover new leads in biological data (21 out 2026)",
+          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/"
+        },
+        {
+          "name": "OpenAI — Measuring AI’s capability to accelerate biological research in the wet lab (16 dez 2025)",
+          "url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab/"
+        },
+        {
+          "name": "OpenAI — Proof artifacts and Lean formalizations",
+          "url": "https://github.com/openai/math"
+        }
+      ]
+    },
     {
       "id": "evt-2026-10-23-nasa-artemis-lander-architecture",
       "date": "2026-10-23",
