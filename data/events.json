@@ -31,66 +31,6 @@
       "updated_at": "2026-10-28"
     },
     {
-      "id": "evt-2026-10-15-google-magic-state-cultivation",
-      "date": "2026-10-15",
-      "topic": "quantum",
-      "status": "confirms",
-      "title": "Google demonstra preparação de magic states com 40 vezes menos erros no Willow",
-      "summary": "Artigo publicado na Science relata demonstração de magic state cultivation no processador supercondutor Willow. O protocolo reduziu aproximadamente 40 vezes os erros de preparação em relação ao estado não cultivado, alcançando fidelidade lógica de 0,9999(1) e retendo cerca de 8% das tentativas. Foi demonstrada a transferência do estado entre códigos de cor e códigos de superfície, etapa relevante para operações não-Clifford em computação quântica universal. A elevada taxa de descarte e a ausência de algoritmo lógico útil completo limitam o alcance do resultado.",
-      "impact": "Confirma experimentalmente uma rota para preparar recursos de portas quânticas universais com maior fidelidade, complementar à supressão de erros de memória e operações lógicas. Fortalece a trajetória para tolerância a falhas em 2027–2029, mas não constitui vantagem prática nem implantação comercial.",
-      "timeline": [
-        "2026 — Magic state cultivation demonstrada em hardware com redução de erro de 40 vezes",
-        "2027–2029 — Integração e escalabilidade de portas universais tolerantes a falhas: possibilidade reforçada, não demonstrada em aplicação útil"
-      ],
-      "maturity": "Experimento em hardware real; artigo revisado por pares na Science",
-      "source": {
-        "name": "Rosenfeld et al. — Magic state cultivation on a superconducting quantum processor (Science, 15 out 2026)",
-        "url": "https://www.science.org/doi/10.1126/science.aee7961"
-      },
-      "related_sources": [
-        {
-          "name": "Google Quantum AI — Bringing the magic (15 out 2026)",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/"
-        },
-        {
-          "name": "Google Research — publicação e resumo técnico",
-          "url": "https://research.google/pubs/magic-state-cultivation-on-a-superconducting-quantum-processor/"
-        }
-      ],
-      "event_date": "2026-10-15",
-      "published_at": "2026-10-15",
-      "recorded_at": "2026-10-28",
-      "updated_at": "2026-10-28"
-    },
-    {
-      "id": "evt-2026-10-19-quantinuum-helios-logical-qec",
-      "date": "2026-10-19",
-      "topic": "quantum",
-      "status": "confirms",
-      "title": "Quantinuum demonstra supressão de erros lógicos com aumento da distância do código no Helios",
-      "summary": "Em experimento no processador de íons aprisionados Helios, pesquisadores demonstraram correção de erros com códigos de cor triangulares de distâncias 3, 5 e 7. A taxa de erros lógicos de memória caiu por fator aproximado de 12 a cada aumento de distância testado, chegando a 5 (+4/-2) erros por milhão de ciclos. Também demonstraram supressão em circuitos Clifford de dois qubits lógicos, com cerca de 7×10^-5 erros por operação lógica de dois qubits na distância 5. O artigo é um preprint público, sem revisão por pares concluída; as medidas de memória e portas não equivalem a computação universal útil.",
-      "impact": "Confirma em 2026 escalabilidade experimental da proteção de informação quântica, componente necessário para computação tolerante a falhas. Reforça a plausibilidade de arquiteturas com qubits lógicos mais confiáveis em 2027–2029, sem demonstrar vantagem quântica prática nem justificar antecipação da timeline.",
-      "timeline": [
-        "2026 — Supressão experimental de erros lógicos abaixo do limiar com códigos d=3,5,7",
-        "2027–2029 — Escalabilidade e operações lógicas universais: perspectiva reforçada; sistema útil não demonstrado"
-      ],
-      "maturity": "Experimento em hardware real; preprint não revisado por pares",
-      "source": {
-        "name": "Lavasani et al. — Quantum error correction well below the color code threshold (arXiv, out 2026)",
-        "url": "https://arxiv.org/abs/2610.24077"
-      },
-      "related_sources": [
-        {
-          "name": "Quantinuum — Two Fault-Tolerance Results, Two Different Measures of Progress (21 out 2026)",
-          "url": "https://www.quantinuum.com/blog/quantinuum-and-google-two-fault-tolerance-results-two-different-measures-of-progress"
-        }
-      ],
-      "event_date": "2026-10-19",
-      "published_at": "2026-10-19",
-      "recorded_at": "2026-10-28",
-      "updated_at": "2026-10-28"
-    },
-    {
       "id": "evt-2026-10-26-openai-ai-scientific-proofs",
       "date": "2026-10-26",
       "event_date": "2026-10-26",
@@ -165,35 +105,6 @@
       ]
     },
     {
-      "id": "evt-2026-10-16-car-nk-magnetic-navigation",
-      "date": "2026-10-16",
-      "event_date": "2026-10-16",
-      "published_at": "2026-10-16",
-      "recorded_at": "2026-10-22",
-      "updated_at": "2026-10-22",
-      "topic": "micro-nanorobotics",
-      "status": "confirms",
-      "title": "Microrrobôs bio-híbridos CAR-NK demonstram navegação magnética em primatas",
-      "summary": "Estudo revisado por pares na Science Advances demonstrou navegação direcionada in vivo de células imunes CAR-NK carregadas com nanopartículas magnéticas, em enxames da ordem de 10^6 células, em modelos murinos e primatas não humanos. Campos magnéticos programáveis alternaram configurações de transporte concentrado (vórtice) e dispersão (faixa). A navegação pelo canal espinhal e a distribuição foram acompanhadas por imagem angiográfica em primatas. A demonstração de eficácia antitumoral ocorreu em modelos murinos, não em primatas; o ensaio em primatas é prova de viabilidade anatômica da navegação.",
-      "impact": "Confirma em 2026 um salto experimental além de modelos in vitro/ex vivo: transporte direcionado e rastreável de microrrobôs celulares em organismo de primata, em escala de dose potencialmente terapêutica. Reforça a plausibilidade da validação pré-clínica complexa prevista para 2028, sem antecipá-la como concluída. Não demonstra navegação cognitiva autônoma (controle externo), segurança clínica, eficácia antitumoral em primatas ou tratamento humano; não antecipa estudos clínicos de 2029–2030.",
-      "timeline": [
-        "2026 — Micro & Nanorrobótica: navegação magnética bio-híbrida in vivo em primatas (confirma avanço experimental)",
-        "2028 — Validação pré-clínica reproduzível, eficácia e segurança (perspectiva reforçada; não concluída)",
-        "2029–2030 — Estudos clínicos humanos (sem antecipação)"
-      ],
-      "maturity": "Estudo revisado por pares; prova de viabilidade in vivo em primatas para navegação, e avaliação terapêutica pré-clínica em camundongos; sem ensaio clínico humano",
-      "source": {
-        "name": "Wu et al. — Science Advances 12(42), eaef9412 (16 out 2026)",
-        "url": "https://doi.org/10.1126/sciadv.aef9412"
-      },
-      "related_sources": [
-        {
-          "name": "PubMed — PMID 42886800",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42886800/"
-        }
-      ]
-    },
-    {
       "id": "evt-2026-10-21-hassabis-agi-forecast",
       "date": "2026-10-21",
       "event_date": "2026-10-21",
@@ -227,65 +138,59 @@
       ]
     },
     {
-      "id": "evt-2026-09-28-starship-flight-14-orbit",
-      "date": "2026-09-28",
-      "event_date": "2026-09-28",
-      "published_at": "2026-09-28",
-      "recorded_at": "2026-10-21",
-      "updated_at": "2026-10-21",
-      "topic": "cislunar",
+      "id": "evt-2026-10-19-quantinuum-helios-logical-qec",
+      "date": "2026-10-19",
+      "topic": "quantum",
       "status": "confirms",
-      "title": "Starship Flight 14 alcança órbita e implanta 26 satélites Starlink V3",
-      "summary": "Em 28 de setembro de 2026, a SpaceX realizou o primeiro voo orbital da Starship. Após uma trajetória inicialmente suborbital e uma avaliação de telemetria decorrente do desligamento antecipado de um motor Raptor, a nave executou uma queima adicional de inserção orbital e liberou 26 satélites Starlink V3 operacionais. Foi a primeira entrega de carga útil operacional da Starship à órbita terrestre. A missão planejada para aproximadamente dez horas terminou após cerca de três horas por precaução diante de problemas de propulsão. O Super Heavy realizou amerissagem controlada no Golfo do México; a nave reentrou e amerissou no Pacífico, sem recuperação de hardware para reutilização.",
-      "impact": "Confirma avanço relevante da capacidade orbital e de implantação de cargas da Starship em 2026, reforçando a base tecnológica potencial para logística cislunar e Starship HLS. Não comprova transferência de propelente entre veículos, recuperação e reutilização integral, cadência operacional confiável, pouso lunar nem prontidão para Artemis. Não altera datas da timeline 2027–2030. Registrar como avanço orbital concreto, distinguindo entrega operacional de carga de maturidade de transporte cislunar.",
+      "title": "Quantinuum demonstra supressão de erros lógicos com aumento da distância do código no Helios",
+      "summary": "Em experimento no processador de íons aprisionados Helios, pesquisadores demonstraram correção de erros com códigos de cor triangulares de distâncias 3, 5 e 7. A taxa de erros lógicos de memória caiu por fator aproximado de 12 a cada aumento de distância testado, chegando a 5 (+4/-2) erros por milhão de ciclos. Também demonstraram supressão em circuitos Clifford de dois qubits lógicos, com cerca de 7×10^-5 erros por operação lógica de dois qubits na distância 5. O artigo é um preprint público, sem revisão por pares concluída; as medidas de memória e portas não equivalem a computação universal útil.",
+      "impact": "Confirma em 2026 escalabilidade experimental da proteção de informação quântica, componente necessário para computação tolerante a falhas. Reforça a plausibilidade de arquiteturas com qubits lógicos mais confiáveis em 2027–2029, sem demonstrar vantagem quântica prática nem justificar antecipação da timeline.",
       "timeline": [
-        "2026 — Espaço cislunar: avanço orbital da Starship com carga operacional (evidência complementar)",
-        "2027 — Artemis III / integração HLS: sem antecipação",
-        "2028 — Objetivo de pouso lunar tripulado: sem antecipação",
-        "2030 — Infraestrutura cislunar: capacidade logística ainda não demonstrada"
+        "2026 — Supressão experimental de erros lógicos abaixo do limiar com códigos d=3,5,7",
+        "2027–2029 — Escalabilidade e operações lógicas universais: perspectiva reforçada; sistema útil não demonstrado"
       ],
-      "maturity": "Primeiro voo orbital com implantação de 26 satélites operacionais; teste com problemas de propulsão, duração reduzida e sem recuperação/reutilização dos estágios",
+      "maturity": "Experimento em hardware real; preprint não revisado por pares",
       "source": {
-        "name": "SpaceX — Starship Flight 14 (28 set 2026)",
-        "url": "https://www.spacex.com/launches/starship-flight-14"
+        "name": "Lavasani et al. — Quantum error correction well below the color code threshold (arXiv, out 2026)",
+        "url": "https://arxiv.org/abs/2610.24077"
       },
       "related_sources": [
         {
-          "name": "Reuters — Starship makes orbital debut deploying Starlinks (28 set 2026)",
-          "url": "https://www.reuters.com/business/media-telecom/spacexs-starship-launches-14th-flight-first-headed-orbit-2026-09-28/"
-        },
-        {
-          "name": "Spaceflight Now — Starship returns after three-hour flight (28 set 2026)",
-          "url": "https://spaceflightnow.com/2026/09/28/starship-returns-to-earth-rocket-splashes-down-north-of-hawaii-after-three-hour-flight/"
+          "name": "Quantinuum — Two Fault-Tolerance Results, Two Different Measures of Progress (21 out 2026)",
+          "url": "https://www.quantinuum.com/blog/quantinuum-and-google-two-fault-tolerance-results-two-different-measures-of-progress"
         }
-      ]
+      ],
+      "event_date": "2026-10-19",
+      "published_at": "2026-10-19",
+      "recorded_at": "2026-10-28",
+      "updated_at": "2026-10-28"
     },
     {
-      "id": "evt-2026-09-28-jhu-modular-cardiac-millirobots",
-      "date": "2026-09-28",
-      "event_date": "2026-09-28",
-      "published_at": "2026-09-28",
-      "recorded_at": "2026-10-21",
-      "updated_at": "2026-10-21",
+      "id": "evt-2026-10-16-car-nk-magnetic-navigation",
+      "date": "2026-10-16",
+      "event_date": "2026-10-16",
+      "published_at": "2026-10-16",
+      "recorded_at": "2026-10-22",
+      "updated_at": "2026-10-22",
       "topic": "micro-nanorobotics",
       "status": "confirms",
-      "title": "Millirrobôs magnéticos modulares demonstram navegação e entrega localizada em modelos cardíacos",
-      "summary": "Pesquisadores da Johns Hopkins apresentaram dois millirrobôs cooperativos acionados por campos magnéticos externos: um módulo de agulha para ancoragem e outro para transporte e liberação de líquido. Em modelo cardíaco de agarose com fluxo pulsátil, o sistema utilizou orientação visual assistida por IA para navegação em malha fechada; testes ex vivo em tecido cardíaco suíno demonstraram penetração e desacoplamento. A entrega experimental alcançou 22 µL em 180 minutos, com acoplamento e desacoplamento magnéticos demonstrados em condições controladas. São robôs de escala milimétrica, não nanomáquinas moleculares.",
-      "impact": "Confirma o marco experimental de 2026 de navegação controlada e entrega localizada em modelos anatômicos. Não antecipa a validação pré-clínica robusta projetada para 2028 nem eventuais estudos humanos até 2029–2030. A pesquisa não demonstrou tratamento de endocardite em animais vivos, eficácia clínica, segurança sistêmica ou aplicação em pacientes; a autonomia refere-se ao controle de navegação assistido por visão, não à decisão clínica independente. Registro inaugural do novo tópico, sem alteração das datas previstas.",
+      "title": "Microrrobôs bio-híbridos CAR-NK demonstram navegação magnética em primatas",
+      "summary": "Estudo revisado por pares na Science Advances demonstrou navegação direcionada in vivo de células imunes CAR-NK carregadas com nanopartículas magnéticas, em enxames da ordem de 10^6 células, em modelos murinos e primatas não humanos. Campos magnéticos programáveis alternaram configurações de transporte concentrado (vórtice) e dispersão (faixa). A navegação pelo canal espinhal e a distribuição foram acompanhadas por imagem angiográfica em primatas. A demonstração de eficácia antitumoral ocorreu em modelos murinos, não em primatas; o ensaio em primatas é prova de viabilidade anatômica da navegação.",
+      "impact": "Confirma em 2026 um salto experimental além de modelos in vitro/ex vivo: transporte direcionado e rastreável de microrrobôs celulares em organismo de primata, em escala de dose potencialmente terapêutica. Reforça a plausibilidade da validação pré-clínica complexa prevista para 2028, sem antecipá-la como concluída. Não demonstra navegação cognitiva autônoma (controle externo), segurança clínica, eficácia antitumoral em primatas ou tratamento humano; não antecipa estudos clínicos de 2029–2030.",
       "timeline": [
-        "2026 — Micro & Nanorrobótica: navegação e entrega localizada experimentais (confirma)",
-        "2028 — Validação pré-clínica complexa (não demonstrada)",
-        "2030 — Possíveis estudos clínicos humanos até 2029–2030 (sem antecipação)"
+        "2026 — Micro & Nanorrobótica: navegação magnética bio-híbrida in vivo em primatas (confirma avanço experimental)",
+        "2028 — Validação pré-clínica reproduzível, eficácia e segurança (perspectiva reforçada; não concluída)",
+        "2029–2030 — Estudos clínicos humanos (sem antecipação)"
       ],
-      "maturity": "Estudo experimental in vitro (modelo anatômico sob fluxo pulsátil) e ex vivo (tecido cardíaco suíno); sem estudo in vivo ou clínico",
+      "maturity": "Estudo revisado por pares; prova de viabilidade in vivo em primatas para navegação, e avaliação terapêutica pré-clínica em camundongos; sem ensaio clínico humano",
       "source": {
-        "name": "Bhattacharjee et al. — Advanced Materials Technologies (28 set 2026)",
-        "url": "https://doi.org/10.1002/admt.71353"
+        "name": "Wu et al. — Science Advances 12(42), eaef9412 (16 out 2026)",
+        "url": "https://doi.org/10.1126/sciadv.aef9412"
       },
       "related_sources": [
         {
-          "name": "Johns Hopkins University — divulgação de 12 out 2026",
-          "url": "https://hub.jhu.edu/2026/10/12/magnetic-millirobots-cardiac-treatment/"
+          "name": "PubMed — PMID 42886800",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42886800/"
         }
       ]
     },
@@ -356,37 +261,36 @@
       ]
     },
     {
-      "id": "evt-2026-08-06-cortical-cl1-singapore",
-      "date": "2026-08-06",
-      "event_date": "2026-08-06",
-      "published_at": "2026-08-17",
-      "recorded_at": "2026-10-18",
-      "updated_at": "2026-10-18",
-      "topic": "neuro-alt-compute",
+      "id": "evt-2026-10-15-google-magic-state-cultivation",
+      "date": "2026-10-15",
+      "topic": "quantum",
       "status": "confirms",
-      "title": "NUS, DayOne e Cortical Labs demonstram rack experimental com 20 computadores biológicos CL1",
-      "summary": "Em 6 de agosto de 2026, a NUS Medicine, a DayOne e a Cortical Labs apresentaram em Singapura um protótipo instalado em ambiente de pesquisa, composto por 20 unidades CL1 de computação biológica com neurônios humanos derivados de células-tronco, eletrônica de microeletrodos e demonstração de atividade neural em tempo real. O anúncio público foi feito em 17 de agosto.",
-      "impact": "Confirma o marco previsto para 2026 de infraestrutura experimental multiunidade e rack-scale para computação biológica, fortalecendo a hipótese de sistemas híbridos bio-silício em 2029 e diversificação dos substratos da inteligência em 2030. Não altera as datas da timeline. Não comprova operação de data center comercial, escala produtiva, vantagem computacional útil ou eficiência energética superior em benchmarks comparáveis.",
+      "title": "Google demonstra preparação de magic states com 40 vezes menos erros no Willow",
+      "summary": "Artigo publicado na Science relata demonstração de magic state cultivation no processador supercondutor Willow. O protocolo reduziu aproximadamente 40 vezes os erros de preparação em relação ao estado não cultivado, alcançando fidelidade lógica de 0,9999(1) e retendo cerca de 8% das tentativas. Foi demonstrada a transferência do estado entre códigos de cor e códigos de superfície, etapa relevante para operações não-Clifford em computação quântica universal. A elevada taxa de descarte e a ausência de algoritmo lógico útil completo limitam o alcance do resultado.",
+      "impact": "Confirma experimentalmente uma rota para preparar recursos de portas quânticas universais com maior fidelidade, complementar à supressão de erros de memória e operações lógicas. Fortalece a trajetória para tolerância a falhas em 2027–2029, mas não constitui vantagem prática nem implantação comercial.",
       "timeline": [
-        "2026 — Infraestrutura de computação biológica multiunidade e rack-scale",
-        "2029 — Sistemas cognitivos híbridos bio-silício (perspectiva reforçada)",
-        "2030 — Diversificação dos substratos da inteligência (perspectiva reforçada)"
+        "2026 — Magic state cultivation demonstrada em hardware com redução de erro de 40 vezes",
+        "2027–2029 — Integração e escalabilidade de portas universais tolerantes a falhas: possibilidade reforçada, não demonstrada em aplicação útil"
       ],
-      "maturity": "Protótipo físico de rack com 20 unidades em ambiente real de pesquisa, demonstrado publicamente; sem operação comercial comprovada",
+      "maturity": "Experimento em hardware real; artigo revisado por pares na Science",
       "source": {
-        "name": "NUS Medicine — Biological Data Center Prototype (17 ago 2026)",
-        "url": "https://medicine.nus.edu.sg/news/nus-medicine-dayone-and-cortical-labs-unveil-biological-data-center-prototype-in-singapore/"
+        "name": "Rosenfeld et al. — Magic state cultivation on a superconducting quantum processor (Science, 15 out 2026)",
+        "url": "https://www.science.org/doi/10.1126/science.aee7961"
       },
       "related_sources": [
         {
-          "name": "NUS Medicine — anúncio inicial (11 mar 2026)",
-          "url": "https://medicine.nus.edu.sg/news/biological-data-centre-prototype-established-at-nus-medicine/"
+          "name": "Google Quantum AI — Bringing the magic (15 out 2026)",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/"
         },
         {
-          "name": "DayOne — lançamento (17 ago 2026)",
-          "url": "https://en.prnasia.com/releases/apac/dayone-launches-singapore-s-first-biological-data-center-prototype-with-cortical-labs-and-nus-medicine-544189.shtml"
+          "name": "Google Research — publicação e resumo técnico",
+          "url": "https://research.google/pubs/magic-state-cultivation-on-a-superconducting-quantum-processor/"
         }
-      ]
+      ],
+      "event_date": "2026-10-15",
+      "published_at": "2026-10-15",
+      "recorded_at": "2026-10-28",
+      "updated_at": "2026-10-28"
     },
     {
       "date": "2026-10-08",
@@ -452,6 +356,69 @@
       "published_at": "2026-09-29",
       "event_date": "2026-09-29",
       "updated_at": "2026-10-10"
+    },
+    {
+      "id": "evt-2026-09-28-starship-flight-14-orbit",
+      "date": "2026-09-28",
+      "event_date": "2026-09-28",
+      "published_at": "2026-09-28",
+      "recorded_at": "2026-10-21",
+      "updated_at": "2026-10-21",
+      "topic": "cislunar",
+      "status": "confirms",
+      "title": "Starship Flight 14 alcança órbita e implanta 26 satélites Starlink V3",
+      "summary": "Em 28 de setembro de 2026, a SpaceX realizou o primeiro voo orbital da Starship. Após uma trajetória inicialmente suborbital e uma avaliação de telemetria decorrente do desligamento antecipado de um motor Raptor, a nave executou uma queima adicional de inserção orbital e liberou 26 satélites Starlink V3 operacionais. Foi a primeira entrega de carga útil operacional da Starship à órbita terrestre. A missão planejada para aproximadamente dez horas terminou após cerca de três horas por precaução diante de problemas de propulsão. O Super Heavy realizou amerissagem controlada no Golfo do México; a nave reentrou e amerissou no Pacífico, sem recuperação de hardware para reutilização.",
+      "impact": "Confirma avanço relevante da capacidade orbital e de implantação de cargas da Starship em 2026, reforçando a base tecnológica potencial para logística cislunar e Starship HLS. Não comprova transferência de propelente entre veículos, recuperação e reutilização integral, cadência operacional confiável, pouso lunar nem prontidão para Artemis. Não altera datas da timeline 2027–2030. Registrar como avanço orbital concreto, distinguindo entrega operacional de carga de maturidade de transporte cislunar.",
+      "timeline": [
+        "2026 — Espaço cislunar: avanço orbital da Starship com carga operacional (evidência complementar)",
+        "2027 — Artemis III / integração HLS: sem antecipação",
+        "2028 — Objetivo de pouso lunar tripulado: sem antecipação",
+        "2030 — Infraestrutura cislunar: capacidade logística ainda não demonstrada"
+      ],
+      "maturity": "Primeiro voo orbital com implantação de 26 satélites operacionais; teste com problemas de propulsão, duração reduzida e sem recuperação/reutilização dos estágios",
+      "source": {
+        "name": "SpaceX — Starship Flight 14 (28 set 2026)",
+        "url": "https://www.spacex.com/launches/starship-flight-14"
+      },
+      "related_sources": [
+        {
+          "name": "Reuters — Starship makes orbital debut deploying Starlinks (28 set 2026)",
+          "url": "https://www.reuters.com/business/media-telecom/spacexs-starship-launches-14th-flight-first-headed-orbit-2026-09-28/"
+        },
+        {
+          "name": "Spaceflight Now — Starship returns after three-hour flight (28 set 2026)",
+          "url": "https://spaceflightnow.com/2026/09/28/starship-returns-to-earth-rocket-splashes-down-north-of-hawaii-after-three-hour-flight/"
+        }
+      ]
+    },
+    {
+      "id": "evt-2026-09-28-jhu-modular-cardiac-millirobots",
+      "date": "2026-09-28",
+      "event_date": "2026-09-28",
+      "published_at": "2026-09-28",
+      "recorded_at": "2026-10-21",
+      "updated_at": "2026-10-21",
+      "topic": "micro-nanorobotics",
+      "status": "confirms",
+      "title": "Millirrobôs magnéticos modulares demonstram navegação e entrega localizada em modelos cardíacos",
+      "summary": "Pesquisadores da Johns Hopkins apresentaram dois millirrobôs cooperativos acionados por campos magnéticos externos: um módulo de agulha para ancoragem e outro para transporte e liberação de líquido. Em modelo cardíaco de agarose com fluxo pulsátil, o sistema utilizou orientação visual assistida por IA para navegação em malha fechada; testes ex vivo em tecido cardíaco suíno demonstraram penetração e desacoplamento. A entrega experimental alcançou 22 µL em 180 minutos, com acoplamento e desacoplamento magnéticos demonstrados em condições controladas. São robôs de escala milimétrica, não nanomáquinas moleculares.",
+      "impact": "Confirma o marco experimental de 2026 de navegação controlada e entrega localizada em modelos anatômicos. Não antecipa a validação pré-clínica robusta projetada para 2028 nem eventuais estudos humanos até 2029–2030. A pesquisa não demonstrou tratamento de endocardite em animais vivos, eficácia clínica, segurança sistêmica ou aplicação em pacientes; a autonomia refere-se ao controle de navegação assistido por visão, não à decisão clínica independente. Registro inaugural do novo tópico, sem alteração das datas previstas.",
+      "timeline": [
+        "2026 — Micro & Nanorrobótica: navegação e entrega localizada experimentais (confirma)",
+        "2028 — Validação pré-clínica complexa (não demonstrada)",
+        "2030 — Possíveis estudos clínicos humanos até 2029–2030 (sem antecipação)"
+      ],
+      "maturity": "Estudo experimental in vitro (modelo anatômico sob fluxo pulsátil) e ex vivo (tecido cardíaco suíno); sem estudo in vivo ou clínico",
+      "source": {
+        "name": "Bhattacharjee et al. — Advanced Materials Technologies (28 set 2026)",
+        "url": "https://doi.org/10.1002/admt.71353"
+      },
+      "related_sources": [
+        {
+          "name": "Johns Hopkins University — divulgação de 12 out 2026",
+          "url": "https://hub.jhu.edu/2026/10/12/magnetic-millirobots-cardiac-treatment/"
+        }
+      ]
     },
     {
       "id": "evt-2026-09-08-navier-stokes-ai",
@@ -524,26 +491,70 @@
       "updated_at": "2026-10-10"
     },
     {
-      "id": "evt-2026-10-08-best",
-      "date": "2026-04-17",
-      "topic": "fusion",
+      "id": "evt-2026-08-10-mit-geopt-physics-pretraining",
+      "date": "2026-08-10",
+      "event_date": "2026-08-10",
+      "published_at": "2026-08-10",
+      "recorded_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "topic": "ai",
       "status": "confirms",
-      "title": "BEST: obras do tokamak chinês documentadas em abril de 2026",
-      "summary": "A Academia Chinesa de Ciências publicou em 17 de abril de 2026 imagens das obras do BEST registradas em 15 de abril. A instalação da base Dewar, antes citada como marco recente, ocorreu em 1º de outubro de 2025, e não em outubro de 2026. O BEST permanece em construção; não houve demonstração de eletricidade líquida.",
-      "impact": "Confirma que a infraestrutura experimental BEST estava efetivamente em construção em abril de 2026. É evidência de implantação física, não de ganho energético, eletricidade líquida ou operação de planta-piloto; não antecipa automaticamente os marcos de 2029 e 2030.",
+      "title": "MIT apresenta GeoPT: pré-treinamento geométrico transferível entre tarefas de simulação física",
+      "summary": "Pesquisadores do MIT CSAIL e da Universidade Tsinghua apresentaram o GeoPT (Scaling Physics Simulation via Lifted Geometric Pre-Training), modelo de simulação física que pré-treina representações geométricas com interações sintéticas e as adapta a tarefas de aerodinâmica, hidrodinâmica e deformações estruturais. O trabalho foi apresentado na ICML 2026 e divulgado pelo MIT em 10 de agosto, com código público. Os autores reportam ganhos de eficiência amostral e de convergência em benchmarks específicos; esses resultados não equivalem a um simulador físico universal ou a validação independente em sistemas industriais.",
+      "impact": "Evidência de que pré-treinamento compartilhado pode transferir conhecimento geométrico/dinâmico entre problemas físicos, uma direção relevante para IA aplicada à engenharia e para modelos de mundo fisicamente fundamentados. Não comprova raciocínio causal geral, planejamento autônomo ou transferência sim-to-real em robôs. Acompanhar reprodução, generalização fora da distribuição, conservação de grandezas físicas e integração com planejamento e robótica.",
       "timeline": [
-        "2029 — Fusão em Escala de Engenharia",
-        "2030 — Plantas-Piloto de Fusão"
+        "2026 — GeoPT demonstra transferência de representações entre benchmarks de simulação física",
+        "2027–2028 — Investigar reprodução, generalização física e ganhos em sistemas reais, sem antecipar marcos",
+        "2029–2030 — Convergência com modelos de mundo e robótica permanece hipótese de pesquisa"
       ],
+      "maturity": "Pesquisa apresentada em conferência (ICML 2026), código público e benchmarks reportados pelos autores; sem validação industrial independente",
       "source": {
-        "name": "Chinese Academy of Sciences — obras do BEST, 17 abr 2026",
-        "url": "https://english.cas.cn/newsroom/cas-in-media/202604/t20260417_1157472.shtml"
+        "name": "MIT News — AI models simulate a wider range of real-world scenarios (10 ago 2026)",
+        "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810"
       },
-      "recorded_at": "2026-10-08",
-      "published_at": "2026-04-17",
-      "event_date": "2026-04-15",
-      "updated_at": "2026-10-10",
-      "maturity": "Obra física documentada; experimento de plasma e eletricidade líquida ainda não demonstrados"
+      "related_sources": [
+        {
+          "name": "GeoPT — Scaling Physics Simulation via Lifted Geometric Pre-Training",
+          "url": "https://arxiv.org/abs/2602.20399"
+        },
+        {
+          "name": "GeoPT — código-fonte",
+          "url": "https://github.com/Physics-Scaling/GeoPT"
+        }
+      ]
+    },
+    {
+      "id": "evt-2026-08-06-cortical-cl1-singapore",
+      "date": "2026-08-06",
+      "event_date": "2026-08-06",
+      "published_at": "2026-08-17",
+      "recorded_at": "2026-10-18",
+      "updated_at": "2026-10-18",
+      "topic": "neuro-alt-compute",
+      "status": "confirms",
+      "title": "NUS, DayOne e Cortical Labs demonstram rack experimental com 20 computadores biológicos CL1",
+      "summary": "Em 6 de agosto de 2026, a NUS Medicine, a DayOne e a Cortical Labs apresentaram em Singapura um protótipo instalado em ambiente de pesquisa, composto por 20 unidades CL1 de computação biológica com neurônios humanos derivados de células-tronco, eletrônica de microeletrodos e demonstração de atividade neural em tempo real. O anúncio público foi feito em 17 de agosto.",
+      "impact": "Confirma o marco previsto para 2026 de infraestrutura experimental multiunidade e rack-scale para computação biológica, fortalecendo a hipótese de sistemas híbridos bio-silício em 2029 e diversificação dos substratos da inteligência em 2030. Não altera as datas da timeline. Não comprova operação de data center comercial, escala produtiva, vantagem computacional útil ou eficiência energética superior em benchmarks comparáveis.",
+      "timeline": [
+        "2026 — Infraestrutura de computação biológica multiunidade e rack-scale",
+        "2029 — Sistemas cognitivos híbridos bio-silício (perspectiva reforçada)",
+        "2030 — Diversificação dos substratos da inteligência (perspectiva reforçada)"
+      ],
+      "maturity": "Protótipo físico de rack com 20 unidades em ambiente real de pesquisa, demonstrado publicamente; sem operação comercial comprovada",
+      "source": {
+        "name": "NUS Medicine — Biological Data Center Prototype (17 ago 2026)",
+        "url": "https://medicine.nus.edu.sg/news/nus-medicine-dayone-and-cortical-labs-unveil-biological-data-center-prototype-in-singapore/"
+      },
+      "related_sources": [
+        {
+          "name": "NUS Medicine — anúncio inicial (11 mar 2026)",
+          "url": "https://medicine.nus.edu.sg/news/biological-data-centre-prototype-established-at-nus-medicine/"
+        },
+        {
+          "name": "DayOne — lançamento (17 ago 2026)",
+          "url": "https://en.prnasia.com/releases/apac/dayone-launches-singapore-s-first-biological-data-center-prototype-with-cortical-labs-and-nus-medicine-544189.shtml"
+        }
+      ]
     },
     {
       "id": "evt-2026-08-stanford-evo2-phages",
@@ -567,6 +578,28 @@
         "url": "https://news.stanford.edu/stories/2026/08/evo-2-ai-tool-e-coli-killer-bacteriophages"
       },
       "related_sources": []
+    },
+    {
+      "id": "evt-2026-10-08-best",
+      "date": "2026-04-17",
+      "topic": "fusion",
+      "status": "confirms",
+      "title": "BEST: obras do tokamak chinês documentadas em abril de 2026",
+      "summary": "A Academia Chinesa de Ciências publicou em 17 de abril de 2026 imagens das obras do BEST registradas em 15 de abril. A instalação da base Dewar, antes citada como marco recente, ocorreu em 1º de outubro de 2025, e não em outubro de 2026. O BEST permanece em construção; não houve demonstração de eletricidade líquida.",
+      "impact": "Confirma que a infraestrutura experimental BEST estava efetivamente em construção em abril de 2026. É evidência de implantação física, não de ganho energético, eletricidade líquida ou operação de planta-piloto; não antecipa automaticamente os marcos de 2029 e 2030.",
+      "timeline": [
+        "2029 — Fusão em Escala de Engenharia",
+        "2030 — Plantas-Piloto de Fusão"
+      ],
+      "source": {
+        "name": "Chinese Academy of Sciences — obras do BEST, 17 abr 2026",
+        "url": "https://english.cas.cn/newsroom/cas-in-media/202604/t20260417_1157472.shtml"
+      },
+      "recorded_at": "2026-10-08",
+      "published_at": "2026-04-17",
+      "event_date": "2026-04-15",
+      "updated_at": "2026-10-10",
+      "maturity": "Obra física documentada; experimento de plasma e eletricidade líquida ainda não demonstrados"
     }
   ]
 }
