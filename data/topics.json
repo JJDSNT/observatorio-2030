@@ -3,13 +3,13 @@
     {
       "id": "ai",
       "name": "IA — Aplicações & Descobertas",
-      "watch": "IA aplicada a pesquisa e descoberta científica verificável, incluindo matemática, materiais, química, medicina e biotecnologia; modelos fundacionais para proteínas, DNA, RNA e genomas, design generativo de moléculas e sistemas biológicos, laboratórios autônomos, experimentação e validação funcional; agentes e infraestrutura de IA aplicados a trabalho e pesquisa; distinguir previsão computacional, síntese física, experimento reproduzido, resultados independentes, implantação e uso real; não interpretar desempenho especializado como evidência automática de AGI",
+      "watch": "IA aplicada a pesquisa e descoberta científica verificável, incluindo matemática, materiais, química, medicina e biotecnologia; modelos fundacionais para proteínas, DNA, RNA e genomas, design generativo de moléculas e sistemas biológicos, laboratórios autônomos, experimentação e validação funcional; agentes e infraestrutura de IA aplicados a trabalho e pesquisa; distinguir previsão computacional, síntese física, experimento reproduzido, resultados independentes, implantação e uso real; não interpretar desempenho especializado como evidência automática de AGI; acompanhar pré-treinamento geométrico e simuladores neurais para engenharia e descoberta científica, distinguindo benchmarks computacionais de validação física independente",
       "group": "intelligence"
     },
     {
       "id": "agi",
       "name": "AGI — Inteligência Geral",
-      "watch": "capacidades cognitivas gerais: raciocínio transferível, memória persistente, aprendizagem contínua, generalização entre domínios, modelos de mundo, metacognição, planejamento de longo prazo, autonomia robusta, adaptação a tarefas novas, agentes pesquisadores generalistas e avaliação independente de limites e confiabilidade; distinguir benchmarks especializados, automação de tarefas e capacidades realmente generalistas; acompanhar hipóteses de AGI mínima, AGI digital e embodied AGI sem assumir datas como fatos",
+      "watch": "capacidades cognitivas gerais: raciocínio transferível, memória persistente, aprendizagem contínua, generalização entre domínios, modelos de mundo, metacognição, planejamento de longo prazo, autonomia robusta, adaptação a tarefas novas, agentes pesquisadores generalistas e avaliação independente de limites e confiabilidade; distinguir benchmarks especializados, automação de tarefas e capacidades realmente generalistas; acompanhar hipóteses de AGI mínima, AGI digital e embodied AGI sem assumir datas como fatos; acompanhar modelos de mundo e IA física como linha transversal world-models-physical-ai: consistência causal e temporal, estados físicos consultáveis, generalização fora da distribuição e planejamento em ambientes inéditos; não confundir realismo visual com entendimento físico",
       "group": "intelligence"
     },
     {
@@ -21,7 +21,7 @@
     {
       "id": "robotics",
       "name": "Robótica",
-      "watch": "humanoides e embodied AI; autonomia, custo e implantação industrial; robótica ambiental e drones em agricultura, reflorestamento, monitoramento e intervenção atmosférica; distinguir rotas pré-programadas, percepção e adaptação, decisão autônoma em malha fechada e frotas com resultados verificados; observar segurança, eficácia causal, escala, energia, custos e regulação",
+      "watch": "humanoides e embodied AI; autonomia, custo e implantação industrial; robótica ambiental e drones em agricultura, reflorestamento, monitoramento e intervenção atmosférica; distinguir rotas pré-programadas, percepção e adaptação, decisão autônoma em malha fechada e frotas com resultados verificados; observar segurança, eficácia causal, escala, energia, custos e regulação; acompanhar transferência sim-to-real de modelos de mundo, previsão de consequências de ações, planejamento em malha fechada e ganhos reproduzíveis em robôs reais; não equiparar simulação plausível a desempenho físico validado",
       "group": "society"
     },
     {
