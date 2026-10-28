@@ -1,6 +1,95 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "events": [
+    {
+      "id": "evt-2026-10-27-deepmind-genie4-world-model",
+      "date": "2026-10-27",
+      "topic": "agi",
+      "status": "under_review",
+      "title": "DeepMind apresenta Genie 4 com mundos multimodais interativos e planejamento agentivo em malha fechada",
+      "summary": "A Google DeepMind apresentou Genie 4, modelo de mundo que gera simulações interativas em tempo real com imagem, áudio ambiental e diálogo. Na demonstração de integração, Gemini 3.8 Flash observa os quadros gerados, decompõe objetivos, acompanha execução e ajusta ações conforme a simulação responde; a equipe também relata experimentos com Gemini 4 Argon e Gemini Robotics. A novidade é a combinação de geração de ambientes com controle e planejamento em ciclo interativo, ainda em prévia de pesquisa para testadores selecionados. A DeepMind reconhece deriva na permanência de objetos, consistência espacial e física complexa, sem validação independente de causalidade física ou transferência de habilidades para robôs reais.",
+      "impact": "Sinaliza avanço na integração de modelos de mundo, percepção, ação e planejamento, capacidades relevantes à pesquisa em AGI e embodied AI. Não demonstra compreensão física causal generalizada, autonomia robusta em ambientes reais ou AGI. Acompanhar avaliações independentes, estabilidade de longo prazo, generalização, desempenho em tarefas físicas e sim-to-real.",
+      "timeline": [
+        "2026 — Integração experimental de simulação multimodal interativa e planejamento em malha fechada",
+        "2027–2028 — Avaliar consistência causal, planejamento prolongado e generalização entre ambientes",
+        "2028–2030 — Transferência para robótica real e autonomia física: não demonstradas"
+      ],
+      "maturity": "Anúncio e demonstrações de pesquisa; acesso restrito a testadores; sem validação independente de física e transferência para robôs",
+      "source": {
+        "name": "Google DeepMind — Genie 4: A new generation of world simulation (27 out 2026)",
+        "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+      },
+      "related_sources": [
+        {
+          "name": "Google DeepMind — Genie 4, modelo e limitações",
+          "url": "https://deepmind.google/models/genie/"
+        }
+      ],
+      "event_date": "2026-10-27",
+      "published_at": "2026-10-27",
+      "recorded_at": "2026-10-28",
+      "updated_at": "2026-10-28"
+    },
+    {
+      "id": "evt-2026-10-15-google-magic-state-cultivation",
+      "date": "2026-10-15",
+      "topic": "quantum",
+      "status": "confirms",
+      "title": "Google demonstra preparação de magic states com 40 vezes menos erros no Willow",
+      "summary": "Artigo publicado na Science relata demonstração de magic state cultivation no processador supercondutor Willow. O protocolo reduziu aproximadamente 40 vezes os erros de preparação em relação ao estado não cultivado, alcançando fidelidade lógica de 0,9999(1) e retendo cerca de 8% das tentativas. Foi demonstrada a transferência do estado entre códigos de cor e códigos de superfície, etapa relevante para operações não-Clifford em computação quântica universal. A elevada taxa de descarte e a ausência de algoritmo lógico útil completo limitam o alcance do resultado.",
+      "impact": "Confirma experimentalmente uma rota para preparar recursos de portas quânticas universais com maior fidelidade, complementar à supressão de erros de memória e operações lógicas. Fortalece a trajetória para tolerância a falhas em 2027–2029, mas não constitui vantagem prática nem implantação comercial.",
+      "timeline": [
+        "2026 — Magic state cultivation demonstrada em hardware com redução de erro de 40 vezes",
+        "2027–2029 — Integração e escalabilidade de portas universais tolerantes a falhas: possibilidade reforçada, não demonstrada em aplicação útil"
+      ],
+      "maturity": "Experimento em hardware real; artigo revisado por pares na Science",
+      "source": {
+        "name": "Rosenfeld et al. — Magic state cultivation on a superconducting quantum processor (Science, 15 out 2026)",
+        "url": "https://www.science.org/doi/10.1126/science.aee7961"
+      },
+      "related_sources": [
+        {
+          "name": "Google Quantum AI — Bringing the magic (15 out 2026)",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/"
+        },
+        {
+          "name": "Google Research — publicação e resumo técnico",
+          "url": "https://research.google/pubs/magic-state-cultivation-on-a-superconducting-quantum-processor/"
+        }
+      ],
+      "event_date": "2026-10-15",
+      "published_at": "2026-10-15",
+      "recorded_at": "2026-10-28",
+      "updated_at": "2026-10-28"
+    },
+    {
+      "id": "evt-2026-10-19-quantinuum-helios-logical-qec",
+      "date": "2026-10-19",
+      "topic": "quantum",
+      "status": "confirms",
+      "title": "Quantinuum demonstra supressão de erros lógicos com aumento da distância do código no Helios",
+      "summary": "Em experimento no processador de íons aprisionados Helios, pesquisadores demonstraram correção de erros com códigos de cor triangulares de distâncias 3, 5 e 7. A taxa de erros lógicos de memória caiu por fator aproximado de 12 a cada aumento de distância testado, chegando a 5 (+4/-2) erros por milhão de ciclos. Também demonstraram supressão em circuitos Clifford de dois qubits lógicos, com cerca de 7×10^-5 erros por operação lógica de dois qubits na distância 5. O artigo é um preprint público, sem revisão por pares concluída; as medidas de memória e portas não equivalem a computação universal útil.",
+      "impact": "Confirma em 2026 escalabilidade experimental da proteção de informação quântica, componente necessário para computação tolerante a falhas. Reforça a plausibilidade de arquiteturas com qubits lógicos mais confiáveis em 2027–2029, sem demonstrar vantagem quântica prática nem justificar antecipação da timeline.",
+      "timeline": [
+        "2026 — Supressão experimental de erros lógicos abaixo do limiar com códigos d=3,5,7",
+        "2027–2029 — Escalabilidade e operações lógicas universais: perspectiva reforçada; sistema útil não demonstrado"
+      ],
+      "maturity": "Experimento em hardware real; preprint não revisado por pares",
+      "source": {
+        "name": "Lavasani et al. — Quantum error correction well below the color code threshold (arXiv, out 2026)",
+        "url": "https://arxiv.org/abs/2610.24077"
+      },
+      "related_sources": [
+        {
+          "name": "Quantinuum — Two Fault-Tolerance Results, Two Different Measures of Progress (21 out 2026)",
+          "url": "https://www.quantinuum.com/blog/quantinuum-and-google-two-fault-tolerance-results-two-different-measures-of-progress"
+        }
+      ],
+      "event_date": "2026-10-19",
+      "published_at": "2026-10-19",
+      "recorded_at": "2026-10-28",
+      "updated_at": "2026-10-28"
+    },
     {
       "id": "evt-2026-10-26-openai-ai-scientific-proofs",
       "date": "2026-10-26",
