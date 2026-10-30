@@ -1,6 +1,85 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-30",
   "events": [
+    {
+      "id": "evt-2026-10-29-agentic-ai-oncology-irAE",
+      "date": "2026-10-29",
+      "topic": "ai",
+      "status": "confirms",
+      "title": "IA agentiva reduz 43,5% o tempo mediano de anotação de eventos adversos em oncologia",
+      "summary": "Estudo multicamadas publicado na Nature Cancer avaliou agentes de IA para identificar, classificar e atribuir eventos adversos imunorrelacionados em prontuários oncológicos. O sistema obteve F1 retrospectivo de 0,92 para detecção de eventos atuais e F1 binário prospectivo de 0,72–0,79 em 884 notas durante implantação silenciosa por três meses (maio–julho de 2025). Em estudo cruzado randomizado com 17 profissionais e 316 observações avaliáveis, a assistência reduziu o tempo mediano de anotação de 428 para 242 segundos (43,5%; diferença estimada de 2,71 minutos), aumentou as chances de classificação integralmente correta (OR 1,45; IC 95% 1,01–2,08) e elevou a concordância entre anotadores. Não houve automatização de decisões clínicas ou demonstração de melhora de desfechos de pacientes.",
+      "impact": "Evidência experimental de ganhos mensuráveis de produtividade e consistência em trabalho cognitivo especializado com supervisão humana, reforçando a trajetória de IA agentiva aplicada à ciência e ao trabalho em 2026. Estudo de escopo restrito e desempenho prospectivo inferior ao retrospectivo; não comprova implantação clínica ampla nem AGI. Acompanhar reprodução multicêntrica, generalização e impactos clínicos.",
+      "timeline": [
+        "2026 — IA agentiva melhora produtividade e concordância em anotação clínica sob avaliação controlada",
+        "2027–2028 — Potencial expansão da automação cognitiva especializada, dependente de validação e implantação; sem mudança de datas"
+      ],
+      "maturity": "Artigo revisado por pares; validação prospectiva silenciosa com 884 notas e estudo cruzado randomizado com 17 profissionais; sem decisão clínica autônoma",
+      "source": {
+        "name": "Nature Cancer — An agentic AI system enhances clinical detection of immune-related adverse events (29 out 2026)",
+        "url": "https://www.nature.com/articles/s43018-026-01264-6"
+      },
+      "related_sources": [
+        {
+          "name": "Código AEGIS — Bitterman Lab",
+          "url": "https://github.com/BittermanLab/AEGIS"
+        }
+      ],
+      "event_date": "2026-10-29",
+      "published_at": "2026-10-29",
+      "recorded_at": "2026-10-30",
+      "updated_at": "2026-10-30"
+    },
+    {
+      "id": "evt-2026-10-29-evenet-collider-foundation-model",
+      "date": "2026-10-29",
+      "topic": "ai",
+      "status": "confirms",
+      "title": "EVENET transfere pré-treinamento em 500 milhões de colisões simuladas para análises de física de partículas",
+      "summary": "Estudo publicado na Nature Machine Intelligence apresentou EVENET, modelo fundacional de eventos de colisão treinado com 500 milhões de eventos simulados, combinando aprendizado autossupervisionado e supervisão informada pela física. A representação compartilhada foi adaptada a buscas por ressonâncias, decaimentos exóticos do Higgs, reconstrução e medidas de correlações quânticas, com desempenho competitivo ou superior a baselines nos cenários avaliados. Transferência para dados reais foi demonstrada pela recuperação do sinal já conhecido do méson upsilon em dados abertos do CMS. Não houve descoberta de nova partícula, nem demonstração de simulador universal ou modelo de mundo interativo.",
+      "impact": "Reforça a transferência de representações físicas pré-treinadas entre tarefas científicas e entre simulação e medições experimentais. Complementa a linha de IA física, sem comprovar entendimento causal geral ou controle de robôs. Acompanhar implantação em análises reais do LHC, incertezas sistemáticas e robustez frente a discrepâncias simulação-dados.",
+      "timeline": [
+        "2026 — Modelo fundacional especializado demonstra transferência entre tarefas de física de partículas e dados experimentais",
+        "2027–2029 — Investigar uso efetivo em análises de colisores e validação sistemática; sem antecipar previsões"
+      ],
+      "maturity": "Artigo revisado por pares; benchmarks e validação com dados públicos do CMS; uso em análises operacionais do LHC ainda pendente",
+      "source": {
+        "name": "Nature Machine Intelligence — Foundation model for particle collision data analysis (29 out 2026)",
+        "url": "https://www.nature.com/articles/s42256-026-01322-9"
+      },
+      "related_sources": [],
+      "event_date": "2026-10-29",
+      "published_at": "2026-10-29",
+      "recorded_at": "2026-10-30",
+      "updated_at": "2026-10-30"
+    },
+    {
+      "id": "evt-2026-10-29-pppl-generalized-fusion-ignition-framework",
+      "date": "2026-10-29",
+      "topic": "fusion",
+      "status": "context",
+      "title": "PPPL apresenta estrutura teórica para trajetórias de ignição de plasma de fusão com perdas realistas",
+      "summary": "O Departamento de Energia dos EUA divulgou em 29 de outubro estudo do Princeton Plasma Physics Laboratory publicado na Physical Review Letters, que reúne critério de Lawson modificado e quatro condições de equilíbrio energético e ignição. O modelo incorpora composição e diluição do combustível, cinzas de hélio, combustível com spin polarizado, perdas radiativas por impurezas como tungstênio e radiação síncrotron. A análise indica que elevar a temperatura antes de aumentar a densidade pode demandar menos energia para atingir plasma autossustentado, enquanto traços de tungstênio e campos magnéticos muito elevados podem aumentar requisitos de pressão e perdas. É resultado analítico/teórico; não relata novo experimento de ignição, eletricidade líquida ou planta-piloto funcional.",
+      "impact": "Oferece orientação de projeto e operação para sistemas de fusão mais realistas e identifica limitações de materiais e regimes de campo magnético; possível contribuição para engenharia de plantas-piloto na segunda metade da década. Não altera o cronograma de fusão do Observatório até demonstração experimental e replicação.",
+      "timeline": [
+        "2026 — Formulação teórica de caminhos de aquecimento e densidade para ignição sob perdas realistas",
+        "2029–2030 — Acompanhar testes experimentais e aplicação em engenharia de plantas-piloto; sem inferir ignição demonstrada"
+      ],
+      "maturity": "Modelo teórico revisado por pares, divulgado pelo DOE em 29 out 2026; sem demonstração experimental de ignição associada",
+      "source": {
+        "name": "U.S. DOE — A Novel Path to Self-Heating Plasma for Fusion Ignition (29 out 2026)",
+        "url": "https://www.energy.gov/science/fes/articles/novel-path-self-heating-plasma-fusion-ignition"
+      },
+      "related_sources": [
+        {
+          "name": "Physical Review Letters — Generalized Lawson-Cordey-Mills accessibility of fusion ignition",
+          "url": "https://doi.org/10.1103/mmc9-nzfx"
+        }
+      ],
+      "event_date": "2026-10-29",
+      "published_at": "2026-10-29",
+      "recorded_at": "2026-10-30",
+      "updated_at": "2026-10-30"
+    },
     {
       "id": "evt-2026-10-27-deepmind-genie4-world-model",
       "date": "2026-10-27",
