@@ -1,6 +1,39 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "events": [
+    {
+      "id": "evt-2026-10-30-google-suncatcher-orbital-tpu-inference",
+      "date": "2026-10-30",
+      "event_date": "2026-10-30",
+      "published_at": "2026-10-30",
+      "recorded_at": "2026-10-31",
+      "updated_at": "2026-10-31",
+      "topic": "ai",
+      "status": "confirms",
+      "title": "Project Suncatcher executa Gemma 4 em TPU orbital e transmite resposta à Terra",
+      "summary": "O Google confirmou que o satélite experimental Project Suncatcher, lançado em 1º de outubro de 2026 em parceria com a Planet, inicializou seus sistemas de computação e executou o modelo aberto Gemma 4 em uma TPU de classe datacenter em órbita terrestre baixa. Durante uma passagem sobre estação terrestre, recebeu um prompt e transmitiu à Terra a resposta gerada; testes adicionais envolveram texto e telemetria. Trata-se de demonstração de inferência em hardware especializado orbital, não de treinamento de modelos, processamento distribuído entre satélites, operação contínua ou datacenter espacial em escala. A confiabilidade sob radiação, dissipação térmica, consumo de energia, comunicações ópticas e economia operacional permanecem por demonstrar.",
+      "impact": "Converte uma proposta de infraestrutura de IA espacial em prova experimental de execução de modelo em TPU orbital. Reforça a viabilidade técnica inicial de computação de IA fora de datacenters terrestres, mas não estabelece viabilidade econômica ou escalabilidade. O teste planejado para 2027 com dois satélites interconectados será relevante para avaliar links ópticos e computação distribuída. O projeto opera em órbita terrestre, não constitui infraestrutura cislunar nem implica antecipação das previsões 2027–2030.",
+      "timeline": [
+        "2026 — Inferência de IA em TPU de classe datacenter demonstrada em satélite experimental em órbita terrestre",
+        "2027 — Teste planejado de dois satélites interconectados; desempenho e processamento distribuído ainda não demonstrados",
+        "2028–2030 — Confiabilidade, dissipação térmica, escala e custos de infraestrutura orbital de IA permanecem hipóteses a validar; sem alteração de datas"
+      ],
+      "maturity": "Demonstração experimental orbital divulgada pelo operador; execução de inferência e comunicação solo-satélite; testes prolongados, links intersatélites e operação comercial pendentes",
+      "source": {
+        "name": "Google — We’ve received our first response from the Project Suncatcher prototype satellite (30 out 2026)",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/"
+      },
+      "related_sources": [
+        {
+          "name": "Google — Project Suncatcher prototype satellite is in orbit (1 out 2026)",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/"
+        },
+        {
+          "name": "Google Research — Exploring a space-based, scalable AI infrastructure system design (4 nov 2025)",
+          "url": "https://www.research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/"
+        }
+      ]
+    },
     {
       "id": "evt-2026-10-29-agentic-ai-oncology-irAE",
       "date": "2026-10-29",
