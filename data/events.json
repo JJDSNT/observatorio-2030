@@ -2,6 +2,29 @@
   "updated": "2026-11-07",
   "events": [
     {
+      "id": "evt-2026-11-06-biobasicsbench-wet-lab-evidence-interpretation",
+      "date": "2026-11-06",
+      "event_date": "2026-11-06",
+      "published_at": "2026-11-06",
+      "recorded_at": "2026-11-07",
+      "updated_at": "2026-11-07",
+      "topic": "ai",
+      "status": "context",
+      "title": "BioBasicsBench mede interpretação de evidências laboratoriais por IA e revela limites de confiabilidade",
+      "summary": "OpenAI e Ligo publicaram o BioBasicsBench, avaliação de 100 tarefas de rotina em laboratórios biológicos baseada em dados experimentais reais: imagens de géis e microscopia, placas, sequenciamento, resultados de instrumentos, protocolos e vídeos. As tarefas têm rubricas elaboradas por especialistas e revisões internas e externas. Em 37 configurações de sete modelos, com cinco tentativas por tarefa (18.500 resultados), GPT-6 Astra obteve 66,7% da pontuação média disponível no nível xhigh de raciocínio (IC 95%: 60,3–73,1%), contra 43,8% de GPT-5.6 Sol (IC 95%: 37,6–50,0%). A métrica é crédito médio nas rubricas, não percentual de tarefas totalmente resolvidas. Persistem falhas na leitura de controles, contagem de colônias e consideração de evidências contraditórias. Resultados divulgados pelos desenvolvedores; não equivalem a validação independente de autonomia científica.",
+      "impact": "Estabelece referência quantitativa para uma capacidade crítica de agentes científicos: interpretar dados brutos e reconhecer limites das conclusões experimentais. Complementa demonstrações de agentes conectados a laboratórios, mas não é descoberta biológica nem execução autônoma de experimentos. Evidencia progresso e lacunas em 2026, sem antecipar previsões 2027–2030.",
+      "timeline": [
+        "2026 — Benchmark de 100 tarefas com dados reais revela avanço mensurável e falhas persistentes de interpretação laboratorial",
+        "2027–2030 — Monitorar replicação independente, novos modelos, robustez em dados não vistos e impacto em decisões experimentais reais; sem alteração de datas"
+      ],
+      "maturity": "Benchmark publicado por OpenAI e Ligo; tarefas com revisão de especialistas e resultados quantitativos; sem validação externa independente de desempenho em operação laboratorial",
+      "source": {
+        "name": "OpenAI e Ligo — Measuring how AI agents handle everyday wet-lab science (6 nov 2026)",
+        "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/"
+      },
+      "related_sources": []
+    },
+    {
       "id": "evt-2026-11-04-autodna-autonomous-biomolecular-lab",
       "date": "2026-11-04",
       "event_date": "2026-11-04",
