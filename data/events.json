@@ -1,6 +1,38 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-11-07",
   "events": [
+    {
+      "id": "evt-2026-11-04-autodna-autonomous-biomolecular-lab",
+      "date": "2026-11-04",
+      "event_date": "2026-11-04",
+      "published_at": "2026-11-04",
+      "recorded_at": "2026-11-07",
+      "updated_at": "2026-11-07",
+      "topic": "ai",
+      "status": "confirms",
+      "title": "AutoDNA coordena mais de 11 mil etapas de experimentação biomolecular com intervenção humana limitada",
+      "summary": "Artigo revisado por pares na Nature descreve laboratório de engenharia biomolecular orientado por agentes de IA que coordena mais de 20 tipos de instrumentos em mais de 11 mil etapas, com intervenção humana principalmente para reposição de reagentes e manutenção. Em quatro aplicações, reproduziu rendimentos de síntese enzimática de DNA otimizados por especialistas, acelerou em 3,2 vezes a execução concorrente de protocolos, armazenou e recuperou exatamente conteúdo digital em DNA e identificou/validou a mutação KRAS G13D em amostra estudada. Código, dados e materiais suplementares foram disponibilizados. Os resultados são experimentais e não comprovam descoberta científica geral autônoma, replicação externa nem implantação comercial.",
+      "impact": "Demonstra integração operacional de planejamento, instrumentação e execução experimental em biologia molecular além de fluxos isolados. Reforça a trajetória de laboratórios parcialmente autônomos até 2030, sem antecipar marcos de autonomia científica geral ou modificar datas das previsões.",
+      "timeline": [
+        "2026 — Laboratório biomolecular multi-instrumento coordenado por agentes validado em estudo revisado por pares",
+        "2027–2030 — Acompanhar replicação externa, confiabilidade prolongada, variedade de protocolos, custo e operação em outros laboratórios; sem alteração de datas"
+      ],
+      "maturity": "Artigo revisado por pares (Nature); demonstração experimental em laboratório; código e dados disponíveis; replicação independente e escala operacional pendentes",
+      "source": {
+        "name": "Nature — An AI-native experimental laboratory for autonomous biomolecular operations (4 nov 2026)",
+        "url": "https://www.nature.com/articles/s41586-026-11228-6"
+      },
+      "related_sources": [
+        {
+          "name": "Código-fonte AutoDNA",
+          "url": "https://github.com/IPADS-X/AutoDNA"
+        },
+        {
+          "name": "Nature — AI agents run this automated biology lab that sequences DNA and more",
+          "url": "https://www.nature.com/articles/d41586-026-03552-8"
+        }
+      ]
+    },
     {
       "id": "evt-2026-10-30-google-suncatcher-orbital-tpu-inference",
       "date": "2026-10-30",
@@ -371,6 +403,29 @@
           "url": "https://doi.org/10.5523/bris.19qmlywobvl3u22pzo67z3bc6l"
         }
       ]
+    },
+    {
+      "id": "evt-2026-10-16-google-agentic-wet-lab-molecular-discovery",
+      "date": "2026-10-16",
+      "event_date": "2026-10-16",
+      "published_at": "2026-10-16",
+      "recorded_at": "2026-11-07",
+      "updated_at": "2026-11-07",
+      "topic": "ai",
+      "status": "confirms",
+      "title": "Google conecta agentes de IA a experimentos físicos e melhora candidatos moleculares em ciclos fechados",
+      "summary": "Google Research apresentou três frentes de integração de agentes e laboratórios físicos: VERID, gêmeo digital com rastreamento de estado e verificações de segurança para protocolos robóticos; descoberta de aptâmeros com três ciclos de projeto, síntese, seleção e sequenciamento; e projeto de proteínas ligantes. Na linha de aptâmeros, as taxas de candidatos confirmados ao alvo chegaram a 33,5% para mioglobina e 42,1% para α-trombina após revisão de estratégias com base em resultados experimentais. O trabalho com proteínas reportou ligantes de afinidade nanomolar de um dígito, em experimento distinto: essa afinidade não deve ser atribuída aos aptâmeros. Os resultados são relatados pela equipe, com estudos em preprint, e não comprovam autonomia científica geral ou validação independente.",
+      "impact": "Evidência de agentes usando feedback de experimentos físicos para corrigir hipóteses e estratégias moleculares, indo além de simulação e previsão computacional. Reforça a tendência de descoberta assistida por IA em circuito fechado, sem demonstrar autonomia irrestrita ou justificar alteração de datas 2027–2030.",
+      "timeline": [
+        "2026 — Agentes participam de ciclos físicos iterativos de projeto e teste molecular com resultados quantitativos reportados",
+        "2027–2030 — Monitorar revisão por pares, reprodução independente, comparação controlada com métodos convencionais e autonomia operacional; sem alteração de datas"
+      ],
+      "maturity": "Experimentos físicos relatados em pesquisa e preprints; integração de robótica e agentes; supervisão humana e validação independente ainda necessárias",
+      "source": {
+        "name": "Google Research — Grounding AI agents in biological reality (16 out 2026)",
+        "url": "https://www.research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/"
+      },
+      "related_sources": []
     },
     {
       "id": "evt-2026-10-15-google-magic-state-cultivation",
