@@ -1,6 +1,29 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "events": [
+    {
+      "id": "evt-2026-11-06-psi-aaronson-ambainis-formal-proof",
+      "date": "2026-11-06",
+      "event_date": "2026-11-06",
+      "published_at": "2026-11-06",
+      "recorded_at": "2026-11-08",
+      "updated_at": "2026-11-08",
+      "topic": "ai",
+      "status": "confirms",
+      "title": "Sistema de IA encontra prova formal da conjectura Aaronson–Ambainis, aberta desde 2008",
+      "summary": "A Physical Superintelligence (PSI) relatou que seu sistema de pesquisa, usando instâncias de um modelo não público da Anthropic, encontrou em três dias uma demonstração da conjectura Aaronson–Ambainis, problema aberto desde 2008 na teoria da complexidade quântica. A versão final da prova foi aceita pelo verificador formal Lean, com artigo e código disponibilizados. Pesquisadores de Stanford que haviam demonstrado um caso especial examinaram a prova e destacaram sua importância. A equipe humana escolheu o problema, desenvolveu e operou o sistema, revisou o texto e assumiu responsabilidade pela correção. A verificação Lean oferece evidência técnica forte, mas a auditoria científica independente completa permanece em andamento.",
+      "impact": "Marco de descoberta matemática especializada assistida por IA, com artefatos formalmente verificáveis, reforçando a trajetória de agentes pesquisadores para 2029. Não demonstra AGI, pesquisa generalista autônoma, nem vantagem prática de computadores quânticos; não altera as datas da timeline.",
+      "timeline": [
+        "2026 — Sistema de pesquisa com IA produz prova formal verificável de conjectura matemática aberta desde 2008",
+        "2027–2029 — Monitorar revisão independente, reprodução e generalização para outras descobertas científicas; previsão de agentes pesquisadores em 2029 reforçada, sem antecipação de data"
+      ],
+      "maturity": "Prova formal aceita por Lean e artefatos públicos; avaliação de especialistas relatada pela equipe; revisão independente completa e reprodução externa pendentes",
+      "source": {
+        "name": "Physical Superintelligence — A proof of the Aaronson-Ambainis conjecture (6 nov 2026)",
+        "url": "https://psi.inc/research/aaronson-ambainis/"
+      },
+      "related_sources": []
+    },
     {
       "id": "evt-2026-11-06-biobasicsbench-wet-lab-evidence-interpretation",
       "date": "2026-11-06",
@@ -21,6 +44,29 @@
       "source": {
         "name": "OpenAI e Ligo — Measuring how AI agents handle everyday wet-lab science (6 nov 2026)",
         "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/"
+      },
+      "related_sources": []
+    },
+    {
+      "id": "evt-2026-11-05-metr-anthropic-ai-rd-acceleration",
+      "date": "2026-11-05",
+      "event_date": "2026-11-05",
+      "published_at": "2026-11-05",
+      "recorded_at": "2026-11-08",
+      "updated_at": "2026-11-08",
+      "topic": "agi",
+      "status": "confirms",
+      "title": "METR estima aceleração de 1,9× no ritmo de melhoria de modelos da Anthropic",
+      "summary": "Em avaliação externa de 11 semanas com acesso a dados internos da Anthropic, a METR estimou que a taxa de crescimento do índice de capacidades AECI desde outubro de 2025 foi 1,9 vez a taxa anterior (IC 95%: 1,5–2,8×), em tarefas bem especificadas. A organização considera provável que a assistência de IA à pesquisa explique a maior parte da aceleração atual, mas ressalta incertezas metodológicas, fatores não relacionados à IA e importantes evidências internas omitidas da versão pública. A METR não identificou aceleração no crescimento do compute de treinamento que explicasse o resultado. A contribuição predominante é de IA assistindo pesquisadores humanos, não pesquisa autônoma generalista.",
+      "impact": "Evidência quantitativa externa de ciclos de desenvolvimento de IA potencialmente acelerados pelo próprio uso de IA, relevante à trajetória de automação cognitiva 2027 e agentes pesquisadores 2029. Não comprova AGI, inteligência geral transferível nem autoaperfeiçoamento recursivo autônomo; não altera datas.",
+      "timeline": [
+        "2026 — Avaliação externa estima aceleração de 1,9× no crescimento de capacidades medidas por índice interno em tarefas bem especificadas",
+        "2027–2029 — Acompanhar reprodução em outros laboratórios, métricas externas, causalidade e autonomia efetiva da pesquisa; sem alteração de datas"
+      ],
+      "maturity": "Avaliação externa com acesso privilegiado a dados internos; intervalo de confiança divulgado; redactions extensas e incerteza causal; sem validação independente integral dos dados públicos",
+      "source": {
+        "name": "METR — Independent Assessment of AI R&D Acceleration at Anthropic in October 2026 (5 nov 2026)",
+        "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
       },
       "related_sources": []
     },
