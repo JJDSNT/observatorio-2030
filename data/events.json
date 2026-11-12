@@ -2,6 +2,35 @@
   "updated": "2026-11-12",
   "events": [
     {
+      "id": "evt-2026-08-24-fegp-online-motor-learning",
+      "date": "2026-08-24",
+      "event_date": "2026-08-24",
+      "published_at": "2026-08-24",
+      "recorded_at": "2026-11-12",
+      "updated_at": "2026-11-12",
+      "topic": "robotics",
+      "status": "confirms",
+      "title": "Robô aprende três padrões motores em tempo real com plasticidade neural regulada pelo erro de previsão",
+      "summary": "Em preprint divulgado em 24 de agosto de 2026, Hiroki Sawada e Jun Tani demonstraram Free-Energy-Gated Plasticity (FEGP), mecanismo que regula atualizações dos pesos de uma rede recorrente variacional de codificação preditiva conforme a discrepância entre previsões e observações. Durante interação cinestésica com o robô de dois braços Torobo, uma rede inicializada aleatoriamente adquiriu três padrões motores cíclicos em sessões físicas de cinco minutos, com aprendizagem online a 20 Hz, sem pré-treinamento offline, replay de experiências ou marcação de limites entre tarefas. Os três padrões apareceram em trajetórias geradas autonomamente pelo modelo. Em experimentos controlados com dez sequências de ensino e cinco inicializações por sequência, o mecanismo melhorou a cobertura do repertório e a retenção de padrões anteriores frente a condições de aprendizagem com taxa constante e controles de temporização da plasticidade. A demonstração não comprova execução física autônoma de três tarefas completas, aprendizagem de habilidades complexas ou eliminação do esquecimento catastrófico. A arquitetura não é uma spiking neural network (SNN).",
+      "impact": "Estabelece evidência experimental de aquisição e retenção parcial de padrões motores durante interação física contínua, relevante à linha transversal Aprendizagem Contínua e Inteligência Neuromórfica e à hipótese de robôs capazes de aprender durante a operação até 2030. Não demonstra produto comercial, generalização entre robôs ou autonomia robusta e não justifica antecipar datas de previsões.",
+      "timeline": [
+        "2026 — Demonstração experimental de plasticidade online em robô físico e geração autônoma pelo modelo de três padrões motores ensinados por interação",
+        "2027–2028 — Monitorar revisão por pares, replicação independente, repertórios maiores, retenção de longo prazo e execução autônoma de tarefas físicas",
+        "2029–2030 — Avaliar transferência entre plataformas, aprendizagem segura em operação e implantação comercial com ganhos mensuráveis; sem antecipar previsões"
+      ],
+      "maturity": "Preprint científico e demonstração em robô físico, com controles experimentais; sem revisão por pares confirmada, replicação independente ou implantação comercial",
+      "source": {
+        "name": "Sawada e Tani — Free-Energy-Gated Plasticity for Real-Time Online Motor Learning in Physical Human–Robot Interaction (arXiv, 24 ago 2026)",
+        "url": "https://arxiv.org/abs/2608.23000"
+      },
+      "related_sources": [
+        {
+          "name": "Hiroki Sawada — descrição técnica e experimentos do FEGP",
+          "url": "https://www.hiroki-sawada.com/en/activities/fegp_2026"
+        }
+      ]
+    },
+    {
       "id": "evt-2026-11-10-anthropic-fable-scientific-discovery-hardware",
       "date": "2026-11-10",
       "event_date": "2026-11-10",
