@@ -31,6 +31,42 @@ jobs:
           fs.appendFileSync(process.env.GITHUB_OUTPUT,'count='+added.length+'\n');
           NODE
 
+      - name: Wait for milestones on public GitHub Pages
+        if: steps.detect.outputs.count != '0'
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const events = JSON.parse(fs.readFileSync('/tmp/new-events.json', 'utf8'));
+          const expected = new Set(events.map(event => event.id));
+          const url = 'https://jjdsnt.github.io/observatorio-2030/data/events.json';
+          const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+          (async () => {
+            for (let attempt = 1; attempt <= 6; attempt++) {
+              await sleep(30000);
+              try {
+                const response = await fetch(url + '?check=' + Date.now(), {
+                  headers: { 'Cache-Control': 'no-cache' },
+                  signal: AbortSignal.timeout(10000)
+                });
+                if (!response.ok) throw new Error('HTTP ' + response.status);
+                const published = await response.json();
+                const available = new Set((published.events || []).map(event => event.id));
+                if ([...expected].every(id => available.has(id))) {
+                  console.log('All ' + expected.size + ' new milestones are publicly available.');
+                  process.exit(0);
+                }
+                console.log('Attempt ' + attempt + '/6: milestones not yet visible.');
+              } catch (error) {
+                console.log('Attempt ' + attempt + '/6: ' + error.message);
+              }
+            }
+            console.error('Public availability not confirmed within 180 seconds; notifications withheld.');
+            process.exit(1);
+          })();
+          NODE
+
       - name: Send Web Push for new milestones
         if: steps.detect.outputs.count != '0'
         env:
