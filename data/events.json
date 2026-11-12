@@ -1,6 +1,44 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-12",
   "events": [
+    {
+      "id": "evt-2026-11-11-ibm-nighthawk-loon-starling-engineering",
+      "date": "2026-11-11",
+      "event_date": "2026-11-11",
+      "published_at": "2026-11-11",
+      "recorded_at": "2026-11-12",
+      "updated_at": "2026-11-12",
+      "topic": "quantum",
+      "status": "confirms",
+      "title": "IBM demonstra avanços em velocidade, interconexão e correção de erros rumo ao Starling",
+      "summary": "Na Quantum Developer Conference 2026, a IBM consolidou resultados de engenharia em três frentes complementares. O Nighthawk r2, já acessível na IBM Quantum Platform, executa circuitos com mais de 7.500 operações em 120 qubits programáveis e atinge até 100 mil amostras por segundo, cerca de 25 vezes a vazão do Heron; a comparação é com hardware IBM anterior, não com computadores clássicos. Uma demonstração modular conectou dois processadores por quatro l-couplers, com fidelidade média de transferência de estado de aproximadamente 99% (melhor resultado de 99,3%); isso não equivale à fidelidade de operações lógicas entre módulos. No Loon, componentes necessários à arquitetura qLDPC de correção de erros foram integrados em um chip, e mudanças de projeto reduziram de aproximadamente 5.000 para 2.000 as junções Josephson de um módulo. A IBM também relatou progresso em decodificação em tempo real e criogenia modular. Os resultados são experimentais e majoritariamente divulgados pela própria empresa; não demonstram computação universal tolerante a falhas nem vantagem prática generalizada.",
+      "impact": "Confirma progresso substancial de engenharia em 2026 rumo a sistemas quânticos modulares e corrigidos por erros. Fortalece a plausibilidade técnica do roteiro Starling para 2029, mas ainda faltam demonstrações integradas de qubits lógicos confiáveis, operações universais, interconexões em escala e vantagem útil frente aos melhores métodos clássicos. Não antecipar datas da timeline.",
+      "timeline": [
+        "2026 — Nighthawk r2 em operação, interconexão experimental entre dois chips e integração de componentes qLDPC no Loon",
+        "2027 — IBM planeja interligar dois Nighthawk r3 em sistema com 1.040 qubits programáveis; objetivo futuro, não 1.040 qubits lógicos",
+        "2029 — Starling projetado para 200 qubits lógicos e 100 milhões de operações; meta ainda não demonstrada",
+        "2030 — Monitorar vantagem prática reproduzível, custo, confiabilidade e aplicações reais; sem alteração de previsão"
+      ],
+      "maturity": "Hardware Nighthawk r2 disponível e experimentos físicos de interconexão e subsistemas qLDPC; integração tolerante a falhas em escala e utilidade prática ainda não demonstradas",
+      "source": {
+        "name": "IBM Quantum — The year of advantage—and what comes next (11 nov 2026)",
+        "url": "https://www.ibm.com/quantum/blog/qdc-2026"
+      },
+      "related_sources": [
+        {
+          "name": "IBM Quantum — Tracking progress on the path to IBM Quantum Starling (11 nov 2026)",
+          "url": "https://www.ibm.com/quantum/blog/path-to-ibm-quantum-starling"
+        },
+        {
+          "name": "IBM Quantum — Nighthawk r2: more circuits, faster (31 ago 2026)",
+          "url": "https://www.ibm.com/quantum/blog/nighthawk-r2"
+        },
+        {
+          "name": "IBM Quantum — Modular quantum computing takes shape with l-couplers (27 out 2026)",
+          "url": "https://www.ibm.com/quantum/blog/connecting-quantum-processors-with-l-couplers"
+        }
+      ]
+    },
     {
       "id": "evt-2026-11-06-psi-aaronson-ambainis-formal-proof",
       "date": "2026-11-06",
