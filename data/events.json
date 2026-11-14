@@ -1,6 +1,39 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-14",
   "events": [
+    {
+      "id": "evt-2026-11-14-starship-flight15-first-ship-catch-v3-booster-loss",
+      "date": "2026-11-14",
+      "event_date": "2026-11-14",
+      "published_at": "2026-11-14",
+      "recorded_at": "2026-11-14",
+      "updated_at": "2026-11-14",
+      "topic": "cislunar",
+      "status": "confirms",
+      "title": "Starship realiza primeira captura orbital, mas Super Heavy V3 falha",
+      "summary": "A SpaceX capturou pela primeira vez uma nave Starship após uma missão orbital. A Ship 42 permaneceu aproximadamente 22 horas no espaço, completou 14 voltas ao redor da Terra, liberou 26 satélites Starlink V3 e retornou à Starbase, onde foi recuperada pelos braços mecânicos da torre Mechazilla. O sucesso contrastou com a perda do Super Heavy V3: o Booster 22 apresentou uma anomalia durante o retorno, levando ao cancelamento da captura e à perda do veículo no Golfo do México. A causa definitiva segue sob investigação.",
+      "impact": "O voo demonstrou a recuperação orbital da nave, mas não a reutilização integral do sistema. Ainda será necessário comprovar a recuperação do Super Heavy V3, o relançamento da mesma Starship e a operação confiável de ambos os estágios. Para o programa Artemis, o resultado representa avanço tecnológico importante, mas não elimina desafios como a transferência de propelente em órbita e a demonstração de pouso lunar. Perspectiva 2030: reutilização completa e reabastecimento orbital continuam sendo marcos decisivos para uma infraestrutura de transporte cislunar.",
+      "timeline": [
+        "2026 — Primeira captura de uma nave Starship após missão orbital; Super Heavy V3 não recuperado",
+        "2027–2028 — Acompanhar recuperação do Super Heavy V3, reutilização da Ship 42 ou outra nave e transferência de propelente em órbita",
+        "2029–2030 — Avaliar reutilização integral recorrente e logística cislunar operacional"
+      ],
+      "maturity": "Demonstração em voo de recuperação orbital da nave; propulsor V3 perdido; reutilização da nave e do conjunto ainda não demonstradas",
+      "source": {
+        "name": "Associated Press — Starship returns from orbit and is captured (14 nov 2026)",
+        "url": "https://apnews.com/article/df394c1b5a0f85e11194f9ff7db9ee6b"
+      },
+      "related_sources": [
+        {
+          "name": "SpaceX — Starship Flight 15",
+          "url": "https://www.spacex.com/launches/starship-flight-15"
+        },
+        {
+          "name": "The Verge — First Starship tower catch",
+          "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch"
+        }
+      ]
+    },
     {
       "id": "evt-2026-08-24-fegp-online-motor-learning",
       "date": "2026-08-24",
