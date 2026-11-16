@@ -1,6 +1,39 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "events": [
+    {
+      "id": "evt-2026-11-16-autonomous-quantum-error-correction-break-even",
+      "date": "2026-11-16",
+      "event_date": "2026-11-16",
+      "published_at": "2026-11-16",
+      "recorded_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "topic": "quantum",
+      "status": "confirms",
+      "title": "Correção autônoma de erros quânticos supera break-even em diferentes arquiteturas",
+      "summary": "Três estudos publicados na Nature Physics entre 23 de outubro e 16 de novembro de 2026 demonstraram correção autônoma de erros quânticos acima do chamado break-even, usando íons aprisionados e sistemas bosônicos supercondutores. O break-even é o limiar em que um qubit lógico protegido preserva a informação por mais tempo do que o melhor qubit físico de referência no mesmo sistema: ultrapassá-lo mostra que a proteção oferece benefício líquido. Na correção autônoma, acoplamentos, operações de controle e dissipação projetados removem erros sem depender de ciclos convencionais de medição de síndromes e realimentação clássica. No experimento de Ni e colaboradores, a vida útil lógica chegou a aproximadamente 2,0 ms, 18% acima da referência física, e houve ganho de 6,3 dB em sensoriamento quântico. Sun e colaboradores relataram coerência lógica 1,04 vez a referência física; Li e colaboradores demonstraram o limiar em íons aprisionados. As métricas entre plataformas não são diretamente comparáveis.",
+      "impact": "A convergência de demonstrações experimentais revisadas por pares fortalece a viabilidade de estratégias de correção autônoma, potencialmente reduzindo exigências de medição e realimentação. Confirma progresso em memórias quânticas protegidas, mas não demonstra operações lógicas universais tolerantes a falhas, escalabilidade industrial nem vantagem computacional prática. Não justifica antecipar previsões de computação quântica útil até 2030.",
+      "timeline": [
+        "2026 — Correção autônoma supera experimentalmente o break-even em íons aprisionados e qubits lógicos bosônicos",
+        "2027–2028 — Monitorar reprodução independente, operação de portas lógicas protegidas e integração de múltiplos qubits lógicos",
+        "2029–2030 — Avaliar escalabilidade e operações úteis tolerantes a falhas; sem antecipação automática da timeline"
+      ],
+      "maturity": "Três demonstrações experimentais publicadas em periódico revisado por pares; ainda sem computação universal tolerante a falhas em escala",
+      "source": {
+        "name": "Li et al. — Beating the break-even point with autonomous quantum error correction (Nature Physics, 23 out 2026)",
+        "url": "https://www.nature.com/articles/s41567-026-03486-y"
+      },
+      "related_sources": [
+        {
+          "name": "Sun et al. — Extension of coherence time beyond breakeven point using only drives and dissipation (Nature Physics, 16 nov 2026)",
+          "url": "https://www.nature.com/articles/s41567-026-03528-5"
+        },
+        {
+          "name": "Ni et al. — Extending qubit lifetime beyond break-even and enhancing quantum sensing by autonomous quantum error correction (Nature Physics, 16 nov 2026)",
+          "url": "https://www.nature.com/articles/s41567-026-03493-z"
+        }
+      ]
+    },
     {
       "id": "evt-2026-11-14-starship-flight15-first-ship-catch-v3-booster-loss",
       "date": "2026-11-14",
