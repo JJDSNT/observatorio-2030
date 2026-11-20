@@ -1,4 +1,4 @@
-const CACHE = 'observatorio-2030-v4';
+const CACHE = 'observatorio-2030-v5';
 const SHELL = [
   './',
   './index.html',
@@ -75,8 +75,8 @@ self.addEventListener('push', event => {
     body: data.body,
     icon: data.icon || './assets/icons/icon-192.png',
     badge: data.badge || './assets/icons/icon-192.png',
-    data: { url: data.url || './#marcos' },
-    tag: data.tag || 'observatorio-2030-marco',
+    data: { url: data.url || (data.id ? `./#marco=${encodeURIComponent(data.id)}` : './#marcos') },
+    tag: data.tag || (data.id ? `observatorio-2030-${data.id}` : 'observatorio-2030-marco'),
   }));
 });
 
