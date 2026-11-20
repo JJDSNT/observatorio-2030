@@ -104,6 +104,14 @@ main { scroll-margin-top: 72px; padding-top: 46px; }
 .event.targeted { border-left-color: var(--accent2); background: linear-gradient(90deg, rgba(120, 169, 255, .12), transparent 80%); border-radius: 0 10px 10px 0; }
 .event small { color: var(--muted); }
 .event h3 { margin: 6px 0; }
+.event-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.event-heading h3 { flex: 1; min-width: 0; }
+.event-share { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; padding: 0; border: 1px solid var(--line); border-radius: 10px; background: transparent; color: var(--muted); cursor: pointer; }
+.event-share:hover { color: var(--accent); border-color: var(--accent); }
+.event-share:focus-visible { outline: 2px solid var(--accent2); outline-offset: 2px; }
+.share-status { color: var(--accent); font-size: 13px; }
+.share-status:empty { display: none; }
+
 .event p { color: #aabcc7; }
 .tag { font-size: 11px; text-transform: uppercase; color: var(--accent); letter-spacing: .08em; }
 
