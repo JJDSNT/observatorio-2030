@@ -243,6 +243,53 @@ links.forEach(link => link.addEventListener('click', event => {
 window.addEventListener('hashchange', route);
 route();
 
+const shareIcon = '<svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.7 10.7 6.6-4.1M8.7 13.3l6.6 4.1"/></svg>';
+const shareStatus = document.createElement('div');
+shareStatus.className = 'share-status';
+shareStatus.setAttribute('role', 'status');
+shareStatus.setAttribute('aria-live', 'polite');
+document.querySelector('#events').before(shareStatus);
+let shareStatusTimeout;
+function showShareStatus(message) {
+  shareStatus.textContent = message;
+  clearTimeout(shareStatusTimeout);
+  shareStatusTimeout = setTimeout(() => { shareStatus.textContent = ''; }, 3500);
+}
+
+document.querySelector('#events').addEventListener('click', async event => {
+  const button = event.target.closest('button.event-share');
+  if (!button) return;
+  const article = button.closest('article.event');
+  const title = article?.querySelector('h3')?.textContent || 'Marco do Observatório 2030';
+  const url = new URL('./#marco=' + encodeURIComponent(button.dataset.eventId), location.href).href;
+  try {
+    if (navigator.share) {
+      await navigator.share({ title, url });
+      return;
+    }
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(url);
+    } else {
+      const input = document.createElement('textarea');
+      input.value = url;
+      input.style.position = 'fixed';
+      input.style.opacity = '0';
+      document.body.append(input);
+      input.select();
+      const copied = document.execCommand('copy');
+      input.remove();
+      if (!copied) throw new Error('copy unavailable');
+    }
+    showShareStatus('Link do marco copiado.');
+  } catch (error) {
+    if (error.name !== 'AbortError') {
+      console.error('Falha ao compartilhar marco:', error);
+      showShareStatus('Não foi possível compartilhar o link.');
+    }
+  }
+});
+
+
 Promise.all([get('data/timeline.json'), get('data/topics.json'), get('data/events.json')]).then(([timeline, topics, events]) => {
   document.querySelector('#updated').textContent = `Última revisão: ${new Date([timeline.updated, events.updated].filter(Boolean).sort().at(-1) + 'T12:00:00').toLocaleDateString('pt-BR')}`;
   document.querySelector('#timeline-data').innerHTML = timeline.years.map(year => `<article class="year"><div class="year-num">${year.year}</div><div><h3>${year.title}</h3><ul>${year.items.map(item => `<li>${item}</li>`).join('')}</ul><span class="confidence">confiança ${year.confidence}</span></div></article>`).join('');
@@ -263,7 +310,7 @@ Promise.all([get('data/timeline.json'), get('data/topics.json'), get('data/event
   document.querySelector('#events').innerHTML = sortedEvents.length ? sortedEvents.map(event => {
     const years = Array.isArray(event.timeline) ? event.timeline.join(' · ') : (event.timeline_year || 'Marco ainda não vinculado');
     const dates = [event.published_at ? `Divulgado em ${formatDate(event.published_at)}` : 'Divulgação original não confirmada', event.event_date && event.event_date !== event.published_at ? `Ocorrido em ${formatDate(event.event_date)}` : ''].filter(Boolean).join(' · ');
-    return `<article class="event" id="marco-${event.id}"><span class="tag">${labels[event.status] || 'Em acompanhamento'}</span><h3>${event.title}</h3><small>${dates} · ${event.topic}</small><p><strong>Timeline:</strong> ${years}</p><p>${event.summary}</p>${event.impact ? `<p>${event.impact}</p>` : ''}${event.source?.url ? `<p><a href="${event.source.url}" target="_blank" rel="noopener noreferrer">Fonte: ${event.source.name || 'Consultar'}</a></p>` : ''}</article>`;
+    return `<article class="event" id="marco-${event.id}"><span class="tag">${labels[event.status] || 'Em acompanhamento'}</span><div class="event-heading"><h3>${event.title}</h3><button type="button" class="event-share" data-event-id="${event.id}" aria-label="Compartilhar marco" title="Compartilhar marco">${shareIcon}</button></div><small>${dates} · ${event.topic}</small><p><strong>Timeline:</strong> ${years}</p><p>${event.summary}</p>${event.impact ? `<p>${event.impact}</p>` : ''}${event.source?.url ? `<p><a href="${event.source.url}" target="_blank" rel="noopener noreferrer">Fonte: ${event.source.name || 'Consultar'}</a></p>` : ''}</article>`;
   }).join('') : '<div class="empty">Nenhum marco registrado ainda.</div>';
   eventsRendered = true;
   route();
