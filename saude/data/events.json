@@ -2,6 +2,21 @@
   "updated": "2026-11-20",
   "events": [
     {
+      "id": "2026-11-11-vacina-personalizada-melanoma-fase3",
+      "title": "Vacina personalizada de mRNA reduz recorrência de melanoma em ensaio de fase 3",
+      "published_at": "2026-11-11",
+      "topic": "oncology",
+      "stage": "Clínico · fase 3 randomizada, duplo-cega · artigo revisado por pares",
+      "summary": "No ensaio INTerpath-001, 1.137 pacientes com melanoma cutâneo de alto risco completamente ressecado foram randomizados para intismeran autogene (vacina individualizada de neoantígenos) mais pembrolizumabe ou placebo mais pembrolizumabe. A sobrevida livre de recorrência em 24 meses foi de 82,2% versus 70,0% (diferença de 12,2 pontos percentuais; p<0,001). A sobrevida livre de metástases distantes em 24 meses foi de 88,5% versus 80,2% (p=0,002).",
+      "limitations": "Seguimento mediano de 24,6 meses; não demonstra cura definitiva, vigilância imune vitalícia ou benefício em sobrevida global. Eventos adversos de grau 3 ou superior ocorreram em 23,6% versus 20,3%. Os resultados se aplicam à população estudada, após ressecção completa, e não estabelecem eficácia em todos os cânceres.",
+      "barrier": "Recorrência e disseminação metastática após tratamento inicial, obstáculos ao controle oncológico prolongado.",
+      "impact": "Favorável e clinicamente robusto: demonstra que imunização personalizada contra neoantígenos tumorais pode reduzir recaídas em dois anos; ainda falta comprovar proteção sustentada por décadas e segurança de longo prazo.",
+      "source": {
+        "name": "Long et al., New England Journal of Medicine (INTerpath-001, estudo original)",
+        "url": "https://doi.org/10.1056/NEJMoa2609762"
+      }
+    },
+    {
       "id": "2026-11-06-senolise-cisteinas",
       "title": "Senólise por vulnerabilidade redox aumenta sobrevida em camundongos",
       "published_at": "2026-11-06",
