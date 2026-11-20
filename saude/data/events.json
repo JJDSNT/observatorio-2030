@@ -1,4 +1,50 @@
 {
-  "updated": null,
-  "events": []
+  "updated": "2026-11-20",
+  "events": [
+    {
+      "id": "2026-11-06-senolise-cisteinas",
+      "title": "Senólise por vulnerabilidade redox aumenta sobrevida em camundongos",
+      "published_at": "2026-11-06",
+      "topic": "senescence",
+      "stage": "Pré-clínico · artigo revisado por pares",
+      "summary": "Wu e colaboradores identificaram vulnerabilidade de proteostase e reatividade de cisteínas em células senescentes. Sulfato de vanadila elevou a mediana de sobrevida de camundongos machos de 886,5 para 952 dias (+7,4%; controle n=20, tratados n=19), além de melhorar indicadores funcionais em animais idosos.",
+      "limitations": "Sobrevida avaliada apenas em machos, com amostra pequena; sem replicação independente ou demonstração de segurança e eficácia senolítica em humanos. Vanádio pode ser tóxico; o resultado não recomenda suplementação.",
+      "barrier": "Acúmulo de células senescentes e deterioração da proteostase durante o envelhecimento.",
+      "impact": "Favorável, porém incremental: identifica um alvo molecular para manutenção tecidual, sem demonstrar rejuvenescimento sistêmico humano.",
+      "source": {
+        "name": "Wu et al., Nature Aging (artigo original)",
+        "url": "https://doi.org/10.1038/s43587-026-01253-5"
+      }
+    },
+    {
+      "id": "2026-10-14-rins-vitrificados",
+      "title": "Rins suínos de escala humana recuperam função após criopreservação",
+      "published_at": "2026-10-14",
+      "topic": "cryo",
+      "stage": "Pré-clínico · preprint sem revisão por pares",
+      "summary": "Han e colaboradores vitrificaram rins suínos de aproximadamente 100 g a −150 °C. Oito rins foram avaliados por perfusão e três transplantados em experimentos agudos; houve reperfusão e produção imediata de urina. Um rim foi armazenado por 366 dias e recuperou função ex vivo.",
+      "limitations": "Os transplantes foram observados por apenas duas horas, e não demonstram função renal sustentada. O rim armazenado por um ano foi avaliado em perfusão, não em transplante de longa duração; faltam revisão por pares, replicação e estudos em humanos.",
+      "barrier": "Armazenamento prolongado de órgãos inteiros para transplante e substituição biológica.",
+      "impact": "Favorável para bancos de órgãos e substituição sucessiva, mas sem comprovar viabilidade clínica ou preservação do cérebro.",
+      "source": {
+        "name": "Han et al., bioRxiv (preprint original)",
+        "url": "https://doi.org/10.64898/2026.10.07.756990"
+      }
+    },
+    {
+      "id": "2026-10-08-er100-osk",
+      "title": "ER-100: primeiros dados clínicos de reprogramação epigenética ocular",
+      "published_at": "2026-10-08",
+      "topic": "epigenetics",
+      "stage": "Clínico · fase 1, dados intermediários",
+      "summary": "A Life Biosciences comunicou tolerabilidade até o dia 56 em três participantes com glaucoma após ER-100 (expressão controlada de OCT4, SOX2 e KLF4). Dois apresentaram sinais exploratórios de melhora em testes de campo visual.",
+      "limitations": "Dados divulgados pela empresa, sem publicação clínica revisada por pares; três participantes, estudo aberto, sem controle e com seguimento curto. Não há prova de eficácia, rejuvenescimento humano ou segurança de longo prazo.",
+      "barrier": "Recuperação funcional de células neurais especializadas sem substituição do tecido.",
+      "impact": "Marco translacional inicial, ainda de baixo peso probatório para reversão do envelhecimento humano.",
+      "source": {
+        "name": "Life Biosciences, dados preliminares de fase 1 (NCT07290244)",
+        "url": "https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/"
+      }
+    }
+  ]
 }
