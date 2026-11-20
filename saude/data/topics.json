@@ -49,6 +49,11 @@
       "id": "quantum",
       "name": "Biologia quântica",
       "watch": "Tunelamento, coerência, transferência de elétrons e prótons, spin, pares radicais, magnetorrecepção, hipóteses quânticas da consciência e tecnologias quânticas aplicadas à biologia; incluir demonstrações fundamentais verificadas mesmo sem aplicação clínica."
+    },
+    {
+      "id": "oncology",
+      "name": "Oncologia, prevenção e controle contínuo do câncer",
+      "watch": "Prevenção e estabilidade genômica; vigilância imunológica; detecção precoce, biópsia líquida e DNA tumoral circulante; imunoterapias, CAR-T, vacinas terapêuticas e tratamentos personalizados; resistência, evolução clonal, metástases, doença residual mínima e recorrência; segurança oncológica do rejuvenescimento e IA com validação experimental. Priorizar controle duradouro e resultados clínicos robustos, não anúncios incrementais."
     }
   ]
 }
