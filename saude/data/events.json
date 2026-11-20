@@ -60,6 +60,36 @@
         "name": "Life Biosciences, dados preliminares de fase 1 (NCT07290244)",
         "url": "https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/"
       }
+    },
+    {
+      "id": "2026-09-22-nhs-galleri-rastreamento-multicancer",
+      "title": "Ensaio NHS-Galleri não reduz significativamente diagnósticos de câncer avançado",
+      "published_at": "2026-09-22",
+      "topic": "oncology",
+      "stage": "Clínico · ensaio randomizado de rastreamento · artigo revisado por pares",
+      "summary": "No ensaio NHS-Galleri, 142.250 participantes de 50 a 77 anos foram randomizados para rastreamento sanguíneo multicâncer associado aos cuidados habituais ou cuidados habituais. Após três rodadas de rastreamento, a incidência de cânceres em estágios III ou IV nos 12 tipos predefinidos não diferiu significativamente entre os grupos (razão de taxas 1,03; IC 95% 0,92–1,14; p=0,63).",
+      "limitations": "O resultado refere-se ao teste, à população, aos 12 cânceres e ao período avaliados; não invalida toda biópsia líquida nem aplicações diagnósticas em pacientes sintomáticos. O desfecho secundário de estágio IV apresentou sinal de possível benefício (razão de taxas 0,86; IC 95% 0,74–1,00), ainda sujeito a acompanhamento. Não houve demonstração de redução de mortalidade.",
+      "barrier": "Detecção precoce comprovadamente capaz de reduzir câncer avançado e mortalidade, requisito para prevenção oncológica de longo prazo.",
+      "impact": "Evidência negativa relevante: demonstra que detectar sinais tumorais no sangue não garante, por si só, redução de diagnósticos avançados em rastreamento populacional; exige validação por desfechos clínicos, não apenas desempenho analítico.",
+      "source": {
+        "name": "Sasieni et al., New England Journal of Medicine (NHS-Galleri, estudo original)",
+        "url": "https://doi.org/10.1056/NEJMoa2505723"
+      }
+    },
+    {
+      "id": "2026-08-10-car-t-persistencia-decenal-linfoma",
+      "title": "Células CAR-T persistem por até uma década em pacientes com linfoma",
+      "published_at": "2026-08-10",
+      "topic": "oncology",
+      "stage": "Clínico · seguimento de longo prazo · artigo revisado por pares",
+      "summary": "Paruzzo e colaboradores analisaram 38 pacientes com linfoma não Hodgkin tratados com CAR-T anti-CD19. Entre oito respondedores de longo prazo com amostras disponíveis após cinco anos, cinco ainda apresentavam o transgene CAR detectável entre 7,0 e 10,1 anos após a infusão. Três mantinham aplasia de células B, compatível com atividade funcional persistente. Uma paciente permanecia em remissão aos 10,1 anos.",
+      "limitations": "Estudo de centro único, com poucos pacientes avaliáveis no seguimento tardio; análises mecanísticas aprofundadas concentradas em uma paciente. A persistência celular não prova causalmente a prevenção de recaídas, nem proteção vitalícia. Aplasia de células B e infecções recorrentes evidenciam custos imunológicos da resposta sustentada.",
+      "barrier": "Persistência de vigilância antitumoral e prevenção de recorrências por períodos prolongados.",
+      "impact": "Favorável para a hipótese de controle oncológico duradouro: demonstra persistência de células imunes engenheiradas por uma década em parte dos respondedores, sem demonstrar imunidade permanente ou controle universal do câncer.",
+      "source": {
+        "name": "Paruzzo et al., Nature Medicine (estudo original)",
+        "url": "https://doi.org/10.1038/s41591-026-04578-1"
+      }
     }
   ]
 }
