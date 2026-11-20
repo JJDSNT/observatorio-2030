@@ -207,15 +207,32 @@ window.addEventListener('load', registerPwa);
 const views = [...document.querySelectorAll('.view')];
 const links = [...document.querySelectorAll('nav a')];
 
-function showView(name) {
+function showView(name, preserveHash = false) {
   const valid = ['marcos', 'topicos', 'timeline'].includes(name) ? name : 'marcos';
   views.forEach(view => view.classList.toggle('active', view.id === valid));
   links.forEach(link => link.classList.toggle('active', link.dataset.view === valid));
-  if (location.hash !== `#${valid}`) history.replaceState(null, '', `#${valid}`);
+  if (!preserveHash && location.hash !== `#${valid}`) history.replaceState(null, '', `#${valid}`);
 }
 
+let eventsRendered = false;
 function route() {
-  showView(location.hash.slice(1) || 'marcos');
+  const hash = location.hash.slice(1);
+  if (hash.startsWith('marco=')) {
+    showView('marcos', true);
+    if (!eventsRendered) return;
+    let eventId;
+    try { eventId = decodeURIComponent(hash.slice('marco='.length)); }
+    catch (_) { return; }
+    const target = document.getElementById(`marco-${eventId}`);
+    document.querySelectorAll('.event.targeted').forEach(item => item.classList.remove('targeted'));
+    if (target) {
+      target.classList.add('targeted');
+      requestAnimationFrame(() => target.scrollIntoView({ block: 'start', behavior: 'auto' }));
+    }
+    return;
+  }
+  document.querySelectorAll('.event.targeted').forEach(item => item.classList.remove('targeted'));
+  showView(hash || 'marcos');
 }
 
 links.forEach(link => link.addEventListener('click', event => {
@@ -246,8 +263,10 @@ Promise.all([get('data/timeline.json'), get('data/topics.json'), get('data/event
   document.querySelector('#events').innerHTML = sortedEvents.length ? sortedEvents.map(event => {
     const years = Array.isArray(event.timeline) ? event.timeline.join(' · ') : (event.timeline_year || 'Marco ainda não vinculado');
     const dates = [event.published_at ? `Divulgado em ${formatDate(event.published_at)}` : 'Divulgação original não confirmada', event.event_date && event.event_date !== event.published_at ? `Ocorrido em ${formatDate(event.event_date)}` : ''].filter(Boolean).join(' · ');
-    return `<article class="event"><span class="tag">${labels[event.status] || 'Em acompanhamento'}</span><h3>${event.title}</h3><small>${dates} · ${event.topic}</small><p><strong>Timeline:</strong> ${years}</p><p>${event.summary}</p>${event.impact ? `<p>${event.impact}</p>` : ''}${event.source?.url ? `<p><a href="${event.source.url}" target="_blank" rel="noopener noreferrer">Fonte: ${event.source.name || 'Consultar'}</a></p>` : ''}</article>`;
+    return `<article class="event" id="marco-${event.id}"><span class="tag">${labels[event.status] || 'Em acompanhamento'}</span><h3>${event.title}</h3><small>${dates} · ${event.topic}</small><p><strong>Timeline:</strong> ${years}</p><p>${event.summary}</p>${event.impact ? `<p>${event.impact}</p>` : ''}${event.source?.url ? `<p><a href="${event.source.url}" target="_blank" rel="noopener noreferrer">Fonte: ${event.source.name || 'Consultar'}</a></p>` : ''}</article>`;
   }).join('') : '<div class="empty">Nenhum marco registrado ainda.</div>';
+  eventsRendered = true;
+  route();
 }).catch(() => {
   document.querySelector('#events').innerHTML = '<div class="empty">Não foi possível carregar os dados.</div>';
 });
