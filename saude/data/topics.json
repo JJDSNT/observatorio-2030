@@ -3,52 +3,52 @@
     {
       "id": "epigenetics",
       "name": "Reprogramação epigenética e rejuvenescimento",
-      "watch": "Reprogramação parcial, rejuvenescimento funcional e segurança."
+      "watch": "Reprogramação parcial, recuperação funcional, estabilidade epigenética, risco tumoral e segurança de longo prazo; distinguir rejuvenescimento celular de reversão do envelhecimento humano."
     },
     {
       "id": "senescence",
       "name": "Senescência celular",
-      "watch": "Senolíticos, senomórficos e evidências em humanos."
+      "watch": "Senolíticos e senomórficos, eliminação seletiva de células senescentes, efeitos sistêmicos, segurança, replicação e evidências clínicas."
     },
     {
       "id": "regeneration",
       "name": "Regeneração e engenharia de tecidos",
-      "watch": "Reparação e substituição funcional de tecidos."
+      "watch": "Regeneração, engenharia de tecidos, bioimpressão 3D, vascularização, integração funcional e reparação ou substituição de tecidos."
     },
     {
       "id": "organs",
-      "name": "Órgãos artificiais e xenotransplantes",
-      "watch": "Bioengenharia, implantes, rejeição e sobrevida."
+      "name": "Órgãos artificiais e substituição sucessiva",
+      "watch": "Órgãos artificiais e bioartificiais, xenotransplantes, biocompatibilidade, rejeição, durabilidade, substituição sucessiva de órgãos e manutenção da função ao longo da vida."
     },
     {
       "id": "molecular",
       "name": "Reparação molecular",
-      "watch": "Mecanismos de dano e manutenção da integridade biológica."
+      "watch": "Reparo de DNA, estabilidade genômica, proteostase, mitocôndrias, danos moleculares e mecanismos de manutenção e recuperação da integridade biológica."
     },
     {
       "id": "neuro",
       "name": "Neurodegeneração, memória e identidade",
-      "watch": "Preservação de funções neurais e continuidade pessoal."
+      "watch": "Prevenção e reversão de danos neurais, preservação de memória, conectividade e funções cerebrais; investigar continuidade da consciência e identidade pessoal sem presumir que recuperação funcional as comprova."
     },
     {
       "id": "ai",
-      "name": "IA aplicada à longevidade",
-      "watch": "Descobertas com validação experimental independente."
+      "name": "IA aplicada à descoberta biomédica",
+      "watch": "IA para descoberta de alvos, moléculas, terapias e biomateriais ligados à longevidade; priorizar validação experimental, replicação e resultados funcionais."
     },
     {
       "id": "systemic",
       "name": "Longevidade sistêmica",
-      "watch": "Efeitos multissistêmicos e extensão de vida saudável."
+      "watch": "Intervenções multissistêmicas, extensão da vida saudável, resultados quantitativos de sobrevida e função, segurança prolongada e tradução pré-clínica ou clínica."
     },
     {
       "id": "cryo",
-      "name": "Criopreservação",
-      "watch": "Preservação e recuperação funcional de tecidos e órgãos."
+      "name": "Criopreservação reversível",
+      "watch": "Vitrificação, armazenamento e reaquecimento, preservação de arquitetura e viabilidade, recuperação funcional de tecidos e órgãos; distinguir perfusão inicial de função sustentada e investigar limites neurais."
     },
     {
       "id": "quantum",
       "name": "Biologia quântica",
-      "watch": "Mecanismos quânticos biologicamente relevantes com evidências reproduzíveis."
+      "watch": "Tunelamento, coerência, transferência de elétrons e prótons, spin, pares radicais, magnetorrecepção, hipóteses quânticas da consciência e tecnologias quânticas aplicadas à biologia; incluir demonstrações fundamentais verificadas mesmo sem aplicação clínica."
     }
   ]
 }
