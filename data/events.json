@@ -1,6 +1,51 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-20",
   "events": [
+    {
+      "id": "evt-2026-11-20-ai-mathematical-discovery-computation-foundations",
+      "date": "2026-11-20",
+      "event_date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "recorded_at": "2026-11-20",
+      "updated_at": "2026-11-20",
+      "topic": "ai",
+      "status": "confirms",
+      "title": "Da geometria do raciocínio à descoberta de teoremas: IA avança nos fundamentos da computação",
+      "summary": "Em 2026, resultados de diferentes laboratórios começaram a revelar uma transformação na pesquisa matemática e computacional: a IA passou a contribuir não apenas para resolver problemas conhecidos, mas para investigar como raciocina, propor novos algoritmos e ajudar a verificar demonstrações. O AlgoTrace, apresentado na ICML, identificou vetores associados a operações algorítmicas nas representações internas de modelos de linguagem; sua combinação e manipulação alteraram etapas de raciocínio em tarefas como 3-SAT, caixeiro-viajante e navegação em grafos. Isso sugere uma geometria composicional de certas operações, sem provar que toda matemática se reduza à geometria. Na descoberta de teoremas, a OpenAI divulgou resultados em complexidade computacional e uma proposta de algoritmo subexponencial para contar soluções de fórmulas k-CNF, que, se confirmada em seu alcance matemático, refutaria a Hipótese do Tempo Exponencial (ETH); a Anthropic divulgou uma abordagem alternativa. O AlphaEvolve, do Google DeepMind, encontrou construções combinatórias com certificados verificáveis que melhoram limites conhecidos de problemas algorítmicos. Na Microsoft Research, agentes auxiliaram pesquisadores humanos a explorar caminhos para resolver a conjectura KLS, importante para geometria de alta dimensão e algoritmos. Em outra frente, sistemas de IA contribuíram para gerar provas formais em Lean de propriedades específicas de segurança de software real, incluindo a implementação do Signal. O conjunto não estabelece uma cadeia causal entre geometria interna e descoberta matemática: são linhas complementares de investigação e aplicação.",
+      "impact": "O marco é a convergência de evidências de participação da IA em pesquisa matemática original, exploração algorítmica e verificação formal. A formalização de uma prova garante a consistência da proposição formalizada com os axiomas e definições usados, mas não dispensa a conferência de sua correspondência com o enunciado científico nem a revisão especializada. A proposta sobre ETH ainda não implica algoritmo prático para SAT e não resolve P versus NP. Os graus de autonomia variam: na conjectura KLS, a orientação matemática humana foi decisiva. Perspectiva 2026–2030: acompanhar validação independente, reprodução, descoberta de algoritmos efetivamente úteis e sistemas capazes de formular, demonstrar e auditar resultados com confiabilidade crescente, sem equiparar êxitos especializados a AGI.",
+      "timeline": [
+        "2026 — Evidências convergentes de geometria composicional do raciocínio, descobertas algorítmicas assistidas por IA e provas formais aplicadas",
+        "2027–2028 — Acompanhar revisão independente das alegações sobre ETH e reprodutibilidade de descobertas automatizadas",
+        "2029–2030 — Avaliar autonomia confiável de pesquisa matemática e ganhos algorítmicos demonstrados em aplicações reais"
+      ],
+      "maturity": "Conjunto heterogêneo: artigo revisado por pares sobre representações de raciocínio; resultados matemáticos e construções verificáveis; demonstrações de verificação formal; alegação sobre ETH com formalização e escrutínio especializado ainda necessários",
+      "source": {
+        "name": "OpenAI — Working with academic communities to build scientific understanding (2026)",
+        "url": "https://openai.com/index/working-with-academic-communities-to-build-scientific-understanding/"
+      },
+      "related_sources": [
+        {
+          "name": "AlgoTrace — ICML 2026 (PMLR)",
+          "url": "https://proceedings.mlr.press/v306/lippl26a.html"
+        },
+        {
+          "name": "OpenAI — The Exponential Time Hypothesis is False (preprint)",
+          "url": "https://github.com/openai/math/tree/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026"
+        },
+        {
+          "name": "Google Research — AlphaEvolve and theoretical computer science",
+          "url": "https://research.google/blog/ai-as-a-research-partner-advancing-theoretical-computer-science-with-alphaevolve/"
+        },
+        {
+          "name": "Microsoft Research — Solving the KLS conjecture",
+          "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/"
+        },
+        {
+          "name": "Google DeepMind — Formal verification of Signal",
+          "url": "https://deepmind.google/documents/36/Formal_Verification_of_Signal_4.pdf"
+        }
+      ]
+    },
     {
       "id": "evt-2026-11-16-autonomous-quantum-error-correction-break-even",
       "date": "2026-11-16",
