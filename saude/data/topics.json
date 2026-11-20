@@ -1,0 +1,54 @@
+{
+  "topics": [
+    {
+      "id": "epigenetics",
+      "name": "Reprogramação epigenética e rejuvenescimento",
+      "watch": "Reprogramação parcial, rejuvenescimento funcional e segurança."
+    },
+    {
+      "id": "senescence",
+      "name": "Senescência celular",
+      "watch": "Senolíticos, senomórficos e evidências em humanos."
+    },
+    {
+      "id": "regeneration",
+      "name": "Regeneração e engenharia de tecidos",
+      "watch": "Reparação e substituição funcional de tecidos."
+    },
+    {
+      "id": "organs",
+      "name": "Órgãos artificiais e xenotransplantes",
+      "watch": "Bioengenharia, implantes, rejeição e sobrevida."
+    },
+    {
+      "id": "molecular",
+      "name": "Reparação molecular",
+      "watch": "Mecanismos de dano e manutenção da integridade biológica."
+    },
+    {
+      "id": "neuro",
+      "name": "Neurodegeneração, memória e identidade",
+      "watch": "Preservação de funções neurais e continuidade pessoal."
+    },
+    {
+      "id": "ai",
+      "name": "IA aplicada à longevidade",
+      "watch": "Descobertas com validação experimental independente."
+    },
+    {
+      "id": "systemic",
+      "name": "Longevidade sistêmica",
+      "watch": "Efeitos multissistêmicos e extensão de vida saudável."
+    },
+    {
+      "id": "cryo",
+      "name": "Criopreservação",
+      "watch": "Preservação e recuperação funcional de tecidos e órgãos."
+    },
+    {
+      "id": "quantum",
+      "name": "Biologia quântica",
+      "watch": "Mecanismos quânticos biologicamente relevantes com evidências reproduzíveis."
+    }
+  ]
+}
