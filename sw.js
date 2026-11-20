@@ -1,4 +1,4 @@
-const CACHE = 'observatorio-2030-v5';
+const CACHE = 'observatorio-2030-v6';
 const SHELL = [
   './',
   './index.html',
@@ -33,7 +33,10 @@ self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
 
-  const isFreshContent = url.pathname.includes('/data/')
+  // HTML navigations must be network-first: a cached index.html can hide
+  // newly published navigation links even after a successful Pages deploy.
+  const isFreshContent = event.request.mode === 'navigate'
+    || url.pathname.includes('/data/')
     || url.pathname.endsWith('/app.js')
     || url.pathname.endsWith('/style.css');
 
