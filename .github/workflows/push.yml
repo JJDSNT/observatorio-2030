@@ -3,7 +3,7 @@ name: Notify new Observatório milestones
 on:
   push:
     branches: ["main"]
-    paths: ["data/events.json"]
+    paths: ["data/events.json", "saude/data/events.json"]
 
 permissions:
   contents: read
@@ -21,12 +21,19 @@ jobs:
         shell: bash
         run: |
           git show HEAD^:data/events.json > /tmp/old-events.json 2>/dev/null || echo '{"events":[]}' > /tmp/old-events.json
+          git show HEAD^:saude/data/events.json > /tmp/old-health-events.json 2>/dev/null || echo '{"events":[]}' > /tmp/old-health-events.json
           node <<'NODE'
           const fs=require('fs');
           const old=JSON.parse(fs.readFileSync('/tmp/old-events.json','utf8')).events||[];
           const cur=JSON.parse(fs.readFileSync('data/events.json','utf8')).events||[];
+          const oldHealth=JSON.parse(fs.readFileSync('/tmp/old-health-events.json','utf8')).events||[];
+          const curHealth=JSON.parse(fs.readFileSync('saude/data/events.json','utf8')).events||[];
           const ids=new Set(old.map(x=>x.id).filter(Boolean));
-          const added=cur.filter(x=>x.id && !ids.has(x.id));
+          const healthIds=new Set(oldHealth.map(x=>x.id).filter(Boolean));
+          const added=[
+            ...cur.filter(x=>x.id && !ids.has(x.id)).map(x=>({...x,channel:'2030'})),
+            ...curHealth.filter(x=>x.id && !healthIds.has(x.id)).map(x=>({...x,channel:'saude'}))
+          ];
           fs.writeFileSync('/tmp/new-events.json',JSON.stringify(added));
           fs.appendFileSync(process.env.GITHUB_OUTPUT,'count='+added.length+'\n');
           NODE
@@ -38,23 +45,30 @@ jobs:
           node <<'NODE'
           const fs = require('fs');
           const events = JSON.parse(fs.readFileSync('/tmp/new-events.json', 'utf8'));
-          const expected = new Set(events.map(event => event.id));
-          const url = 'https://jjdsnt.github.io/observatorio-2030/data/events.json';
+          const groups = [
+            { channel: '2030', url: 'https://jjdsnt.github.io/observatorio-2030/data/events.json' },
+            { channel: 'saude', url: 'https://jjdsnt.github.io/observatorio-2030/saude/data/events.json' }
+          ].map(group => ({ ...group, expected: new Set(events.filter(e => e.channel === group.channel).map(e => e.id)) }))
+            .filter(group => group.expected.size);
           const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
           (async () => {
             for (let attempt = 1; attempt <= 6; attempt++) {
               await sleep(30000);
               try {
-                const response = await fetch(url + '?check=' + Date.now(), {
-                  headers: { 'Cache-Control': 'no-cache' },
-                  signal: AbortSignal.timeout(10000)
-                });
-                if (!response.ok) throw new Error('HTTP ' + response.status);
-                const published = await response.json();
-                const available = new Set((published.events || []).map(event => event.id));
-                if ([...expected].every(id => available.has(id))) {
-                  console.log('All ' + expected.size + ' new milestones are publicly available.');
+                let allPublished = true;
+                for (const group of groups) {
+                  const response = await fetch(group.url + '?check=' + Date.now(), {
+                    headers: { 'Cache-Control': 'no-cache' },
+                    signal: AbortSignal.timeout(10000)
+                  });
+                  if (!response.ok) throw new Error(group.channel + ': HTTP ' + response.status);
+                  const published = await response.json();
+                  const available = new Set((published.events || []).map(event => event.id));
+                  if (![...group.expected].every(id => available.has(id))) allPublished = false;
+                }
+                if (allPublished) {
+                  console.log('All ' + events.length + ' new milestones are publicly available.');
                   process.exit(0);
                 }
                 console.log('Attempt ' + attempt + '/6: milestones not yet visible.');
@@ -82,7 +96,8 @@ jobs:
           const fs=require('fs'),{execFileSync}=require('child_process');
           const events=JSON.parse(fs.readFileSync('/tmp/new-events.json','utf8'));
           for(const e of events){
-            const payload=JSON.stringify({id:e.id,title:e.title,url:'./#marco='+encodeURIComponent(e.id)});
+            const health=e.channel==='saude';
+            const payload=JSON.stringify({id:(health?'saude-':'')+e.id,title:(health?'[Saúde] ':'')+e.title,url:health?'./saude/#marco='+encodeURIComponent(e.id):'./#marco='+encodeURIComponent(e.id)});
             execFileSync('curl',['--fail-with-body','--silent','--show-error','-X','POST',process.env.PUSH_ENDPOINT.replace(/\/$/,'')+'/notify','-H','Authorization: Bearer '+process.env.PUSH_API_TOKEN,'-H','Content-Type: application/json','--data-binary',payload],{stdio:'inherit'});
           }
           NODE
