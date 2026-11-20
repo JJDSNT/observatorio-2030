@@ -2,6 +2,39 @@
   "updated": "2026-11-20",
   "events": [
     {
+      "id": "evt-2026-11-17-magic-state-cultivation-lattice-surgery-ibm",
+      "date": "2026-11-17",
+      "event_date": "2026-11-17",
+      "published_at": "2026-11-17",
+      "recorded_at": "2026-11-20",
+      "updated_at": "2026-11-20",
+      "topic": "quantum",
+      "status": "confirms",
+      "title": "Estados mágicos: IBM Nighthawk demonstra cultivo e transferência por lattice surgery",
+      "summary": "Pesquisadores da Q-CTRL demonstraram em um processador supercondutor IBM Nighthawk o cultivo de estados mágicos T e, pela primeira vez em hardware, sua transferência direta para um código de superfície por lattice surgery. O estado cultivado apresentou probabilidade de erro lógico estimada em 2 × 10⁻⁵ (6 erros em 300.462 tentativas retidas), com retenção de cerca de 25% nessa etapa. Após transferência e dez ciclos de estabilização, a fidelidade foi de aproximadamente 99,1%, mas com retenção de apenas cerca de 5% das tentativas. O trabalho compara também a estratégia grafting e dá continuidade à demonstração anterior do Google Willow. As métricas de cultivo e de armazenamento após transferência não devem ser confundidas.",
+      "impact": "O resultado confirma progresso experimental em um componente essencial da computação quântica universal tolerante a falhas: estados mágicos possibilitam portas não-Clifford, como a porta T, difíceis de realizar diretamente em qubits lógicos protegidos. A transferência para código de superfície compatível com decodificação eficiente aproxima a integração com futuras fábricas de estados mágicos. Ainda não demonstra consumo do estado em uma porta T lógica operacional, decodificação e feed-forward em tempo real, produção sustentada em escala nem vantagem quântica prática. O erro muito baixo depende de pós-seleção e a comparação entre processadores não isola os efeitos do hardware e do protocolo. Confirma a direção do marco de 2029, sem antecipar sua realização.",
+      "timeline": [
+        "2026 — Cultivo de estado mágico com erro lógico estimado de 2 × 10⁻⁵ e transferência por lattice surgery demonstrados em hardware",
+        "2027–2028 — Acompanhar decodificação e feed-forward em tempo real, consumo em portas T lógicas e redução do custo da pós-seleção",
+        "2029–2030 — Avaliar fábricas escaláveis de estados mágicos e algoritmos úteis com operações não-Clifford tolerantes a falhas"
+      ],
+      "maturity": "Experimento físico em hardware supercondutor publicamente acessível, divulgado em preprint (17 nov 2026), ainda sem revisão por pares; decodificação offline, pós-seleção elevada, código de distância 5 e ausência de computação útil integrada",
+      "source": {
+        "name": "Liao et al. — Magic state cultivation with lattice-surgery escape on superconducting hardware (arXiv, 17 nov 2026)",
+        "url": "https://arxiv.org/abs/2611.22035"
+      },
+      "related_sources": [
+        {
+          "name": "Q-CTRL — Detalhes experimentais e comparação de protocolos (nov 2026)",
+          "url": "https://q-ctrl.com/blog/cultivating-record-fidelity-magic-states-with-lattice-surgery-on-publicly-accessible-ibm-quantum-computers"
+        },
+        {
+          "name": "Google Quantum AI — Magic-state cultivation no Willow (out 2026)",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/"
+        }
+      ]
+    },
+    {
       "id": "evt-2026-11-20-ai-mathematical-discovery-computation-foundations",
       "date": "2026-11-20",
       "event_date": "2026-11-20",
