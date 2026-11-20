@@ -1,8 +1,6 @@
 name: Deploy Observatório 2030 to GitHub Pages
 
 on:
-  push:
-    branches: ["main"]
   workflow_dispatch:
 
 permissions:
