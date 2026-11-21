@@ -1,6 +1,43 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "events": [
+    {
+      "id": "evt-2026-11-20-riemann-hypothesis-claude-lean-independent-verification",
+      "date": "2026-11-20",
+      "event_date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "recorded_at": "2026-11-21",
+      "updated_at": "2026-11-21",
+      "topic": "ai",
+      "status": "confirms",
+      "title": "Hipótese de Riemann: prova assistida por Claude supera verificações formais independentes",
+      "summary": "Em 20 de novembro de 2026, o matemático Levent Alpöge, da Anthropic, anunciou ter desenvolvido com Claude uma demonstração da Hipótese de Riemann e de sua generalização para funções L de Dirichlet. A divulgação inclui cerca de 175 mil módulos Lean e 17,4 milhões de linhas, sem artigo matemático convencional completo. Andrew Sutherland (MIT) reproduziu a compilação dos 175.187 módulos sem erros, verificou que os cinco teoremas principais dependem apenas dos axiomas padrão propext, Classical.choice e Quot.sound, reproduziu todos os módulos pelo kernel Lean e obteve aceitação integral do artefato exportado pelo verificador independente nanoda, escrito em Rust. A conclusão formal corresponde à definição da Hipótese de Riemann na biblioteca Mathlib. A auditoria de proveniência da compilação, verificações adicionais e a compreensão matemática humana do argumento ainda não estavam concluídas no último relatório primário consultado.",
+      "impact": "A evidência já ultrapassa uma alegação promocional: há um artefato formal massivo e verificações independentes reproduzidas. Se a auditoria completa confirmar que o artefato prova exatamente as afirmações matemáticas pretendidas sem premissas indevidas, será um marco histórico da matemática e da IA aplicada à descoberta científica. O episódio reforça a trajetória de IA pesquisadora antes de 2029, mas não demonstra inteligência geral, autonomia científica generalista nem aceitação definitiva da solução pelo Instituto Clay. A alegação relativa à hipótese generalizada está limitada às funções L de Dirichlet, não a todas as generalizações possíveis. A eventual prova não implica imediatamente novas aplicações comerciais ou capacidade de quebrar criptografia.",
+      "timeline": [
+        "2026 — Alegação de prova de Riemann assistida por IA com compilação, auditoria de axiomas e verificação independente do artefato formal",
+        "2027–2028 — Acompanhar auditoria integral, reprodução em ambientes isolados, exposição matemática compreensível e avaliação por especialistas",
+        "2029 — Reavaliar a previsão de IA pesquisadora à luz de resultados matemáticos originais independentemente aceitos e reproduzíveis"
+      ],
+      "maturity": "Alegação de prova formal com verificações independentes substanciais; compilação e checagem de axiomas confirmadas, kernel Lean e nanoda aprovados; verificações adicionais e revisão matemática especializada pendentes no relatório consultado em 21 nov 2026",
+      "source": {
+        "name": "Andrew Sutherland (MIT) — Verification files for the Lean proof of the Riemann Hypothesis (20 nov 2026)",
+        "url": "https://math.mit.edu/~drew/grh/"
+      },
+      "related_sources": [
+        {
+          "name": "Nature — Mathematician says he and AI solved Riemann hypothesis (20 nov 2026)",
+          "url": "https://www.nature.com/articles/d41586-026-03812-7"
+        },
+        {
+          "name": "Lean 4 Dev — The Riemann Hypothesis: a claimed proof, delivered in Lean",
+          "url": "https://lean4.dev/proofs/riemann-hypothesis-claim"
+        },
+        {
+          "name": "Levent Alpöge — Nota original (20 nov 2026)",
+          "url": "https://alpo.ge/remark.pdf"
+        }
+      ]
+    },
     {
       "id": "evt-2026-11-17-magic-state-cultivation-lattice-surgery-ibm",
       "date": "2026-11-17",
