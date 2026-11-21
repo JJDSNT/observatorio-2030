@@ -2,6 +2,39 @@
   "updated": "2026-11-21",
   "events": [
     {
+      "id": "evt-2026-11-20-femoco-classical-supercomputing-raises-bar-quantum-advantage",
+      "date": "2026-11-20",
+      "event_date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "recorded_at": "2026-11-21",
+      "updated_at": "2026-11-21",
+      "topic": "quantum",
+      "status": "confirms",
+      "title": "IA e supercomputação clássica elevam a régua para a vantagem quântica em benchmark de química",
+      "summary": "Uma equipe chinesa premiada com o ACM Gordon Bell Prize de 2026 apresentou na conferência SC26 uma simulação clássica do cofator ferro-molibdênio (FeMoco), referência em química quântica, com 113 elétrons em 76 orbitais. Combinando uma função de onda de referência obtida por rede neural (QiankunNet) e Monte Carlo quântico de campos auxiliares (AFQMC), os pesquisadores relataram a execução do cálculo em 105 minutos usando 1.280 nós do supercomputador LineShine. O tempo foi inferior à projeção de aproximadamente 8,5 horas atribuída a uma abordagem quântica tolerante a falhas. Trata-se de comparação entre uma execução clássica real e uma estimativa quântica, não de uma disputa experimental entre dois computadores. Em testes de escala distintos, com 20.480 nós, a implementação reportou desempenho de 1,456 exaflops em FP64 e 5,626 exaflops em precisão mista. Outro trabalho clássico de 2026 também apresentou estimativas de energia do mesmo modelo de FeMoco próximas da precisão química, reforçando que o benchmark está evoluindo.",
+      "impact": "O resultado eleva a régua para demonstrar vantagem quântica útil: futuras máquinas quânticas precisam superar os melhores métodos clássicos disponíveis, sob critérios comparáveis de precisão, tempo, custo e recursos. Não reduz uma vantagem experimental já estabelecida nesse benchmark, porque a comparação quântica era uma projeção; tampouco invalida vantagens quânticas em outros problemas ou escalas. A convergência de IA, métodos numéricos e supercomputação clássica torna a meta de utilidade quântica dinâmica. A previsão de 2029 permanece sob observação, sem alteração automática.",
+      "timeline": [
+        "2026 — Supercomputação clássica com IA resolve benchmark FeMoco (113 elétrons/76 orbitais) em 105 minutos, abaixo de projeção quântica anterior",
+        "2027–2028 — Acompanhar reprodutibilidade, precisão comparável, custos totais e evolução dos melhores algoritmos clássicos e quânticos",
+        "2029 — Exigir demonstrações de utilidade quântica contra baselines clássicos contemporâneos, não estimativas históricas"
+      ],
+      "maturity": "Resultado técnico apresentado na SC26 e reconhecido com o Prêmio ACM Gordon Bell 2026; tempo clássico medido, tempo quântico apenas estimado; comparabilidade integral de erros e custos ainda requer exame técnico",
+      "source": {
+        "name": "SC26 — Closing the FeMo-Cofactor Quantum-Advantage Gap with Exascale Supercomputers",
+        "url": "https://sc26.supercomputing.org/proceedings/papers/paper_pages/gb103.html"
+      },
+      "related_sources": [
+        {
+          "name": "ACM — Gordon Bell Prize 2026",
+          "url": "https://awards.acm.org/bell"
+        },
+        {
+          "name": "Estudo independente — Classical quantum chemical solution of the FeMo-cofactor model to chemical accuracy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13685976/"
+        }
+      ]
+    },
+    {
       "id": "evt-2026-11-20-riemann-hypothesis-claude-lean-independent-verification",
       "date": "2026-11-20",
       "event_date": "2026-11-20",
