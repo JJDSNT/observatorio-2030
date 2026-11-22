@@ -47,6 +47,21 @@
       }
     },
     {
+      "id": "2026-11-06-chang-organoides-circuito-visual",
+      "title": "Interface neural guia enxerto vivo e melhora desempenho visual em camundongos",
+      "published_at": "2026-11-06",
+      "topic": "regeneration",
+      "stage": "Pré-clínico · artigo revisado por pares · Cell Stem Cell",
+      "summary": "Chang e colegas investigaram a integração de organoides cerebrais humanos transplantados no córtex visual lesionado de camundongos adultos. Uma interface orientou a estimulação a partir da atividade rítmica do circuito. Os autores relataram conexões entre enxerto e hospedeiro em ambas as direções, células com características da camada 4 do córtex visual e respostas seletivas à direção do movimento. Nos testes comportamentais, o grupo direcionado teve melhores medidas de acuidade e contraste que os grupos com lesão, enxerto sem estímulo ou estímulo não direcionado.",
+      "limitations": "Experimento em camundongos, não em pacientes. A melhora nesses testes não demonstra normalização da visão, reconstrução completa do córtex, segurança de longo prazo ou preservação da experiência subjetiva. O enxerto humano é a origem do tecido, não a espécie que recebeu o tratamento.",
+      "barrier": "Integrar tecido de reposição de maneira organizada aos circuitos do hospedeiro e demonstrar que essa integração melhora uma função.",
+      "impact": "Amplia o observado em estudos anteriores, que já mostravam integração e resposta a estímulos visuais. O avanço é guiar a integração em um circuito visual específico e medir melhora no comportamento do animal. A eletrônica orientou o reparo; não substituiu os neurônios do enxerto.",
+      "source": {
+        "name": "Chang et al. — Cell Stem Cell, 6 nov 2026",
+        "url": "https://doi.org/10.1016/j.stem.2026.10.011"
+      }
+    },
+    {
       "id": "2026-10-21-bh2-bh4-proteostase-longevidade",
       "title": "Via metabólica BH2–BH4 conecta tecidos, proteostase e longevidade em vermes",
       "published_at": "2026-10-21",
@@ -134,6 +149,21 @@
       "source": {
         "name": "Paruzzo et al., Nature Medicine (estudo original)",
         "url": "https://doi.org/10.1038/s41591-026-04578-1"
+      }
+    },
+    {
+      "id": "2026-07-16-chandrasekaran-neuroprotese-tetraplegia",
+      "title": "Neuroprótese bidirecional permite preensão com a própria mão em um caso de tetraplegia",
+      "published_at": "2026-07-16",
+      "topic": "neuro",
+      "stage": "Clínico · prova de conceito em um participante · Nature Medicine",
+      "summary": "Em uma pessoa com tetraplegia cervical completa, Chandrasekaran e colegas decodificaram a intenção de movimento no córtex motor para acionar a mão por estimulação muscular, com apoio de uma órtese em tarefas de precisão. Sensores de força devolveram informação tátil ao córtex somatossensorial. Com o sistema ligado, o participante conseguiu agarrar objetos e se alimentar. Sem a assistência ativa, o estudo observou ganhos separados: aumento da força voluntária na flexão do cotovelo após estimulação espinal com treino e melhora de sensibilidade numa região do punho após a intervenção combinada.",
+      "limitations": "Caso único com intervenções em etapas, sem grupo paralelo de controle. Os ganhos sem assistência não equivalem à recuperação da preensão nem do tato natural nos dedos avaliados. Não demonstra regeneração neural, benefício generalizável ou disponibilidade clínica.",
+      "barrier": "Contornar a interrupção das vias motoras e sensitivas de uma lesão medular grave e distinguir assistência imediata de recuperação que persiste sem o dispositivo ativo.",
+      "impact": "O avanço está em combinar controle da própria mão, retorno tátil cortical e acompanhamento de ganhos específicos sem assistência. Já havia demonstrações de controle da própria mão e, separadamente, de tato artificial com braço robótico. A publicação revisada por pares de 2026 documenta a combinação; não é a primeira interface bidirecional.",
+      "source": {
+        "name": "Chandrasekaran et al. — Nature Medicine, 16 jul 2026",
+        "url": "https://doi.org/10.1038/s41591-026-04498-0"
       }
     }
   ]

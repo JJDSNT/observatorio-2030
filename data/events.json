@@ -221,6 +221,42 @@
       ]
     },
     {
+      "id": "evt-2026-10-07-cortivis-estimulacao-visual-personalizada",
+      "date": "2026-10-07",
+      "event_date": "2026-10-07",
+      "published_at": "2026-10-07",
+      "recorded_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "topic": "neuro-alt-compute",
+      "status": "confirms",
+      "title": "CORTIVIS mostra por que a estimulação do córtex visual precisa ser calibrada para cada pessoa",
+      "summary": "Em artigo revisado por pares publicado na Neuron em 7 de agosto de 2026, Moure e colegas usaram um implante intracortical de 96 canais em uma pessoa cega. Padrões selecionados por aprendizagem profunda aproximaram a resposta cortical do alvo com menor corrente total que os métodos de comparação. Incluir a atividade cerebral elevou de 77% para 87,8% a precisão ao prever se a pessoa relataria um fosfeno, uma percepção luminosa evocada pela estimulação. Em preprint de 7 de outubro do mesmo programa, quatro participantes perceberam fosfenos com estímulos em eletrodos individuais; os dois participantes submetidos ao teste de discriminação distinguiram percepções associadas a eletrodos diferentes.",
+      "impact": "Reforça a convergência entre IA e interfaces neurais: medir a resposta do cérebro ajuda a programar a estimulação, sem supor que cada eletrodo produza um pixel previsível. A precisão reportada é de previsão de um relato, não de acuidade visual. Não demonstra visão normal, benefício no cotidiano ou eficácia clínica. O Blindsight da Neuralink é uma iniciativa paralela de visão cortical artificial; até 22/11/2026 não foram localizados resultados humanos públicos do programa. Nenhuma data da timeline é antecipada.",
+      "timeline": [
+        "2027 — Convergência Neuro-AI em aplicações de percepção",
+        "2028 — Interfaces neurais bidirecionais e substratos adaptativos como eixo de observação"
+      ],
+      "maturity": "Prova de conceito humana em um participante, revisada por pares; preprint complementar de quatro participantes do mesmo programa, sem somar as amostras",
+      "source": {
+        "name": "Moure et al. — Neuron, 7 ago 2026",
+        "url": "https://doi.org/10.1016/j.neuron.2026.07.006"
+      },
+      "related_sources": [
+        {
+          "name": "Soo et al. — preprint CORTIVIS, 7 out 2026",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.05.26364412v1"
+        },
+        {
+          "name": "Neuralink — proposta Blindsight e situação pública dos ensaios",
+          "url": "https://neuralink.com/trials/visual-prosthesis/"
+        },
+        {
+          "name": "Observatório Saúde — reparo do circuito visual com enxerto vivo",
+          "url": "https://jjdsnt.github.io/observatorio-2030/saude/#marco=2026-11-06-chang-organoides-circuito-visual"
+        }
+      ]
+    },
+    {
       "id": "evt-2026-08-24-fegp-online-motor-learning",
       "date": "2026-08-24",
       "event_date": "2026-08-24",
