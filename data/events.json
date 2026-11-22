@@ -2,6 +2,42 @@
   "updated": "2026-11-22",
   "events": [
     {
+      "id": "evt-2026-11-18-architect-labs-frostbite",
+      "date": "2026-11-18",
+      "event_date": "2026-11-18",
+      "published_at": "2026-11-18",
+      "recorded_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "topic": "ai",
+      "status": "confirms",
+      "title": "Agentes de IA co-projetam uma CPU experimental, do compilador ao layout",
+      "summary": "Em 18 de novembro de 2026, a Architect Labs apresentou o Frostbite, um projeto de CPU baseado em redes de interação. Segundo a empresa, seus agentes iteraram em conjunto o compilador, um novo conjunto de instruções, a microarquitetura, a descrição do circuito (RTL) e o layout físico, usando contratos formais para checar alterações. O processador foi projetado para que módulos ociosos possam assumir tarefas de vizinhos. Nos testes pré-silício da empresa, quatro módulos com memória L3 atingiram uma média geométrica de 4,59× em desempenho por watt nas 25 cargas e de 3,83× nas 15 que ficaram fora do ajuste. O comparador foi um único núcleo in-order de área semelhante e modelo não divulgado. Alguns testes usaram entradas reduzidas. Os números não são medições em chips fabricados nem demonstram vantagem sobre CPUs out-of-order modernas.",
+      "impact": "Reforça o marco de IA agentiva de 2026 pelo uso de agentes para explorar e modificar em conjunto software e arquitetura de hardware, não por um recorde comprovado de eficiência. Redes de interação e CPUs projetadas por IA têm precedentes; o diferencial relatado é o escopo da iteração. Não altera as previsões de 2027–2030 nem demonstra AGI.",
+      "timeline": [
+        "2026 — IA agentiva: projeto conjunto de compilador, conjunto de instruções e circuito, com verificação formal relatada",
+        "2027–2030 — Acompanhar abertura do RTL e da ISA, demonstração em FPGA e medições em silício com cargas representativas e comparadores identificados"
+      ],
+      "maturity": "Layout físico reportado e resultados pré-silício internos; sem validação independente do desempenho por watt. Protótipo público em FPGA e abertura do RTL e da ISA ainda anunciados como próximos passos.",
+      "source": {
+        "name": "Architect Labs — Introducing Frostbite (18 nov 2026)",
+        "url": "https://architectlabs.com/blog/frostbite"
+      },
+      "related_sources": [
+        {
+          "name": "Architect Labs — Introducing Redwood (27 ago 2026)",
+          "url": "https://architectlabs.com/blog/redwood"
+        },
+        {
+          "name": "IJCAI — Automated CPU Design by Learning from Input-Output Examples (2024)",
+          "url": "https://www.ijcai.org/proceedings/2024/0425.pdf"
+        },
+        {
+          "name": "Verkor — Design Conductor (2026)",
+          "url": "https://arxiv.org/abs/2603.08716"
+        }
+      ]
+    },
+    {
       "id": "evt-2026-11-20-femoco-classical-supercomputing-raises-bar-quantum-advantage",
       "date": "2026-11-20",
       "event_date": "2026-11-20",
