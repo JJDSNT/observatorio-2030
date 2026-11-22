@@ -8,6 +8,10 @@ shareStatus.setAttribute('role', 'status');
 shareStatus.setAttribute('aria-live', 'polite');
 eventsContainer.before(shareStatus);
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
+const formatDate = date => {
+  const parts = /^(\d{4})-(\d{2})-(\d{2})$/.exec(date || '');
+  return parts ? `${parts[3]}/${parts[2]}/${parts[1]}` : 'não confirmada';
+};
 let rendered = false;
 function showView(name, preserveHash = false) {
   const selected = ['marcos', 'topicos', 'metodologia'].includes(name) ? name : 'marcos';
@@ -46,13 +50,17 @@ async function load(path) {
 }
 const shareIcon = '<svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.7 10.7 6.6-4.1M8.7 13.3l6.6 4.1"/></svg>';
 Promise.all([load('./data/topics.json'),load('./data/events.json')]).then(([topics,data]) => {
-  $('#updated').textContent = data.updated ? 'Última revisão: ' + data.updated : 'Estrutura pronta · aguardando marcos avaliados';
+  $('#updated').textContent = data.updated ? 'Última revisão: ' + formatDate(data.updated) : 'Estrutura pronta · aguardando marcos avaliados';
   $('#topics').innerHTML = '<div class="topic-pair">' + topics.topics.map(topic => '<article class="topic"><h3>' + escapeHtml(topic.name) + '</h3><p>' + escapeHtml(topic.watch) + '</p></article>').join('') + '</div>';
   const sorted = [...data.events].sort((a,b) => String(b.published_at || b.date || '').localeCompare(String(a.published_at || a.date || '')));
   eventsContainer.innerHTML = sorted.length ? sorted.map(item => {
+    const dates = [
+      item.published_at ? 'Divulgado em ' + formatDate(item.published_at) : 'Divulgação original não confirmada',
+      item.event_date && item.event_date !== item.published_at ? 'Ocorrido em ' + formatDate(item.event_date) : '',
+    ].filter(Boolean).join(' · ');
     const sourceUrl = item.source?.url;
     const source = typeof sourceUrl === 'string' && /^https?:\/\//i.test(sourceUrl) ? '<p><a href="' + escapeHtml(sourceUrl) + '" target="_blank" rel="noopener noreferrer">Fonte: ' + escapeHtml(item.source.name || 'Consultar') + '</a></p>' : '';
-    return '<article class="event" id="marco-' + escapeHtml(item.id) + '"><span class="tag">' + escapeHtml(item.stage || item.status || 'Evidência em avaliação') + '</span><div class="event-heading"><h3>' + escapeHtml(item.title) + '</h3><button type="button" class="event-share" data-event-id="' + escapeHtml(item.id) + '" aria-label="Compartilhar marco" title="Compartilhar marco">' + shareIcon + '</button></div><small>' + escapeHtml(item.published_at || item.date || '') + '</small><p>' + escapeHtml(item.summary) + '</p>' + (item.barrier ? '<p><strong>Obstáculo enfrentado:</strong> ' + escapeHtml(item.barrier) + '</p>' : '') + (item.impact ? '<p><strong>Impacto na tese 2500:</strong> ' + escapeHtml(item.impact) + '</p>' : '') + (item.limitations ? '<p><strong>Limitações:</strong> ' + escapeHtml(item.limitations) + '</p>' : '') + source + '</article>';
+    return '<article class="event" id="marco-' + escapeHtml(item.id) + '"><span class="tag">' + escapeHtml(item.stage || item.status || 'Evidência em avaliação') + '</span><div class="event-heading"><h3>' + escapeHtml(item.title) + '</h3><button type="button" class="event-share" data-event-id="' + escapeHtml(item.id) + '" aria-label="Compartilhar marco" title="Compartilhar marco">' + shareIcon + '</button></div><small>' + escapeHtml(dates) + '</small><p>' + escapeHtml(item.summary) + '</p>' + (item.barrier ? '<p><strong>Obstáculo enfrentado:</strong> ' + escapeHtml(item.barrier) + '</p>' : '') + (item.impact ? '<p><strong>Impacto na tese 2500:</strong> ' + escapeHtml(item.impact) + '</p>' : '') + (item.limitations ? '<p><strong>Limitações:</strong> ' + escapeHtml(item.limitations) + '</p>' : '') + source + '</article>';
   }).join('') : '<div class="empty">Nenhum marco publicado nesta linha ainda. As áreas de monitoramento já estão disponíveis.</div>';
   rendered = true;
   route();
