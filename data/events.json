@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "events": [
     {
       "id": "evt-2026-11-20-femoco-classical-supercomputing-raises-bar-quantum-advantage",
@@ -40,30 +40,35 @@
       "event_date": "2026-11-20",
       "published_at": "2026-11-20",
       "recorded_at": "2026-11-21",
-      "updated_at": "2026-11-21",
+      "updated_at": "2026-11-22",
       "topic": "ai",
       "status": "confirms",
-      "title": "Hipótese de Riemann: prova assistida por Claude supera verificações formais independentes",
-      "summary": "Em 20 de novembro de 2026, o matemático Levent Alpöge, da Anthropic, anunciou ter desenvolvido com Claude uma demonstração da Hipótese de Riemann e de sua generalização para funções L de Dirichlet. A divulgação inclui cerca de 175 mil módulos Lean e 17,4 milhões de linhas, sem artigo matemático convencional completo. Andrew Sutherland (MIT) reproduziu a compilação dos 175.187 módulos sem erros, verificou que os cinco teoremas principais dependem apenas dos axiomas padrão propext, Classical.choice e Quot.sound, reproduziu todos os módulos pelo kernel Lean e obteve aceitação integral do artefato exportado pelo verificador independente nanoda, escrito em Rust. A conclusão formal corresponde à definição da Hipótese de Riemann na biblioteca Mathlib. A auditoria de proveniência da compilação, verificações adicionais e a compreensão matemática humana do argumento ainda não estavam concluídas no último relatório primário consultado.",
-      "impact": "A evidência já ultrapassa uma alegação promocional: há um artefato formal massivo e verificações independentes reproduzidas. Se a auditoria completa confirmar que o artefato prova exatamente as afirmações matemáticas pretendidas sem premissas indevidas, será um marco histórico da matemática e da IA aplicada à descoberta científica. O episódio reforça a trajetória de IA pesquisadora antes de 2029, mas não demonstra inteligência geral, autonomia científica generalista nem aceitação definitiva da solução pelo Instituto Clay. A alegação relativa à hipótese generalizada está limitada às funções L de Dirichlet, não a todas as generalizações possíveis. A eventual prova não implica imediatamente novas aplicações comerciais ou capacidade de quebrar criptografia.",
+      "title": "Hipótese de Riemann: Lean e Mathlib certificam a prova formal de Alpöge com Claude",
+      "summary": "Em 20 de novembro de 2026, Levent Alpöge divulgou uma demonstração em Lean, desenvolvida com Claude, da Hipótese de Riemann e da versão generalizada para funções L de Dirichlet. Em 21 de novembro, as comunidades Lean e Mathlib certificaram o caso clássico: o enunciado provado corresponde à definição estabelecida na Mathlib, e múltiplos verificadores aceitaram a prova exportada. Em uma auditoria separada, Andrew Sutherland, do MIT, recompilou o código em ambiente isolado e reproduziu o arquivo da prova byte a byte. Dois verificadores também confirmaram os cinco enunciados do desafio, incluindo os relativos às funções L de Dirichlet. O resultado não abrange outras famílias de funções L.",
+      "impact": "O avanço em relação à auditoria inicial é que o enunciado clássico e sua demonstração formal foram certificados, e o arquivo da prova foi reproduzido em uma compilação independente. É um marco para a descoberta matemática assistida por IA, mas não demonstra autonomia científica generalista. A exposição matemática do argumento e o reconhecimento pelo Instituto Clay são marcos distintos da certificação formal.",
       "timeline": [
-        "2026 — Alegação de prova de Riemann assistida por IA com compilação, auditoria de axiomas e verificação independente do artefato formal",
-        "2027–2028 — Acompanhar auditoria integral, reprodução em ambientes isolados, exposição matemática compreensível e avaliação por especialistas",
-        "2029 — Reavaliar a previsão de IA pesquisadora à luz de resultados matemáticos originais independentemente aceitos e reproduzíveis"
+        "20 nov 2026: Alpöge divulga a demonstração desenvolvida com Claude.",
+        "21 nov 2026: Lean e Mathlib certificam o caso clássico. A auditoria de Andrew Sutherland confirma separadamente os enunciados sobre funções L de Dirichlet.",
+        "2027–2028: Acompanhar a exposição matemática do argumento e a avaliação pela comunidade.",
+        "2029: Reavaliar a previsão de IA pesquisadora à luz de resultados matemáticos originais e reproduzíveis."
       ],
-      "maturity": "Alegação de prova formal com verificações independentes substanciais; compilação e checagem de axiomas confirmadas, kernel Lean e nanoda aprovados; verificações adicionais e revisão matemática especializada pendentes no relatório consultado em 21 nov 2026",
+      "maturity": "Prova formal do caso clássico certificada por Lean e Mathlib. Extensão para funções L de Dirichlet verificada separadamente. O Instituto Clay ainda lista a hipótese clássica como em aberto; seu processo para o Prêmio do Milênio é separado da certificação.",
       "source": {
-        "name": "Andrew Sutherland (MIT) — Verification files for the Lean proof of the Riemann Hypothesis (20 nov 2026)",
-        "url": "https://math.mit.edu/~drew/grh/"
+        "name": "Lean e Mathlib — Comunicado conjunto de certificação (21 nov 2026)",
+        "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
       },
       "related_sources": [
         {
-          "name": "Nature — Mathematician says he and AI solved Riemann hypothesis (20 nov 2026)",
-          "url": "https://www.nature.com/articles/d41586-026-03812-7"
+          "name": "Andrew Sutherland (MIT) — Relatório de verificação independente",
+          "url": "https://math.mit.edu/~drew/grh/"
         },
         {
-          "name": "Lean 4 Dev — The Riemann Hypothesis: a claimed proof, delivered in Lean",
-          "url": "https://lean4.dev/proofs/riemann-hypothesis-claim"
+          "name": "Instituto Clay — Situação da Hipótese de Riemann",
+          "url": "https://www.claymath.org/millennium/riemann-hypothesis/"
+        },
+        {
+          "name": "Instituto Clay — Regras do Prêmio do Milênio",
+          "url": "https://www.claymath.org/millennium-problems/rules/"
         },
         {
           "name": "Levent Alpöge — Nota original (20 nov 2026)",
