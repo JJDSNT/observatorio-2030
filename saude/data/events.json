@@ -1,6 +1,21 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-22",
   "events": [
+    {
+      "id": "2026-11-20-uthymokidney-extend-primeiro-transplante",
+      "title": "Primeiro transplante UThymoKidney inicia avaliação clínica de tolerância imunológica",
+      "published_at": "2026-11-20",
+      "topic": "organs",
+      "stage": "Clínico · primeiro procedimento em estudo fase 1/2/3 · comunicado da empresa",
+      "summary": "A United Therapeutics anunciou o primeiro transplante no estudo EXTEND (NCT07224763), realizado na NYU Langone Health em paciente com insuficiência renal terminal. O UThymoKidney combina rim suíno com tecido tímico suíno, proveniente de animal com um gene inativado para impedir a síntese de alfa-gal. O timo pretende favorecer aceitação imunológica; o protocolo prevê avaliação aos 24 semanas e acompanhamento vitalício.",
+      "limitations": "O anúncio não apresenta resultados de sobrevida, função renal sustentada ou tolerância imunológica demonstrada. O tecido tímico é uma hipótese terapêutica ainda em avaliação; persistem riscos de rejeição, imunossupressão e infecções zoonóticas. Não há artigo de resultados clínicos revisado por pares nem aprovação regulatória do produto.",
+      "barrier": "Disponibilidade de órgãos substitutos e aceitação imunológica para reposição sucessiva de órgãos ao longo da vida.",
+      "impact": "Marco de translação clínica, favorável mas preliminar: testa uma abordagem combinada para xenotransplante e tolerância, sem demonstrar durabilidade ou substituição sucessiva segura.",
+      "source": {
+        "name": "United Therapeutics, comunicado oficial do primeiro transplante EXTEND (20/11/2026)",
+        "url": "https://ir.unither.com/press-releases/2026/11-20-2026-120027408"
+      }
+    },
     {
       "id": "2026-11-11-vacina-personalizada-melanoma-fase3",
       "title": "Vacina personalizada de mRNA reduz recorrência de melanoma em ensaio de fase 3",
@@ -29,6 +44,36 @@
       "source": {
         "name": "Wu et al., Nature Aging (artigo original)",
         "url": "https://doi.org/10.1038/s43587-026-01253-5"
+      }
+    },
+    {
+      "id": "2026-10-21-bh2-bh4-proteostase-longevidade",
+      "title": "Via metabólica BH2–BH4 conecta tecidos, proteostase e longevidade em vermes",
+      "published_at": "2026-10-21",
+      "topic": "molecular",
+      "stage": "Pré-clínico · artigo revisado por pares · Nature",
+      "summary": "Lee e colaboradores identificaram em C. elegans uma via em que BH2 produzido nos músculos é transportado para outros tecidos e convertido em BH4, promovendo síntese de tirosina, manutenção da proteostase e extensão da vida. A elevação de BH2 muscular reduziu agregados proteicos em tecidos distantes mesmo sem resfriamento. Em células humanas cultivadas, BH2 ou tirosina reduziram agregação de proteínas relacionadas à doença de Huntington e à ELA (TDP-43 e FUS mutantes).",
+      "limitations": "Extensão de vida demonstrada em C. elegans, não em mamíferos ou humanos. Resultados em células humanas são laboratoriais e não comprovam melhora clínica de neurodegeneração, segurança ou durabilidade; a manipulação sistêmica da via exige avaliação adicional.",
+      "barrier": "Perda progressiva de proteostase e agregação patológica de proteínas em múltiplos tecidos, inclusive neurônios.",
+      "impact": "Favorável em nível mecanístico: revela sinal metabólico intertecidual que associa manutenção proteica e longevidade, mas ainda não constitui estratégia validada de extensão da vida humana.",
+      "source": {
+        "name": "Lee et al., Nature (estudo original, 21/10/2026)",
+        "url": "https://doi.org/10.1038/s41586-026-11152-9"
+      }
+    },
+    {
+      "id": "2026-10-15-pla2g2f-resiliencia-cognitiva",
+      "title": "PLA2G2F protege memória e circuitos do hipocampo em camundongos idosos",
+      "published_at": "2026-10-15",
+      "topic": "neuro",
+      "stage": "Pré-clínico · artigo revisado por pares com correção posterior · Nature Neuroscience",
+      "summary": "Vicidomini e colaboradores identificaram PLA2G2F, fosfolipase secretada por neurônios do giro denteado, como sinal associado à resiliência cognitiva. Em camundongos, sua deleção agravou alterações sinápticas, gliais e de memória; elevar sua expressão durante o envelhecimento protegeu circuitos hipocampais e memória. O estudo também examinou associação com resiliência cognitiva humana, sem testar terapia em pessoas.",
+      "limitations": "Experimentos causais realizados em camundongos, sem tratamento clínico humano ou demonstração de reversão de Alzheimer. Correção publicada em 18/11/2026 inverteu a interpretação original da distribuição dos diâmetros das cabeças de espinhas dendríticas e corrigiu arquivos de dados; essa medida morfológica não deve ser usada como evidência na direção originalmente descrita. Requer replicação independente, avaliação de segurança e duração do efeito.",
+      "barrier": "Degeneração sináptica e perda de memória associadas ao envelhecimento, essenciais para continuidade funcional do cérebro.",
+      "impact": "Favorável, ainda pré-clínico: identifica mecanismo de proteção da memória e dos circuitos neurais, sem comprovar preservação permanente da identidade, reversão de demência ou benefício em humanos.",
+      "source": {
+        "name": "Vicidomini et al., Nature Neuroscience (artigo original; correção em 18/11/2026)",
+        "url": "https://doi.org/10.1038/s41593-026-02465-z"
       }
     },
     {
