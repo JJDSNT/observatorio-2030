@@ -32,6 +32,21 @@
       }
     },
     {
+      "id": "2026-11-18-bdnf-mrna-intranasal-cognicao",
+      "title": "Terapia intranasal de mRNA-BDNF melhora cognição em camundongos idosos e em modelo de Alzheimer",
+      "published_at": "2026-11-18",
+      "topic": "neuro",
+      "stage": "Pré-clínico · artigo revisado por pares · modelos animais",
+      "summary": "Bergamasco e colaboradores investigaram nanopartículas lipídicas contendo mRNA de BDNF administradas por via intranasal, estimulando a produção da proteína pelo epitélio nasal. Em camundongos idosos, o tratamento melhorou o desempenho em testes de aprendizagem e memória e aumentou indicadores de neurogênese. Em modelo murino de Alzheimer, administrações repetidas protegeram contra declínio cognitivo, sem redução demonstrada das placas amiloides.",
+      "limitations": "Não há demonstração de eficácia ou segurança em humanos, recuperação de memórias autobiográficas ou reversão clínica de Alzheimer. Diferenças anatômicas entre humanos e camundongos dificultam a translação da administração nasal. A avaliação editorial não teve acesso ao texto integral para verificar tamanhos amostrais, estatísticas detalhadas e duração do benefício após interrupção. A integração funcional de novos neurônios e a segurança de doses repetidas de longo prazo permanecem questões abertas.",
+      "barrier": "Declínio cognitivo associado ao envelhecimento e dificuldade de administrar proteínas terapêuticas ao sistema nervoso central de maneira não invasiva e repetível.",
+      "impact": "Favorável em nível pré-clínico: associa intervenção molecular não invasiva a desfechos comportamentais de cognição em animais. A eventual generalização da plataforma para outras proteínas é uma hipótese tecnológica, não uma demonstração do estudo. Não comprova preservação indefinida da memória ou identidade pessoal.",
+      "source": {
+        "name": "Bergamasco et al., Advanced Science (artigo original, 18/11/2026)",
+        "url": "https://doi.org/10.1002/advs.78225"
+      }
+    },
+    {
       "id": "2026-11-11-vacina-personalizada-melanoma-fase3",
       "title": "Vacina personalizada de mRNA reduz recorrência de melanoma em ensaio de fase 3",
       "published_at": "2026-11-11",
