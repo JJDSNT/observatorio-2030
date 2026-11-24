@@ -1,6 +1,35 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "events": [
+    {
+      "id": "evt-2026-11-23-ai-agents-verified-quantum-algorithms",
+      "date": "2026-11-23",
+      "event_date": "2026-11-06",
+      "published_at": "2026-11-23",
+      "recorded_at": "2026-11-23",
+      "updated_at": "2026-11-23",
+      "topic": "ai",
+      "status": "confirms",
+      "title": "Agentes de IA descobrem algoritmos quânticos mais eficientes e reduzem a barreira computacional para a vantagem quântica",
+      "summary": "Google DeepMind e Google Quantum AI divulgaram em 23 de novembro resultados de equipes de agentes Gemini 4 que desenvolveram e verificaram formalmente programas quânticos usando Lean. O preprint foi submetido em 6 de novembro e revisado em 16 de novembro. Os ganhos estimados frente às referências adotadas incluem redução de custo de 290× em uma rotina de arco-seno, 11,8× em um circuito relevante para fusão por confinamento inercial, aproximadamente 8× em fotoquímica e 2,5× em metabolismo de medicamentos. Uma implementação específica de busca de Grover apresentou ganho de até 2,57×. Na aplicação de fusão, a memória lógica estimada caiu de 5.650 para 4.338 qubits; no metabolismo, de 481 para 333. Equipes independentes de agentes compartilharam resultados verificados e discutiram alternativas periodicamente, sob direção científica humana. A biblioteca Lean, as especificações e as soluções foram disponibilizadas abertamente.",
+      "impact": "Confirma a contribuição da IA agentiva para descoberta científica formalmente verificável em 2026 e indica potencial aceleração da computação quântica útil. Complementa o marco do FeMoco: enquanto os avanços clássicos elevam a régua para a vantagem quântica, as otimizações quânticas reduzem os recursos necessários para alcançá-la. As reduções de custo não equivalem a aceleração medida em hardware; a correção formal vale para as especificações adotadas e não comprova vantagem prática frente aos melhores métodos clássicos. Não demonstra AGI nem progresso físico na fusão. Mantém as previsões de 2027–2030.",
+      "timeline": [
+        "2026 — Descoberta multiagente de programas quânticos com verificação formal",
+        "2027–2030 — Acompanhar reprodução independente, otimizações adicionais e execução em hardware tolerante a falhas",
+        "2029 — Manter a previsão de vantagem quântica prática, condicionada à comparação com os melhores algoritmos clássicos"
+      ],
+      "maturity": "Preprint v3 e provas formais reportadas pelos autores, com recursos abertos; estimativas de custo algorítmico, sem execução integral em hardware quântico, revisão por pares ou validação independente estabelecida.",
+      "source": {
+        "name": "Shirobokov et al. — Discovering formally verified quantum programs with AI (arXiv, v3)",
+        "url": "https://arxiv.org/abs/2611.09822v3"
+      },
+      "related_sources": [
+        {
+          "name": "Google DeepMind — Finding faster quantum algorithms with agents and formal verification (23 nov 2026)",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+        }
+      ]
+    },
     {
       "id": "evt-2026-11-18-architect-labs-frostbite",
       "date": "2026-11-18",
