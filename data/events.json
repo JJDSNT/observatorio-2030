@@ -2,6 +2,35 @@
   "updated": "2026-11-24",
   "events": [
     {
+      "id": "evt-2026-11-24-quantum-simulation-fundamental-physics",
+      "date": "2026-11-24",
+      "event_date": "2026-05-07",
+      "published_at": "2026-11-24",
+      "recorded_at": "2026-11-24",
+      "updated_at": "2026-11-24",
+      "topic": "quantum",
+      "status": "confirms",
+      "title": "Simuladores quânticos emergem como instrumentos de descoberta em física fundamental",
+      "summary": "Dois preprints de 2026 documentam a ampliação da capacidade experimental de simular teorias de gauge. Joshi et al. (8 de abril) utilizaram 51 qubits em íons aprisionados, em rede 5 × 4, com até 1.540 portas de emaranhamento, para investigar dinâmica de cordas em um modelo U(1) em 2+1 dimensões. A inclusão de interações de plaqueta permitiu observar produção de pares distribuída pelo plano. John et al. (7 de maio) utilizaram qudits de íons aprisionados para observar ruptura de cordas em uma teoria SU(2) pura truncada, impulsionada por interações do próprio campo de gauge, sem matéria dinâmica.",
+      "impact": "Confirma progresso experimental na investigação de dinâmica de campos e confinamento em modelos físicos controlados. A relevância científica é distinta da vantagem computacional: observar mecanismos em modelos simulados não equivale a descobrir novos fenômenos na cromodinâmica quântica real. Não demonstra vantagem prática, simulação completa de SU(3) em 3+1 dimensões ou tolerância a falhas. Mantém as previsões existentes.",
+      "timeline": [
+        "2026 — Simulação experimental de dinâmica de campos em modelos de gauge",
+        "2027–2030 — Acompanhar complexidade física, validação independente e acesso a regimes difíceis para métodos clássicos",
+        "2029 — Vantagem quântica prática (sem antecipação)"
+      ],
+      "maturity": "Dois preprints experimentais; revisão por pares e reprodução independente não confirmadas.",
+      "source": {
+        "name": "Joshi et al. — Observation of genuine 2+1D string dynamics (8 abr 2026)",
+        "url": "https://arxiv.org/abs/2604.07436"
+      },
+      "related_sources": [
+        {
+          "name": "John et al. — Non-Abelian String-Breaking Dynamics on a Qudit Quantum Computer (7 mai 2026)",
+          "url": "https://arxiv.org/abs/2605.05841"
+        }
+      ]
+    },
+    {
       "id": "evt-2026-11-13-biohybrid-robotics-living-neurons",
       "date": "2026-11-13",
       "event_date": "2026-11-13",
