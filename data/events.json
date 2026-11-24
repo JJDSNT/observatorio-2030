@@ -2,6 +2,47 @@
   "updated": "2026-11-24",
   "events": [
     {
+      "id": "evt-2026-11-13-biohybrid-robotics-living-neurons",
+      "date": "2026-11-13",
+      "event_date": "2026-11-13",
+      "published_at": "2026-11-13",
+      "recorded_at": "2026-11-24",
+      "updated_at": "2026-11-24",
+      "topic": "neuro-alt-compute",
+      "status": "confirms",
+      "title": "Robótica bio-híbrida emerge com neurônios humanos vivos integrados à tomada de decisões de robôs físicos",
+      "summary": "Em 13 de novembro, The Scientist descreveu o humanoide Iris, da OpenMind, conectado remotamente a culturas corticais humanas 2D e esferoides 3D. Respostas neuronais modulam comportamentos sociais em um circuito híbrido com processamento digital. A acurácia de decodificação reportada chegou a 94% (2D, 150–240 ms) e 91% (3D, até 2 s), não sendo medida de desempenho robótico geral. Em preprint de 15 de setembro, Cai et al. apresentaram Brainobot, controlador de alto nível baseado em reservoir computing com organoides, em tarefas físicas de apreensão de objetos e perseguição de luz. Em trabalho complementar, Zhou et al. avaliaram cerca de 1.300 configurações em mais de 4.000 horas de interação em navegação simulada; 12 configurações demonstraram aprendizagem consistente e desempenho superior ao DQN de comparação sob igual orçamento de interações.",
+      "impact": "Confirma a integração experimental de substratos neurais vivos a circuitos de percepção e ação, conectando neurotecnologia à robótica. Complementa os marcos de infraestrutura CL1 e decodificação tátil em Braille. Reforça as hipóteses de sistemas híbridos bio-silício em 2029 e diversificação de substratos em 2030, sem antecipar datas. Não demonstra controle motor integral por neurônios, aprendizagem contínua generalista em robôs físicos, consciência, AGI ou vantagem energética sistêmica.",
+      "timeline": [
+        "2026 — Integração experimental de computação biológica à robótica",
+        "2029 — Sistemas cognitivos híbridos bio-silício (perspectiva reforçada)",
+        "2030 — Diversificação dos substratos da inteligência (sem antecipação)"
+      ],
+      "maturity": "Provas de conceito; Brainobot em preprint, consultado pelo resumo indexado no PMC (texto integral indisponível); Iris documentado por entrevistas e reportagem científica; aprendizagem de navegação demonstrada em simulação no preprint de Zhou et al. Sem reprodução independente confirmada ou implantação comercial.",
+      "source": {
+        "name": "Cai et al. — Brain organoid computing for robotic decision-making (bioRxiv, 15 set 2026)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13596552/"
+      },
+      "related_sources": [
+        {
+          "name": "The Scientist — Lab-Grown Human Neurons Power a Humanoid Robot (13 nov 2026)",
+          "url": "https://www.the-scientist.com/lab-grown-human-neurons-power-a-humanoid-robot-75267"
+        },
+        {
+          "name": "Zhou et al. — Embodied Neurocomputation (arXiv v2)",
+          "url": "https://arxiv.org/abs/2605.13315v2"
+        },
+        {
+          "name": "Observatório 2030 — rack CL1",
+          "url": "https://jjdsnt.github.io/observatorio-2030/#marco=evt-2026-08-06-cortical-cl1-singapore"
+        },
+        {
+          "name": "Observatório 2030 — organoides e Braille",
+          "url": "https://jjdsnt.github.io/observatorio-2030/#marco=evt-2026-10-16-organoid-braille"
+        }
+      ]
+    },
+    {
       "id": "evt-2026-11-23-ai-agents-verified-quantum-algorithms",
       "date": "2026-11-23",
       "event_date": "2026-11-06",
