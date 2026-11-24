@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-24",
   "events": [
     {
       "id": "2026-11-20-uthymokidney-extend-primeiro-transplante",
@@ -14,6 +14,21 @@
       "source": {
         "name": "United Therapeutics, comunicado oficial do primeiro transplante EXTEND (20/11/2026)",
         "url": "https://ir.unither.com/press-releases/2026/11-20-2026-120027408"
+      }
+    },
+    {
+      "id": "2026-11-20-parp16-alvo-senolitico",
+      "title": "Triagem genômica por CRISPR identifica PARP16 como novo alvo senolítico seletivo",
+      "published_at": "2026-11-20",
+      "topic": "senescence",
+      "stage": "Pré-clínico · artigo revisado por pares · tecido humano ex vivo",
+      "summary": "Ghosh-Choudhary e colaboradores utilizaram triagem genômica por CRISPR para identificar dependências de sobrevivência de células senescentes. A redução da expressão de PARP16 e dois inibidores distintos promoveram eliminação seletiva de células senescentes em modelos celulares, com validação em tecido pulmonar humano isolado. PARP16 participa da resposta ao estresse do retículo endoplasmático.",
+      "limitations": "Não demonstra eficácia sistêmica em organismos vivos, extensão da sobrevida, segurança clínica ou superioridade sobre outros senolíticos. Células saudáveis sob estresse também podem depender dessa via. A avaliação editorial baseia-se no resumo científico; concentrações, tamanhos amostrais e margens quantitativas de seletividade não foram verificados no texto integral.",
+      "barrier": "Acúmulo de células senescentes e dificuldade de eliminá-las seletivamente sem comprometer tecidos saudáveis.",
+      "impact": "Favorável em nível mecanístico: a triagem genômica oferece uma estratégia racional de descoberta de alvos senolíticos, com validação farmacológica e em tecido humano ex vivo, mas sem comprovação de rejuvenescimento sistêmico ou extensão da longevidade.",
+      "source": {
+        "name": "Ghosh-Choudhary et al., PNAS (publicação online de 20/11/2026)",
+        "url": "https://doi.org/10.1073/pnas.2627282123"
       }
     },
     {
