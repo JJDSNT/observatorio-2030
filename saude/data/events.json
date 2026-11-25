@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "events": [
     {
       "id": "2026-11-20-uthymokidney-extend-primeiro-transplante",
@@ -194,6 +194,21 @@
       "source": {
         "name": "Chandrasekaran et al. — Nature Medicine, 16 jul 2026",
         "url": "https://doi.org/10.1038/s41591-026-04498-0"
+      }
+    },
+    {
+      "id": "2026-02-11-canabinoides-resistencia-tumoral",
+      "title": "Canabinoides reduzem crescimento de tumores resistentes à quimioterapia em modelos animais",
+      "published_at": "2026-02-11",
+      "topic": "oncology",
+      "stage": "Pré-clínico · culturas celulares e xenotransplantes em camundongos · artigo revisado por pares",
+      "summary": "Aare e colaboradores avaliaram a combinação de canabicromeno (CBC) e canabidiol (CBD) em modelos de câncer de mama triplo-negativo resistente à doxorrubicina. A combinação reduziu a invasividade celular em cerca de 55% e o volume tumoral em camundongos imunodeficientes para aproximadamente um quarto do controle. Foram observadas alterações em vias de proliferação e sobrevivência tumoral.",
+      "limitations": "Avaliação editorial baseada no resumo do artigo original; tamanho amostral e toxicidade detalhada não verificados. O modelo imunodeficiente não estabelece segurança imunológica. A invasão celular in vitro não comprova prevenção de metástases em organismos vivos. Não demonstra cura, prevenção de recorrência, benefício clínico ou segurança prolongada; não justifica uso de cannabis como tratamento oncológico.",
+      "barrier": "Resistência adquirida aos tratamentos e disseminação tumoral, obstáculos ao controle repetido do câncer durante uma vida prolongada.",
+      "impact": "Favorável em nível pré-clínico, com impacto demonstrado baixo sobre a tese 2500. Sugere uma estratégia combinatória contra tumores resistentes, mas requer replicação, avaliação de seletividade, segurança imunológica e validação clínica duradoura.",
+      "source": {
+        "name": "Aare et al., Drug Delivery and Translational Research (publicação online de 11/02/2026)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41670942/"
       }
     }
   ]
