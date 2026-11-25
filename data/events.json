@@ -1,6 +1,29 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "events": [
+    {
+      "id": "evt-2026-11-18-integrated-polaritonic-computing",
+      "date": "2026-11-18",
+      "event_date": "2026-11-18",
+      "published_at": "2026-11-25",
+      "recorded_at": "2026-11-25",
+      "updated_at": "2026-11-25",
+      "topic": "neuro-alt-compute",
+      "status": "confirms",
+      "title": "Circuitos polaritônicos ativos integrados à temperatura ambiente avançam como substrato computacional híbrido luz-matéria",
+      "summary": "Fieramosca et al., em artigo publicado na Nature em 18/11/2026, demonstraram uma plataforma de guias de onda de perovskita CsPbBr3 com emissão coerente guiada, amplificação óptica próxima de 100 vezes e modulação não linear de fase de até 2π. Um interferômetro Mach–Zehnder converteu a modulação de fase em intensidade, com região ativa de aproximadamente 20 µm². A fabricação integra redes de difração e guias em uma etapa de crescimento.",
+      "impact": "Reforça a diversificação dos substratos computacionais e o potencial de processamento óptico não linear. A resposta de limiar da amplificação sugere aplicações neuromórficas, ainda não demonstradas como rede neural completa. O experimento usa bombeamento óptico externo; não estabelece eficiência energética integral, produção industrial, processador funcional nem computação quântica universal à temperatura ambiente. Preserva as previsões atuais.",
+      "timeline": [
+        "2026 — Integração experimental de funcionalidades polaritônicas ativas",
+        "2027–2030 — Acompanhar cascata, estabilidade, integração de fontes, eficiência integral e benchmarks de processamento"
+      ],
+      "maturity": "Experimento revisado por pares; escalabilidade industrial e reprodução independente não confirmadas.",
+      "source": {
+        "name": "Fieramosca et al. — Fully integrated perovskite active polaritonic circuits, Nature",
+        "url": "https://doi.org/10.1038/s41586-026-11299-5"
+      },
+      "related_sources": []
+    },
     {
       "id": "evt-2026-11-24-quantum-simulation-fundamental-physics",
       "date": "2026-11-24",
