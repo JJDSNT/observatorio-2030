@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "events": [
     {
       "id": "2026-11-20-uthymokidney-extend-primeiro-transplante",
@@ -227,6 +227,21 @@
       }
     },
     {
+      "id": "2026-06-12-seed-neuroestimulacao-injetavel",
+      "title": "Microimplante bioeletrônico injetável e sem bateria permite neuroestimulação minimamente invasiva",
+      "published_at": "2026-06-12",
+      "topic": "neuro",
+      "stage": "Pré-clínico · prova de conceito",
+      "summary": "O dispositivo SEED utiliza acoplamento magnético para receber energia de um controlador externo, dispensando bateria e circuitos eletrônicos ativos internos. A implantação percutânea por agulha e a estimulação programável do nervo ciático foram demonstradas em ratos, com respostas motoras graduáveis.",
+      "limitations": "A demonstração de ativação neural não comprova tratamento eficaz da dor crônica, regeneração nervosa ou segurança de longo prazo em humanos. O sistema depende de equipamento externo de alimentação e controle.",
+      "barrier": "Miniaturização e redução da invasividade de interfaces de neuromodulação.",
+      "impact": "Avanço de engenharia biomédica na arquitetura de neuroestimuladores implantáveis, ainda sem benefício terapêutico clínico demonstrado.",
+      "source": {
+        "name": "Science Advances — estudo do dispositivo SEED",
+        "url": "https://doi.org/10.1126/sciadv.aeg1437"
+      }
+    },
+    {
       "id": "2026-06-11-matriz-ossea-descelularizada-3d",
       "title": "Estrutura impressa em 3D e enriquecida com matriz descelularizada promove formação de osso maduro",
       "published_at": "2026-06-11",
@@ -239,6 +254,21 @@
       "source": {
         "name": "Huh et al., Materials Horizons",
         "url": "https://doi.org/10.1039/D6MH00330C"
+      }
+    },
+    {
+      "id": "2026-05-25-mme-regeneracao-nervosa",
+      "title": "Implante piezoelétrico alimentado sem fio promove regeneração nervosa em ratos",
+      "published_at": "2026-05-25",
+      "topic": "regeneration",
+      "stage": "Pré-clínico · modelo animal",
+      "summary": "Um transdutor magneto-mecano-elétrico converte energia de um campo magnético externo em estimulação elétrica local. Em um modelo de lesão por esmagamento do nervo ciático de ratos, o estudo relatou melhora de indicadores histológicos de regeneração e mielinização, além de recuperação motora parcial após quatro semanas.",
+      "limitations": "Amostra pequena, acompanhamento curto e modelo de lesão periférica com regeneração espontânea. O dispositivo requer implantação cirúrgica. Não há demonstração de eficácia clínica em humanos.",
+      "barrier": "Reparação de nervos periféricos lesionados e recuperação funcional.",
+      "impact": "Prova de conceito pré-clínica de estimulação bioeletrônica sem bateria associada à reparação neural, sem estabelecer recuperação integral ou eficácia humana.",
+      "source": {
+        "name": "Advanced Science — estudo experimental de transdução magneto-mecano-elétrica",
+        "url": "https://doi.org/10.1002/advs.75833"
       }
     },
     {
