@@ -197,6 +197,21 @@
       }
     },
     {
+      "id": "2026-08-05-tiny-neuroestimulacao-flexivel",
+      "title": "Microimplante neural flexível e injetável utiliza os tecidos biológicos para receber energia sem fio",
+      "published_at": "2026-08-05",
+      "topic": "neuro",
+      "stage": "Pré-clínico · prova de conceito",
+      "summary": "A plataforma TINY explora o acoplamento elétrico diferencial através dos tecidos (DTCP) para alimentar um neuroestimulador flexível e miniaturizado, sem bateria interna. A abordagem é distinta da indução magnética do SEED e foi investigada em modelos animais de estimulação periférica.",
+      "limitations": "Não demonstra eficácia terapêutica ou segurança de longo prazo em humanos, nem regeneração nervosa. A alimentação depende de um transmissor externo.",
+      "barrier": "Miniaturização, flexibilidade e alimentação de interfaces neurais implantáveis.",
+      "impact": "Abordagem complementar de engenharia bioeletrônica para neuroestimulação minimamente invasiva, ainda em estágio pré-clínico.",
+      "source": {
+        "name": "Advanced Science — estudo TINY",
+        "url": "https://doi.org/10.1002/advs.76915"
+      }
+    },
+    {
       "id": "2026-07-16-chandrasekaran-neuroprotese-tetraplegia",
       "title": "Neuroprótese bidirecional permite preensão com a própria mão em um caso de tetraplegia",
       "published_at": "2026-07-16",
