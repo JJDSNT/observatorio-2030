@@ -137,6 +137,21 @@
       }
     },
     {
+      "id": "2026-10-13-cartilagem-hialina-dlhcg",
+      "title": "Enxerto descelularizado de cartilagem hialina apresenta melhora clínica em estudo humano exploratório",
+      "published_at": "2026-10-13",
+      "topic": "regeneration",
+      "stage": "Clínico · estudo de braço único · 17 pacientes",
+      "summary": "Zhang e colaboradores implantaram matriz cartilaginosa produzida por engenharia de tecidos. Aos 12 meses, a dor VAS caiu 3,82 pontos e o IKDC aumentou 8,68 pontos. Seis pacientes acompanhados por pelo menos 18 meses apresentaram ausência de dor e razão média de espessura cartilaginosa reparada/nativa de 0,996.",
+      "limitations": "Sem grupo controle; apenas seis pacientes avaliados aos 18 meses ou mais. Imagem não comprova equivalência histológica ou mecânica à cartilagem nativa. Estudo financiado pelo fabricante, com conflitos de interesse declarados.",
+      "barrier": "Reparação de cartilagem articular por matriz extracelular bioativa.",
+      "impact": "Sinal clínico preliminar que justifica ensaios comparativos.",
+      "source": {
+        "name": "Zhang et al., Advanced Science",
+        "url": "https://doi.org/10.1002/advs.202523106"
+      }
+    },
+    {
       "id": "2026-10-08-er100-osk",
       "title": "ER-100: primeiros dados clínicos de reprogramação epigenética ocular",
       "published_at": "2026-10-08",
@@ -194,6 +209,51 @@
       "source": {
         "name": "Chandrasekaran et al. — Nature Medicine, 16 jul 2026",
         "url": "https://doi.org/10.1038/s41591-026-04498-0"
+      }
+    },
+    {
+      "id": "2026-07-02-bioimpressao-ossea-mirna",
+      "title": "Bioimpressão de esferoides celulares programados por microRNAs combina regeneração óssea e vascular",
+      "published_at": "2026-07-02",
+      "topic": "regeneration",
+      "stage": "Pré-clínico · modelo animal · artigo revisado por pares",
+      "summary": "Celik e colaboradores utilizaram células estromais humanas derivadas de tecido adiposo, transfectadas com miR-148b ou miR-210 para favorecer diferenciação osteogênica e vascular, respectivamente. Os esferoides foram bioimpressos em matriz de GelMA com nanohidroxiapatita para investigar reparação óssea vascularizada.",
+      "limitations": "Modelo pré-clínico; não demonstra fabricação de ossos humanos completos, resistência de ossos longos ou circulação funcional duradoura. Avaliação baseada no resumo original; métricas detalhadas e segurança não auditadas integralmente.",
+      "barrier": "Coordenação da formação óssea e vascular em tecidos bioimpressos.",
+      "impact": "Avanço de engenharia celular e biofabricação, ainda sem validação clínica.",
+      "source": {
+        "name": "Celik et al., Chemical Engineering Journal",
+        "url": "https://doi.org/10.1016/j.cej.2026.178521"
+      }
+    },
+    {
+      "id": "2026-06-11-matriz-ossea-descelularizada-3d",
+      "title": "Estrutura impressa em 3D e enriquecida com matriz descelularizada promove formação de osso maduro",
+      "published_at": "2026-06-11",
+      "topic": "regeneration",
+      "stage": "Pré-clínico · modelo murino · artigo revisado por pares",
+      "summary": "Huh e colaboradores incorporaram esferoides celulares a uma estrutura polimérica impressa em 3D e removeram as células, preservando sinais bioativos da matriz. Em defeitos cranianos de camundongos, a estrutura mineralizada atingiu fração de volume ósseo de 66,2 ± 5,9% e densidade de arteríolas de 16 ± 1 por mm², com formação de osso lamelar.",
+      "limitations": "Resultados de defeitos cranianos não estabelecem resistência mecânica em ossos longos, perfusão sustentada ou eficácia humana. Métricas confirmadas no resumo da editora.",
+      "barrier": "Regeneração óssea associada à vascularização por implante acelular.",
+      "impact": "Avanço pré-clínico na fabricação de matrizes bioativas sem células vivas no implante final.",
+      "source": {
+        "name": "Huh et al., Materials Horizons",
+        "url": "https://doi.org/10.1039/D6MH00330C"
+      }
+    },
+    {
+      "id": "2026-04-16-aragonita-cinco-anos",
+      "title": "Implante osteocondral de aragonita apresenta benefício clínico superior após cinco anos",
+      "published_at": "2026-04-16",
+      "topic": "regeneration",
+      "stage": "Clínico · ensaio randomizado multicêntrico · seguimento de cinco anos",
+      "summary": "Altschuler e colaboradores compararam um implante de aragonita (167 pacientes) com microfraturas ou desbridamento (84 pacientes). Aos cinco anos, 74,7% versus 29,6% alcançaram melhora de pelo menos 30 pontos no KOOS; 15,0% versus 35,7% necessitaram de tratamento adicional. O benefício também ocorreu em pacientes com osteoartrite leve a moderada.",
+      "limitations": "Texto integral restrito; dados confirmados no resumo original. Desfechos clínicos não demonstram regeneração histológica integral nem reversão da osteoartrite generalizada.",
+      "barrier": "Reparação de lesões osteocondrais com benefício funcional duradouro.",
+      "impact": "Evidência clínica comparativa de benefício sustentado durante cinco anos.",
+      "source": {
+        "name": "Altschuler et al., American Journal of Sports Medicine",
+        "url": "https://doi.org/10.1177/03635465261437781"
       }
     },
     {
