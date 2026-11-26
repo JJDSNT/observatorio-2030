@@ -2,6 +2,39 @@
   "updated": "2026-11-25",
   "events": [
     {
+      "id": "evt-2026-11-25-orbital-computing-infrastructure",
+      "date": "2026-11-25",
+      "event_date": "2026-11-25",
+      "published_at": "2026-11-25",
+      "recorded_at": "2026-11-25",
+      "updated_at": "2026-11-25",
+      "topic": "ai",
+      "status": "confirms",
+      "title": "Infraestrutura computacional orbital emerge com experimentos de IA no espaço e autorização da megaconstelação Starmind",
+      "summary": "Em 25 de novembro de 2026, a FCC concedeu autorização parcial e condicionada à SpaceX para implantar até um milhão de módulos computacionais Starmind em órbita terrestre baixa, com enlaces ópticos e comunicação de contingência por rádio. A decisão sucede experimentos orbitais da Starcloud com GPU NVIDIA H100 e do Google Project Suncatcher com inferência em TPU, já registrada neste Observatório em 30 de outubro. Starcloud e Blue Origin também apresentaram propostas de constelações de 88 mil e 51.600 satélites, respectivamente, ainda sob análise.",
+      "impact": "A convergência entre demonstrações isoladas de IA em órbita e licenciamento de infraestrutura de grande escala confirma a emergência de uma nova frente de infraestrutura computacional. A autorização não demonstra implantação, viabilidade econômica, capacidade distribuída em escala ou vantagem energética integral. Dissipação térmica, radiação, custo de lançamento, manutenção, detritos e impactos astronômicos permanecem desafios. Parte das questões de descarte orbital permanece pendente. Não altera as previsões vigentes.",
+      "timeline": [
+        "2026 — Autorização condicionada e experimentos orbitais isolados",
+        "2027–2030 — Monitorar protótipos, enlaces entre módulos, serviços reais e custos integrais",
+        "2033–2040 — Prazos regulatórios de implantação Starmind, não previsão de execução"
+      ],
+      "maturity": "Marco regulatório confirmado; experimentação computacional inicial; megaconstelações ainda propostas.",
+      "source": {
+        "name": "FCC — DA 26-1273, autorização parcial e condicionada Starmind",
+        "url": "https://eu-assets.contentstack.com/v3/assets/blt23eb5bbc4124baa6/bltf4cdf2af47159e12/6b071c5f5506bb38bca5b0ec/FCC_report_and_order_on_SpaceX_Starmind_AI_constellation_11-25-2026.pdf"
+      },
+      "related_sources": [
+        {
+          "name": "Via Satellite — autorização e propostas concorrentes",
+          "url": "https://www.satellitetoday.com/connectivity/2026/11/25/fcc-approves-spacexs-1-million-satellite-orbital-data-center-constellation/"
+        },
+        {
+          "name": "UOL/AFP — experiências orbitais e autorização",
+          "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/11/25/spacex-e-autorizada-a-lancar-um-milhao-de-satelites-para-seus-data-centers-no-espaco.amp.htm"
+        }
+      ]
+    },
+    {
       "id": "evt-2026-11-18-integrated-polaritonic-computing",
       "date": "2026-11-18",
       "event_date": "2026-11-18",
