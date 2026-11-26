@@ -1,6 +1,57 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "events": [
+    {
+      "id": "evt-2026-11-26-neuromorphic-temporal-memristors",
+      "date": "2026-11-26",
+      "title": "Memristores difusivos demonstram processamento neuromórfico temporal em hardware",
+      "summary": "Ling et al., na Nature Materials, demonstraram uma matriz de 28 × 14 memristores difusivos integrada a um sistema memristivo em chip para executar o algoritmo HOTS. A classificação de eventos em uma versão reduzida do N-MNIST alcançou 91,14% em hardware, contra 93,12% em software com duas camadas. O controle da migração iônica melhorou a uniformidade e permitiu ajustar tempos de relaxação em duas ordens de grandeza.",
+      "impact": "Confirma progresso experimental rumo a substratos neuromórficos que exploram diretamente a dinâmica dos materiais. Não demonstra aprendizagem contínua, vantagem energética integral ou escalabilidade industrial. Preserva as previsões vigentes.",
+      "timeline": [
+        "2026 — Protótipo físico de processamento temporal",
+        "2027–2030 — Monitorar escala, eficiência integral e aplicações reais"
+      ],
+      "maturity": "Protótipo experimental revisado por pares; reprodução independente não confirmada.",
+      "source": {
+        "name": "Ling et al. — Tunable diffusive memristor arrays for neuromorphic temporal computing, Nature Materials",
+        "url": "https://www.nature.com/articles/s41563-026-02815-z"
+      },
+      "related_sources": [],
+      "event_date": "2026-11-26",
+      "published_at": "2026-11-26",
+      "recorded_at": "2026-11-26",
+      "updated_at": "2026-11-26",
+      "topic": "neuro-alt-compute",
+      "status": "confirms"
+    },
+    {
+      "id": "evt-2026-11-25-mott-spintronics-neuromorphic",
+      "date": "2026-11-25",
+      "title": "Neurônios Mott integrados à memória spintrônica aproximam processamento e armazenamento neuromórficos",
+      "summary": "Pesquisadores do Instituto Max Planck integraram neurônios de VO₂ e memória magnética racetrack no mesmo substrato. Os impulsos deslocam paredes de domínio, registrando até seis eventos por ciclo em estados não voláteis sem amplificadores ou conversores analógico-digitais intermediários. O consumo medido foi de 51,9 nJ por conversão; aproximadamente 200 pJ é uma projeção de miniaturização.",
+      "impact": "Confirma a convergência experimental entre spintrônica e processamento neuromórfico. O arranjo ainda emprega componentes externos e não comprova eficiência integral, processador completo ou aprendizagem contínua. Preserva as previsões vigentes.",
+      "timeline": [
+        "2026 — Integração experimental de neurônio e memória",
+        "2027–2030 — Monitorar miniaturização, matrizes integradas e eficiência sistêmica"
+      ],
+      "maturity": "Integração experimental revisada por pares; reprodução independente e escala industrial não confirmadas.",
+      "source": {
+        "name": "Li e Lei et al. — Integration of Mott neurons and spintronic memories for event-driven spiking neural networks, Nature Nanotechnology",
+        "url": "https://doi.org/10.1038/s41565-026-02311-0"
+      },
+      "related_sources": [
+        {
+          "name": "Max Planck Institute — descrição do experimento",
+          "url": "https://www.mpi-halle.mpg.de/886426/2026-11-25-renata-lei-guanmin-li-nature-nanotechnology?c=575012"
+        }
+      ],
+      "event_date": "2026-11-25",
+      "published_at": "2026-11-26",
+      "recorded_at": "2026-11-26",
+      "updated_at": "2026-11-26",
+      "topic": "neuro-alt-compute",
+      "status": "confirms"
+    },
     {
       "id": "evt-2026-11-25-orbital-computing-infrastructure",
       "date": "2026-11-25",
