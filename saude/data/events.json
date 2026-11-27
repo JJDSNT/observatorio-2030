@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "events": [
     {
       "id": "2026-11-20-uthymokidney-extend-primeiro-transplante",
@@ -299,6 +299,36 @@
       "source": {
         "name": "Altschuler et al., American Journal of Sports Medicine",
         "url": "https://doi.org/10.1177/03635465261437781"
+      }
+    },
+    {
+      "id": "2026-04-15-bci-fes-metaanalise-avc",
+      "title": "Metanálise de 619 participantes aponta benefício motor da eletroestimulação controlada por interfaces cerebrais após AVC",
+      "published_at": "2026-04-15",
+      "topic": "neuro",
+      "stage": "Clínico · revisão sistemática e metanálise de ensaios randomizados",
+      "summary": "Liang e colaboradores reuniram 12 ensaios randomizados com 619 participantes. A combinação de interface cérebro-computador e estimulação elétrica funcional melhorou a escala Fugl-Meyer de membros superiores em 5,82 pontos frente aos controles (IC95% 3,04–8,59; I²=39%). O subgrupo subagudo apresentou diferença média de 8,45 pontos. Também houve melhora em medidas secundárias, incluindo o índice de Barthel modificado, e não foram relatados eventos adversos graves.",
+      "limitations": "Certeza moderada da evidência; variabilidade de protocolos e dados insuficientes para estabelecer parâmetros definitivos, segurança rara ou autonomia duradoura. Comparações exploratórias de subgrupos não estabelecem causalidade.",
+      "barrier": "Recuperação motora e independência funcional após AVC.",
+      "impact": "Evidência clínica consolidada de benefício médio da BCI-FES na reabilitação de membros superiores, sem demonstrar cura ou regeneração cerebral.",
+      "source": {
+        "name": "Liang et al., Clinical EEG and Neuroscience (publicação online em 15/04/2026)",
+        "url": "https://doi.org/10.1177/15500594261441055"
+      }
+    },
+    {
+      "id": "2026-02-13-bci-neurofeedback-avc-cronico",
+      "title": "Neurofeedback em malha fechada recruta circuitos cerebrais preservados após AVC crônico",
+      "published_at": "2026-02-13",
+      "topic": "neuro",
+      "stage": "Clínico · fase I · braço único",
+      "summary": "Takasaki e colaboradores avaliaram oito pacientes com comprometimento motor grave e crônico após AVC. Durante sete dias, uma interface cérebro-computador não invasiva baseada em EEG e exoesqueleto forneceu neurofeedback direcionado ao córtex motor contralesional. Os autores observaram melhora motora fora do equipamento (Fugl-Meyer, d de Cohen = 1,24) e alterações funcionais corticais, sem eventos adversos observados.",
+      "limitations": "Ensaio aberto, unicêntrico, pequeno e sem grupo de controle. Não demonstra regeneração anatômica nem eficácia comparativa ou autonomia sustentada de longo prazo.",
+      "barrier": "Recuperação funcional após lesões cerebrais com comprometimento motor persistente.",
+      "impact": "Evidência clínica preliminar de recrutamento direcionado de circuitos motores preservados mediante neurofeedback.",
+      "source": {
+        "name": "Takasaki et al., Communications Medicine (2026)",
+        "url": "https://www.nature.com/articles/s43856-026-01423-x"
       }
     },
     {
