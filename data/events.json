@@ -1,6 +1,75 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "events": [
+    {
+      "id": "evt-2026-09-10-iontronic-biohybrid-nerve",
+      "date": "2026-09-10",
+      "event_date": "2026-09-10",
+      "published_at": "2026-11-27",
+      "recorded_at": "2026-11-27",
+      "updated_at": "2026-11-27",
+      "topic": "neuro-alt-compute",
+      "status": "confirms",
+      "title": "Processador iontrônico em gel integra sinais de nervo biológico vivo",
+      "summary": "Wu et al. demonstraram plasticidade temporal e processamento multiestado em géis com interfaces que retêm íons; conectaram o dispositivo ao nervo ciático seccionado de um rato vivo para reconfigurar sinais neurais. O consumo mínimo reportado foi 0,61 pJ por impulso no dispositivo.",
+      "impact": "Reforça a diversificação experimental dos substratos da inteligência. Não estabelece aprendizagem contínua, vantagem energética sistêmica, escala comercial ou reprodução independente. Preserva as previsões vigentes.",
+      "timeline": [
+        "2026 — Demonstração experimental",
+        "2027–2030 — Monitorar estabilidade, escalabilidade, integração e aplicações verificadas"
+      ],
+      "maturity": "Experimento in vivo em animal; não demonstra recuperação clínica nem consumo integral.",
+      "source": {
+        "name": "Nature Electronics — artigo original",
+        "url": "https://doi.org/10.1038/s41928-026-01688-z"
+      },
+      "related_sources": []
+    },
+    {
+      "id": "evt-2026-07-23-neuromorphic-biomolecular-tissues",
+      "date": "2026-07-23",
+      "event_date": "2026-07-23",
+      "published_at": "2026-11-27",
+      "recorded_at": "2026-11-27",
+      "updated_at": "2026-11-27",
+      "topic": "neuro-alt-compute",
+      "status": "confirms",
+      "title": "Tecidos neuromórficos de gotículas realizam recorrência física intrínseca",
+      "summary": "Armendarez et al. demonstraram redes artificiais de compartimentos aquosos conectados por membranas lipídicas e canais iônicos, com dinâmica não linear e memória transitória. A previsão de séries temporais e sistemas caóticos foi avaliada com modelagem apoiada por experimentos.",
+      "impact": "Reforça a diversificação experimental dos substratos da inteligência. Não estabelece aprendizagem contínua, vantagem energética sistêmica, escala comercial ou reprodução independente. Preserva as previsões vigentes.",
+      "timeline": [
+        "2026 — Demonstração experimental",
+        "2027–2030 — Monitorar estabilidade, escalabilidade, integração e aplicações verificadas"
+      ],
+      "maturity": "Rede biomolecular experimental e modelagem; não são células vivas.",
+      "source": {
+        "name": "Science Advances — artigo original",
+        "url": "https://doi.org/10.1126/sciadv.aed0971"
+      },
+      "related_sources": []
+    },
+    {
+      "id": "evt-2026-07-16-optoelectronic-iontronic-networks",
+      "date": "2026-07-16",
+      "event_date": "2026-07-16",
+      "published_at": "2026-11-27",
+      "recorded_at": "2026-11-27",
+      "updated_at": "2026-11-27",
+      "topic": "neuro-alt-compute",
+      "status": "confirms",
+      "title": "Redes nanofluídicas optoeletrônicas avançam na computação iônica",
+      "summary": "Memristores aquosos respondem a estímulos ópticos, elétricos e químicos, com plasticidade sináptica. A computação de reservatório reportou aproximadamente 91% de precisão em MNIST e 97% em reconhecimento de movimentos; os autores também integraram dispositivos em um sensor de imagens.",
+      "impact": "Reforça a diversificação experimental dos substratos da inteligência. Não estabelece aprendizagem contínua, vantagem energética sistêmica, escala comercial ou reprodução independente. Preserva as previsões vigentes.",
+      "timeline": [
+        "2026 — Demonstração experimental",
+        "2027–2030 — Monitorar estabilidade, escalabilidade, integração e aplicações verificadas"
+      ],
+      "maturity": "Protótipo experimental; velocidade limitada pelo transporte iônico; não é sistema autônomo completo.",
+      "source": {
+        "name": "Advanced Materials — artigo original",
+        "url": "https://doi.org/10.1002/adma.74080"
+      },
+      "related_sources": []
+    },
     {
       "id": "evt-2026-11-26-neuromorphic-temporal-memristors",
       "date": "2026-11-26",
