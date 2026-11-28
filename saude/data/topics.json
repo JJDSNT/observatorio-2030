@@ -54,6 +54,11 @@
       "id": "oncology",
       "name": "Oncologia, prevenção e controle contínuo do câncer",
       "watch": "Prevenção e estabilidade genômica; vigilância imunológica; detecção precoce, biópsia líquida e DNA tumoral circulante; imunoterapias, CAR-T, vacinas terapêuticas e tratamentos personalizados; resistência, evolução clonal, metástases, doença residual mínima e recorrência; segurança oncológica do rejuvenescimento e IA com validação experimental. Priorizar controle duradouro e resultados clínicos robustos, não anúncios incrementais."
+    },
+    {
+      "id": "microbiome",
+      "name": "Engenharia do microbioma e rejuvenescimento sistêmico",
+      "watch": "Disbiose causal, transplante de microbiota, longevidade, fragilidade, terapias microbianas geneticamente modificadas, imunomodulação, estabilidade genética e reversibilidade. Monitorar ARMOR e LONGEVIBIOME; distinguir evidências animais, biomarcadores e resultados clínicos."
     }
   ]
 }
