@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "events": [
     {
       "id": "2026-11-20-uthymokidney-extend-primeiro-transplante",
@@ -317,6 +317,21 @@
       }
     },
     {
+      "id": "2026-03-16-microbiota-transferencia-envelhecimento",
+      "title": "Microbiota envelhecida acelera o envelhecimento em camundongos adultos",
+      "published_at": "2026-03-16",
+      "topic": "microbiome",
+      "stage": "Pré-clínico · artigo revisado por pares",
+      "summary": "A transferência de microbiota de animais idosos para adultos foi associada a deterioração imunológica, estresse oxidativo e redução da sobrevivência dos receptores.",
+      "limitations": "Modelo animal com amostra pequena e apenas fêmeas; não demonstra rejuvenescimento ou extensão da vida humana.",
+      "barrier": "Disbiose e deterioração da homeostase sistêmica.",
+      "impact": "Reforça a hipótese causal da contribuição da microbiota para o envelhecimento.",
+      "source": {
+        "name": "Mechanisms of Ageing and Development",
+        "url": "https://doi.org/10.1016/j.mad.2026.112177"
+      }
+    },
+    {
       "id": "2026-02-13-bci-neurofeedback-avc-cronico",
       "title": "Neurofeedback em malha fechada recruta circuitos cerebrais preservados após AVC crônico",
       "published_at": "2026-02-13",
@@ -344,6 +359,21 @@
       "source": {
         "name": "Aare et al., Drug Delivery and Translational Research (publicação online de 11/02/2026)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/41670942/"
+      }
+    },
+    {
+      "id": "2025-07-17-microbiota-programavel",
+      "title": "Colonização intestinal humana com bactérias geneticamente modificadas",
+      "published_at": "2025-07-17",
+      "topic": "microbiome",
+      "stage": "Clínico · prova de conceito",
+      "summary": "Estudo de terapia microbiana geneticamente modificada para degradação de oxalato investigou o controle alimentar da colonização intestinal humana.",
+      "limitations": "Reversibilidade incompleta, mutações e transferência horizontal de genes; eficácia clínica inconclusiva. Não demonstra rejuvenescimento.",
+      "barrier": "Controle seguro e duradouro de funções microbianas terapêuticas.",
+      "impact": "Prova de conceito de engenharia funcional do microbioma humano, com desafios de biossegurança.",
+      "source": {
+        "name": "Science",
+        "url": "https://doi.org/10.1126/science.adu8000"
       }
     }
   ]
