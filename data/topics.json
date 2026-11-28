@@ -39,7 +39,7 @@
     {
       "id": "quantum",
       "name": "Computação Quântica",
-      "watch": "qubits lógicos, correção de erros, operações úteis e vantagem prática. Linha quantum-simulation-physics: acompanhar simuladores analógicos e digitais para teorias de gauge, física de partículas e nuclear, muitos corpos, matéria condensada, cosmologia e gravidade quântica; priorizar mecanismos físicos novos, validação de previsões e acesso a regimes difíceis de investigar; distinguir modelos simplificados de fenômenos reais, descoberta científica de vantagem computacional, exigir controles, evidência primária e validação robusta; não exigir vantagem clássica para contribuição científica original substancial.",
+      "watch": "qubits lógicos, correção de erros, operações úteis e vantagem prática. Linha quantum-simulation-physics: acompanhar simuladores analógicos e digitais para teorias de gauge, física de partículas e nuclear, muitos corpos, matéria condensada, cosmologia e gravidade quântica; priorizar mecanismos físicos novos, validação de previsões e acesso a regimes difíceis de investigar; distinguir modelos simplificados de fenômenos reais, descoberta científica de vantagem computacional, exigir controles, evidência primária e validação robusta; não exigir vantagem clássica para contribuição científica original substancial. Linha antimatter-quantum-technologies: monitorar confinamento, resfriamento, transporte e transferência de antipartículas e antiátomos, controle coerente, espectroscopia, metrologia, gravidade e testes CPT; distinguir infraestrutura experimental, medições efetivas e metas projetadas de computação quântica escalável; não inferir viabilidade energética ou propulsão.",
       "group": "science"
     },
     {
