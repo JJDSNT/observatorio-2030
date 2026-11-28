@@ -2,6 +2,75 @@
   "updated": "2026-11-27",
   "events": [
     {
+      "id": "evt-2026-10-21-positron-quantum-cyclotron",
+      "date": "2026-10-21",
+      "event_date": "2026-10-21",
+      "published_at": "2026-11-27",
+      "recorded_at": "2026-11-27",
+      "updated_at": "2026-11-27",
+      "topic": "quantum",
+      "status": "confirms",
+      "title": "Ciclotron quântico de um único pósitron demonstra controle de estados de antimatéria",
+      "summary": "Confinamento prolongado de um pósitron individual em armadilha de Penning e controle de transições entre estados quantizados de energia. O confinamento por meses não equivale a coerência quântica por meses.",
+      "impact": "Avanço em metrologia e infraestrutura de tecnologias quânticas para física fundamental; não demonstra computação quântica escalável, aplicação energética ou propulsão. Preserva as previsões vigentes.",
+      "timeline": [
+        "2026 — Demonstração experimental revisada por pares",
+        "2027–2030 — Monitorar precisão, controle coerente e infraestrutura distribuída"
+      ],
+      "maturity": "Experimento revisado por pares; reprodução independente não confirmada.",
+      "source": {
+        "name": "Physical Review Letters — artigo original",
+        "url": "https://doi.org/10.1103/gbkc-6nlj"
+      },
+      "related_sources": []
+    },
+    {
+      "id": "evt-2026-09-16-antiproton-road-transport",
+      "date": "2026-09-16",
+      "event_date": "2026-09-16",
+      "published_at": "2026-11-27",
+      "recorded_at": "2026-11-27",
+      "updated_at": "2026-11-27",
+      "topic": "quantum",
+      "status": "confirms",
+      "title": "BASE-STEP demonstra transporte rodoviário de antiprótons sem perdas",
+      "summary": "A colaboração BASE transportou 92 antiprótons por 7,5 km sem perdas durante o trajeto. Transferência para laboratório receptor e ganho metrológico de 100 vezes continuam objetivos.",
+      "impact": "Avanço em metrologia e infraestrutura de tecnologias quânticas para física fundamental; não demonstra computação quântica escalável, aplicação energética ou propulsão. Preserva as previsões vigentes.",
+      "timeline": [
+        "2026 — Demonstração experimental revisada por pares",
+        "2027–2030 — Monitorar precisão, controle coerente e infraestrutura distribuída"
+      ],
+      "maturity": "Experimento revisado por pares; reprodução independente não confirmada.",
+      "source": {
+        "name": "Nature — artigo original",
+        "url": "https://doi.org/10.1038/s41586-026-11019-z"
+      },
+      "related_sources": []
+    },
+    {
+      "id": "evt-2026-05-27-antihydrogen-hyperfine-four-ppm",
+      "date": "2026-05-27",
+      "event_date": "2026-05-27",
+      "published_at": "2026-11-27",
+      "recorded_at": "2026-11-27",
+      "updated_at": "2026-11-27",
+      "topic": "quantum",
+      "status": "confirms",
+      "title": "Espectroscopia do anti-hidrogênio alcança precisão de quatro partes por milhão",
+      "summary": "A colaboração ALPHA mediu a separação hiperfina do anti-hidrogênio com incerteza relativa de quatro ppm, cerca de cem vezes menor que a anterior. Não demonstrou violação CPT.",
+      "impact": "Avanço em metrologia e infraestrutura de tecnologias quânticas para física fundamental; não demonstra computação quântica escalável, aplicação energética ou propulsão. Preserva as previsões vigentes.",
+      "timeline": [
+        "2026 — Demonstração experimental revisada por pares",
+        "2027–2030 — Monitorar precisão, controle coerente e infraestrutura distribuída"
+      ],
+      "maturity": "Experimento revisado por pares; reprodução independente não confirmada.",
+      "source": {
+        "name": "Nature — artigo original",
+        "url": "https://doi.org/10.1038/s41586-026-10556-x"
+      },
+      "related_sources": []
+    },
+    {
       "id": "evt-2026-09-10-iontronic-biohybrid-nerve",
       "date": "2026-09-10",
       "event_date": "2026-09-10",
