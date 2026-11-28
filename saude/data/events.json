@@ -107,6 +107,21 @@
       }
     },
     {
+      "id": "2026-10-23-fotoimunoterapia-asp1929-pembrolizumabe",
+      "title": "Fotoimunoterapia combinada à imunoterapia sistêmica apresenta respostas clínicas duradouras",
+      "published_at": "2026-10-23",
+      "topic": "oncology",
+      "stage": "Clínico · fase Ib/II · seguimento apresentado no ESMO",
+      "summary": "No seguimento do estudo ASP-1929-181 em carcinoma escamoso de cabeça e pescoço recorrente ou metastático, 17 pacientes avaliáveis apresentaram sobrevida global mediana de 28,2 meses e sobrevida estimada em quatro anos de 35,3%. Entre os respondedores, a duração mediana da resposta foi de 44,3 meses. A análise anterior revisada por pares (doi:10.1002/hed.70014) registrou resposta objetiva de 27,8% em 18 pacientes e sobrevida livre de progressão mediana de 2,9 meses.",
+      "limitations": "Amostra pequena, ausência de controle randomizado, análise de seguimento divulgada em congresso pelo patrocinador. Não comprova efeito abscopal, cura ou superioridade sobre pembrolizumabe isolado. Disfagia e edema de língua foram eventos adversos graves relatados. A fase III comparativa NCT06699212 está em andamento.",
+      "barrier": "Controle duradouro de tumores recorrentes e integração entre ablação localizada e imunoterapia sistêmica.",
+      "impact": "Sinal clínico de resposta prolongada em um subconjunto de pacientes, justificando avaliação comparativa; não estabelece benefício populacional definitivo.",
+      "source": {
+        "name": "Gillenwater et al., ESMO 2026, pôster 1629e",
+        "url": "https://rakuten-med.com/us/wp-content/uploads/sites/6/2026/10/26MH174_ESMO-Poster.pdf"
+      }
+    },
+    {
       "id": "2026-10-21-bh2-bh4-proteostase-longevidade",
       "title": "Via metabólica BH2–BH4 conecta tecidos, proteostase e longevidade em vermes",
       "published_at": "2026-10-21",
@@ -194,6 +209,21 @@
       "source": {
         "name": "Sasieni et al., New England Journal of Medicine (NHS-Galleri, estudo original)",
         "url": "https://doi.org/10.1056/NEJMoa2505723"
+      }
+    },
+    {
+      "id": "2026-09-07-mldhi-memoria-imunologica-antitumoral",
+      "title": "Nanoenzima ativada por luz induz memória imunológica antitumoral em modelo animal",
+      "published_at": "2026-09-07",
+      "topic": "oncology",
+      "stage": "Pré-clínico · modelo animal",
+      "summary": "Huang e colaboradores desenvolveram uma nanoenzima de manganês com indocianina verde que reduz a hipóxia tumoral e potencializa a fototerapia. A morte celular imunogênica e a ativação da via cGAS–STING favorecem a resposta imune. Em modelo de tumor mamário, os autores relataram ablação tumoral de 75% após uma intervenção e memória imunológica associada à proteção experimental contra recorrência e metástases.",
+      "limitations": "Resultado animal, sem validação clínica. A duração da proteção, amplitude da resposta, segurança sistêmica e replicação independente precisam ser estabelecidas; os detalhes integrais dos ensaios de reexposição não foram verificados nesta avaliação.",
+      "barrier": "Recorrência, disseminação tumoral e microambiente imunossupressor.",
+      "impact": "Prova de conceito de integração entre destruição tumoral localizada e estímulo imunológico, compatível com estratégias de vacinação antitumoral in situ, sem comprovação de imunidade permanente.",
+      "source": {
+        "name": "Huang et al., ACS Nano, 7/9/2026",
+        "url": "https://doi.org/10.1021/acsnano.6c11600"
       }
     },
     {
