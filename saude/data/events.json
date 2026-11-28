@@ -227,6 +227,21 @@
       }
     },
     {
+      "id": "2026-09-02-semaglutida-geroprotecao-sistemica",
+      "title": "Semaglutida prolonga a vida de camundongos idosos e emerge como candidata à geroproteção sistêmica",
+      "published_at": "2026-09-02",
+      "topic": "systemic",
+      "stage": "Pré-clínico de longevidade · evidências clínicas complementares",
+      "summary": "Feng et al. (Nature, 2/9/2026) iniciaram tratamento em camundongos fêmeas C57BL/6 aos 20 meses: a longevidade mediana passou de 742 para 834 dias (+12,4%). Foram observadas melhorias fisiológicas e alterações em vias de inflamação, proteostase e reparo molecular. Em experimento funcional separado com restrição calórica equivalente, houve vantagens em memória espacial, exploração e controle glicêmico. Em humanos, Corley et al. (Nature Communications, 19/5/2026, https://doi.org/10.1038/s41467-026-72861-3) analisaram retrospectivamente desfechos epigenéticos de um ensaio randomizado de 32 semanas com 84 adultos com lipohipertrofia associada ao HIV: o DunedinPACE indicou ritmo 9% inferior ao placebo; a diferença anualizada no PhenoAge foi de −4,9 anos/ano. Mann et al. (Lancet Diabetes & Endocrinology, publicação online 7/8/2026, https://pubmed.ncbi.nlm.nih.gov/42567173/) reuniram 30.787 participantes dos ensaios SELECT, FLOW e SOUL: HR 0,84 (IC95% 0,77–0,91) para desfecho renal composto incluindo morte cardiovascular e HR 0,80 (0,69–0,92) para o composto especificamente renal.",
+      "limitations": "Longevidade demonstrada apenas em fêmeas de uma linhagem; sem replicação independente estabelecida. O experimento de sobrevida não isolou a contribuição da restrição calórica. Relógios epigenéticos são biomarcadores, não anos de vida recuperados; análise pós-hoc em população específica. Proteção renal em populações com doença cardiorrenal-metabólica não demonstra desaceleração do envelhecimento em pessoas saudáveis. Análise renal financiada pela fabricante; a universidade declarou pedido de patente relacionado à geroproteção por agonistas GLP-1. Não constitui indicação de uso antienvelhecimento.",
+      "barrier": "Deterioração multissistêmica associada à idade e perda de reserva funcional.",
+      "impact": "Convergência entre sobrevivência animal, biomarcadores humanos exploratórios e proteção clínica de órgãos justifica ensaios prospectivos de geroproteção, sem comprovar extensão da vida humana saudável.",
+      "source": {
+        "name": "Feng et al., Nature 657, 469–476 (2026); referências clínicas complementares no resumo",
+        "url": "https://doi.org/10.1038/s41586-026-10940-7"
+      }
+    },
+    {
       "id": "2026-08-10-car-t-persistencia-decenal-linfoma",
       "title": "Células CAR-T persistem por até uma década em pacientes com linfoma",
       "published_at": "2026-08-10",
@@ -359,6 +374,21 @@
       "source": {
         "name": "Liang et al., Clinical EEG and Neuroscience (publicação online em 15/04/2026)",
         "url": "https://doi.org/10.1177/15500594261441055"
+      }
+    },
+    {
+      "id": "2026-03-19-semaglutida-alzheimer-evoke",
+      "title": "Ensaios EVOKE e EVOKE+ não demonstram desaceleração clínica do Alzheimer com semaglutida",
+      "published_at": "2026-03-19",
+      "topic": "neuro",
+      "stage": "Clínico · dois ensaios randomizados de fase III · resultado negativo",
+      "summary": "Cummings et al. (The Lancet, publicação online 19/3/2026) avaliaram semaglutida oral versus placebo em 3.808 participantes com Alzheimer sintomático inicial. Após 104 semanas, a diferença estimada na mudança da escala cognitivo-funcional CDR-SB foi −0,08 (IC95% −0,35 a 0,20; p=0,57) no EVOKE e +0,10 (−0,17 a 0,38; p=0,46) no EVOKE+. Eventos adversos emergentes ocorreram em 91,2% dos participantes tratados e 84,8% dos controles. Não houve desaceleração clínica estatisticamente significativa.",
+      "limitations": "O resultado se refere à população, fármaco e protocolo estudados; não exclui efeitos preventivos em outras populações nem benefícios de outros agonistas GLP-1. Financiamento da fabricante. Biomarcadores favoráveis não substituem desfechos cognitivos e funcionais.",
+      "barrier": "Preservação cognitiva e funcional diante de neurodegeneração estabelecida.",
+      "impact": "Evidência clínica de grande escala delimita a hipótese neuroprotetora e indica que benefícios metabólicos e sinais moleculares não são suficientes para estabelecer modificação clínica do Alzheimer.",
+      "source": {
+        "name": "Cummings et al., The Lancet 407, 2167–2179 (2026)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41865758/"
       }
     },
     {
