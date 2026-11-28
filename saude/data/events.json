@@ -2,6 +2,21 @@
   "updated": "2026-11-28",
   "events": [
     {
+      "id": "2026-11-28-microbioma-regulacao-multiorganica",
+      "title": "O microbioma como sistema de regulação multiorgânica: da disbiose ao rejuvenescimento sistêmico",
+      "published_at": "2026-11-28",
+      "topic": "microbiome",
+      "stage": "Síntese editorial de literatura científica · não constitui descoberta experimental inédita",
+      "summary": "A disbiose integra os mecanismos do envelhecimento descritos por López-Otín et al. (Cell, 2023, doi:10.1016/j.cell.2022.11.001). O eixo intestino-tireoide envolve comunicação bidirecional, metabolismo hormonal, disponibilidade de iodo, selênio, ferro e zinco, barreira intestinal e imunidade; alterações microbianas são associadas a Hashimoto e Graves. Uma revisão de revisões (PMID 37824030) não sustenta uso rotineiro de probióticos. Metanálise de 2024 (doi:10.1371/journal.pone.0296733; oito estudos) não observou mudanças significativas em TSH, T3 ou T4, enquanto a de 2025 (doi:10.1186/s13044-025-00257-4; nove ensaios) encontrou alterações hormonais com alta heterogeneidade. Outros eixos investigados: intestino-cérebro (neuroinflamação e cognição), imunidade (tolerância e inflamação crônica), metabolismo (insulina e ácidos biliares), câncer (resposta à imunoterapia), coração (metabólitos e aterosclerose), fígado (circulação portal), rim (toxinas urêmicas), pulmão (sinalização imune), músculo (sarcopenia), osso (remodelação) e pele (barreira e inflamação).",
+      "limitations": "Os doze eixos constituem uma organização editorial, não uma classificação clínica validada. Associações não provam causalidade; efeitos variam por doença e intervenção. Alterações hormonais não equivalem a benefício clínico ou cura de autoimunidade. Não há comprovação de rejuvenescimento humano multiorgânico por modulação do microbioma. Não substitui tratamento tireoidiano convencional.",
+      "barrier": "Preservação da homeostase metabólica, endócrina e imunológica ao longo da vida.",
+      "impact": "Fundamenta o monitoramento de funções microbianas, biomarcadores de idade, intervenções personalizadas e recuperação funcional de órgãos. Síntese conceitual, não evidência de extensão da vida humana.",
+      "source": {
+        "name": "Karimi et al., Thyroid Research (2025); referências complementares identificadas no resumo",
+        "url": "https://doi.org/10.1186/s13044-025-00257-4"
+      }
+    },
+    {
       "id": "2026-11-20-uthymokidney-extend-primeiro-transplante",
       "title": "Primeiro transplante UThymoKidney inicia avaliação clínica de tolerância imunológica",
       "published_at": "2026-11-20",
